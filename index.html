@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital SAT® 2026 Practice Suite - 4 Full-Length Mock Exams</title>
+  <link rel="icon" type="image/svg+xml" href="public/favicon.svg">
+  <link rel="stylesheet" href="src/css/main.css">
+
+  <!-- KaTeX for high-fidelity LaTeX math rendering -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- Top Navigation Header (Bluebook™ Style) -->
+  <header id="exam-header" class="sat-header hidden">
+    <div class="header-left">
+      <span id="exam-header-section-title" class="header-section-title">Section 1: Reading and Writing — Module 1</span>
+    </div>
+
+    <div class="header-center">
+      <div class="header-timer-wrap">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <polyline points="12 6 12 12 16 14"/>
+        </svg>
+        <span id="timer-display-text" class="timer-digits">32:00</span>
+        <button id="btn-toggle-timer" class="timer-btn-toggle" aria-label="Hide timer">Hide</button>
+      </div>
+    </div>
+
+    <div class="header-right">
+      <button id="btn-header-directions" class="header-tool-btn" title="View Directions">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/>
+        </svg>
+        <span>Directions</span>
+      </button>
+
+      <!-- Calculator Tool (Desmos-like Graphing & Scientific) -->
+      <button id="btn-header-calc" class="header-tool-btn" title="Open Graphing & Scientific Calculator">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="4" y="2" width="16" height="20" rx="2"/>
+          <line x1="8" y1="6" x2="16" y2="6"/>
+          <path d="M8 10h.01M12 10h.01M16 10h.01M8 14h.01M12 14h.01M8 18h.01M12 18h.01"/>
+        </svg>
+        <span>Calculator</span>
+      </button>
+
+      <!-- SAT Geometry Reference Sheet Tool -->
+      <button id="btn-header-ref" class="header-tool-btn" title="Open Math Formula Reference Sheet" style="display: none;">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+          <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+        </svg>
+        <span>Reference</span>
+      </button>
+
+      <!-- Mark for Review Flag Button -->
+      <button id="btn-mark-review" class="header-tool-btn mark-review-btn" title="Flag this question for review">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/>
+          <line x1="4" y1="22" x2="4" y2="15"/>
+        </svg>
+        <span>Mark for Review</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Main View Area (Exam Hub, Active Test, or Diagnostic Score Report) -->
+  <main id="app-main"></main>
+
+  <!-- Bottom Navigation Footer Bar -->
+  <footer id="exam-footer" class="sat-footer hidden">
+    <div class="footer-left">
+      <span id="footer-question-count">Question 1 of 27</span>
+    </div>
+
+    <div class="footer-center">
+      <button id="btn-nav-review" class="footer-btn-review">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/>
+          <rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+        </svg>
+        <span>Review Questions</span>
+      </button>
+    </div>
+
+    <div class="footer-right">
+      <button id="btn-nav-back" class="sat-btn sat-btn-secondary" disabled>Back</button>
+      <button id="btn-nav-next" class="sat-btn sat-btn-primary">Next</button>
+    </div>
+  </footer>
+
+  <!-- Modals Container (Calculator, Reference Sheet, Directions, Review Screen, Confirm) -->
+  <div id="modals-container"></div>
+
+  <!-- Toast Notification Warning -->
+  <div id="sat-toast" class="sat-toast-banner hidden" role="alert"></div>
+
+  <!-- Application Entry Point -->
+  <script type="module" src="src/js/app.js"></script>
+</body>
+</html>

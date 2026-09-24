@@ -1,0 +1,13 @@
+{
+  "name": "digital-sat-2026-suite",
+  "version": "1.0.0",
+  "description": "Digital SAT 2026 Full-Length Mock Exams Web Application with Bluebook UI",
+  "type": "module",
+  "scripts": {
+    "start": "npx serve -l 3000",
+    "verify": "node verify_suite.js"
+  },
+  "keywords": ["sat", "digital-sat", "college-board", "mock-exam", "desmos"],
+  "author": "Antigravity",
+  "license": "MIT"
+}
