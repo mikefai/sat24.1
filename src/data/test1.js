@@ -1,8 +1,8 @@
-// Digital SAT 2026 Practice Test 1
+// Digital SAT 2026 Practice Test 1 (High-Difficulty Edition)
 export const test1 = {
   "id": "test-1",
   "title": "SAT Practice Test 1 (2026 Edition)",
-  "description": "Full-length Digital SAT 2026 practice examination matching official College Board Bluebook specifications. Contains 54 Reading & Writing questions and 54 Math questions with detailed step-by-step explanations.",
+  "description": "Full-length Digital SAT 2026 practice examination matching official College Board Bluebook specifications. Features rigorous multistage adaptive difficulty, sophisticated reading passages, complex multi-step math problems, and balanced answer distributions.",
   "totalQuestions": 108,
   "sections": {
     "rw": {
@@ -21,87 +21,87 @@ export const test1 = {
               "type": "mcq",
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
-              "difficulty": "Easy",
-              "stimulus": "In her 2021 monograph on architectural history, Dr. Elena Rostova argues that the sudden adoption of reinforced concrete in urban civic centers was neither accidental nor _____; rather, it represented a calculated response to rising industrial fire hazards and municipal insurance mandates.",
+              "difficulty": "Medium",
+              "stimulus": "In her historical analysis of early industrial labor unions, Dr. Aris argues that the movement's eventual success was not attributable to sudden popular enthusiasm; rather, it was the result of _____ organizing by grassroots leaders who methodically built coalitions across fractured municipal precincts over several decades.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "capricious"
+                  "text": "spontaneous"
                 },
                 {
                   "letter": "B",
-                  "text": "inevitable"
+                  "text": "painstaking"
                 },
                 {
                   "letter": "C",
-                  "text": "pragmatic"
+                  "text": "superficial"
                 },
                 {
                   "letter": "D",
-                  "text": "laudable"
+                  "text": "intermittent"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Capricious' means impulsive or unpredictable. The sentence states the adoption was 'neither accidental nor [capricious]; rather, it represented a calculated response'."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. 'Painstaking' means extremely careful, thorough, and taking great pains. The sentence contrasts 'sudden popular enthusiasm' with methodical organizing over several decades."
             },
             {
               "id": "t1-rw-m1-q2",
               "type": "mcq",
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
-              "difficulty": "Medium",
-              "stimulus": "Although the ancient library catalog contained numerous gaps and obscure references, the archivist was able to _____ the provenance of the 14th-century illuminated manuscript by correlating watermarks in the rag paper with regional guild registries.",
+              "difficulty": "Hard",
+              "stimulus": "Although the treaty appeared comprehensive on paper, legal scholars cautioned that its enforcement provisions were so _____ as to render any international sanctions practically unenforceable in the event of maritime border skirmishes.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "substantiate"
+                  "text": "equivocal"
                 },
                 {
                   "letter": "B",
-                  "text": "repudiate"
+                  "text": "stringent"
                 },
                 {
                   "letter": "C",
-                  "text": "obfuscate"
+                  "text": "salutary"
                 },
                 {
                   "letter": "D",
-                  "text": "disseminate"
+                  "text": "uncompromising"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Substantiate' means to verify or establish with evidence. The archivist established the manuscript's origin by correlating paper watermarks with guild registries."
+              "explanation": "Choice A is correct. 'Equivocal' means ambiguous or open to multiple interpretations. If enforcement provisions are equivocal, they are too vague to allow practical enforcement."
             },
             {
               "id": "t1-rw-m1-q3",
               "type": "mcq",
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
-              "difficulty": "Medium",
-              "stimulus": "The ecologist noted that while apex predators often exert a _____ influence across trophic cascades, their absence does not merely diminish local biodiversity; it fundamentally restructures the physical geomorphology of riverbanks by releasing herbivore populations from foraging pressure.",
+              "difficulty": "Hard",
+              "stimulus": "The archaeological discovery of bronze metallurgical kilns in the highland valley did not merely confirm local crafting traditions; it _____ the long-held archaeological consensus that highland communities had relied exclusively on lowland trade networks for metal implements.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "pervasive"
+                  "text": "corroborated"
                 },
                 {
                   "letter": "B",
-                  "text": "peripheral"
+                  "text": "dissembled"
                 },
                 {
                   "letter": "C",
-                  "text": "transitory"
+                  "text": "perpetuated"
                 },
                 {
                   "letter": "D",
-                  "text": "redundant"
+                  "text": "vitiated"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Pervasive' means widespread and affecting all parts of an ecosystem. The passage shows apex predators affect food webs and physical riverbank structures."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. 'Vitiated' means impaired, invalidated, or undermined the legal or logical validity of something. The discovery contradicted and invalidated the old consensus."
             },
             {
               "id": "t1-rw-m1-q4",
@@ -109,28 +109,28 @@ export const test1 = {
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
               "difficulty": "Hard",
-              "stimulus": "In public interviews, the minimalist composer was notoriously _____, often replying to expansive inquiries regarding his symphonic motifs with mere single-syllable acknowledgments or prolonged silences.",
+              "stimulus": "While many contemporary commentators celebrated the CEO's charismatic proclamations as visionary breakthroughs, financial auditors warned that the company's aggressive revenue projections were largely _____ and unmoored from capital expenditure realities.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "laconic"
+                  "text": "lucrative"
                 },
                 {
                   "letter": "B",
-                  "text": "loquacious"
+                  "text": "indispensable"
                 },
                 {
                   "letter": "C",
-                  "text": "effusive"
+                  "text": "chimerical"
                 },
                 {
                   "letter": "D",
-                  "text": "bellicose"
+                  "text": "verifiable"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Laconic' means concise or using very few words. Single-syllable acknowledgments and silence are the definition of laconic."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. 'Chimerical' means wildly fanciful, imaginary, or unrealistic. The auditors warned that the projections were unrealistically detached from actual capital expenditures."
             },
             {
               "id": "t1-rw-m1-q5",
@@ -138,28 +138,28 @@ export const test1 = {
               "domain": "Craft and Structure",
               "subdomain": "Text Structure and Purpose",
               "difficulty": "Medium",
-              "stimulus": "For decades, paleobotanists assumed that angiosperms (flowering plants) diversified rapidly during the mid-Cretaceous period in what Charles Darwin famously termed an 'abominable mystery.' However, recent molecular clock analyses calibrated with fossil spores from the Early Jurassic suggest that the lineage had already diverged tens of millions of years earlier than macroscopic macrofossils indicate. <u>These findings do not dispute the explosion of ecological forms in the Cretaceous, but rather recalibrate the evolutionary tempo, suggesting a prolonged cryptic phase of evolutionary experimentation.</u>",
-              "prompt": "Which choice best describes the function of the underlined sentence in the text as a whole?",
+              "stimulus": "Biologist Lynn Margulis initially faced widespread skepticism when she proposed endosymbiotic theory in 1967, which posited that eukaryotic organelles such as mitochondria and chloroplasts originated as free-living prokaryotic organisms engulfed by ancestral cells. For over a decade, peer reviewers dismissed her manuscripts as unsubstantiated speculation. However, subsequent sequencing of mitochondrial circular DNA and bacterial-like ribosomes definitively verified her hypothesis, fundamentally rewriting modern cellular biology.",
+              "prompt": "Which choice best describes the overall structure of the text?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "It clarifies the precise nature of the challenge posed by recent molecular clock findings to established historical models."
+                  "text": "It outlines the initial scientific rejection of a novel biological hypothesis and then chronicles its eventual vindication by molecular evidence."
                 },
                 {
                   "letter": "B",
-                  "text": "It dismisses molecular clock analysis as fundamentally incompatible with the physical macrofossil record."
+                  "text": "It compares two competing theories regarding cellular evolution and argues that neither provides a complete evolutionary explanation."
                 },
                 {
                   "letter": "C",
-                  "text": "It introduces a third competing hypothesis regarding the geographic origins of Jurassic flowering plants."
+                  "text": "It describes a revolutionary laboratory technique and details its failure to resolve an ongoing microbiological controversy."
                 },
                 {
                   "letter": "D",
-                  "text": "It summarizes Charles Darwin's original conceptualization of Cretaceous floral diversification."
+                  "text": "It praises the career of a renowned scientist while criticizing the institutional biases that delayed her initial peer recognition."
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. The underlined sentence clarifies how the new findings refine rather than outright contradict Darwin's model by introducing a prolonged cryptic phase."
+              "explanation": "Choice A is correct. The passage introduces Margulis's rejected hypothesis and then explains how genetic evidence later vindicated and confirmed her theory."
             },
             {
               "id": "t1-rw-m1-q6",
@@ -167,637 +167,637 @@ export const test1 = {
               "domain": "Craft and Structure",
               "subdomain": "Cross-Text Connections",
               "difficulty": "Hard",
-              "stimulus": "<strong>Text 1</strong><br>In a 2018 paper, economist David Miller argued that automated inventory management algorithms universally suppress inflationary price volatility by instantly matching wholesale supply orders with real-time consumer checkout demand across national retail chains.<br><br><strong>Text 2</strong><br>Sociologist Priya Nair examined rural grocery cooperatives and observed that algorithm-driven supply chains frequently trigger localized phantom shortages when regional freight disruptions decouple local demand signals from centralized warehouse dispatch algorithms.",
-              "prompt": "Based on the texts, how would Nair (Text 2) most likely respond to Miller's assertion in Text 1?",
+              "stimulus": "<strong>Text 1</strong><br>Behavioral economists have long maintained that human decision-making is severely compromised by cognitive heuristics like hyperbolic discounting\u2014the tendency to overvalue immediate rewards relative to future gains. In controlled laboratory experiments, subjects routinely choose small immediate payouts over significantly larger payouts delayed by only a few weeks, demonstrating fundamental human irrationality in intertemporal choice.<br><br><strong>Text 2</strong><br>Ecological anthropologists argue that labeling hyperbolic discounting 'irrational' mistakes laboratory artificiality for real-world environmental adaptation. In unpredictable or resource-volatile environments, organisms cannot guarantee that delayed rewards will ever materialize; unforeseen predators, climatic disruption, or social conflict frequently extinguish future benefits. Hence, prioritizing immediate payoffs is not a cognitive deficiency but an optimal, fitness-maximizing adaptation to existential uncertainty.",
+              "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the claim in Text 1 regarding 'human irrationality'?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "By asserting that Miller overlooks how supply chain disruptions can cause automated systems to produce localized distribution failures."
+                  "text": "By conceding that hyperbolic discounting is cognitively flawed but suggesting that educational interventions can easily rectify it."
                 },
                 {
                   "letter": "B",
-                  "text": "By arguing that rural retail cooperatives deliberately disable pricing algorithms during national economic recessions."
+                  "text": "By asserting that the behavior labeled irrational in laboratory settings constitutes a rational survival strategy under real-world conditions of ecological volatility."
                 },
                 {
                   "letter": "C",
-                  "text": "By agreeing that real-time checkout monitoring eliminates consumer demand spikes in major metropolitan areas."
+                  "text": "By demonstrating that laboratory participants consistently misunderstand the statistical probabilities presented by economic researchers."
                 },
                 {
                   "letter": "D",
-                  "text": "By demonstrating that automated wholesale ordering is significantly more expensive than manual ledger tracking."
+                  "text": "By arguing that hyperbolic discounting is an evolutionarily novel phenomenon that emerged only with the advent of modern financial markets."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. While Miller asserts universal efficiency, Nair demonstrates that regional freight disruptions cause localized supply failures, refuting Miller's universal claim."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Text 2 explicitly counters that prioritizing immediate rewards is a fitness-maximizing, rational adaptation to volatile real-world environments where future gains are uncertain."
             },
             {
               "id": "t1-rw-m1-q7",
               "type": "mcq",
-              "domain": "Craft and Structure",
-              "subdomain": "Text Structure and Purpose",
+              "domain": "Information and Ideas",
+              "subdomain": "Central Ideas and Details",
               "difficulty": "Medium",
-              "stimulus": "Virginia Woolf's 1925 novel <i>Mrs. Dalloway</i> famously eschews conventional chronological plotting in favor of free indirect discourse, immersing readers within the uninterrupted cognitive flow of its characters over the span of a single London day. Through this structural choice, Woolf achieves a dual representation: the external, mechanized chime of Big Ben punctuating objective time, juxtaposed against the fluid, elastic interiority of human memory and psychological perception.",
-              "prompt": "Which choice best states the primary purpose of the text?",
+              "stimulus": "Deep-sea hydrothermal vent communities exist completely detached from solar radiation, deriving ecological energy from chemosynthetic bacteria that oxidize toxic hydrogen sulfide emitting from volcanic fissures. These bacteria form dense symbiotic relationships with giant tube worms (<i>Riftia pachyptila</i>), which lack digestive tracts, mouths, and guts. Instead, the tube worms utilize specialized blood hemoglobin to transport dissolved oxygen, carbon dioxide, and hydrogen sulfide directly to an internal organ called the trophosome, where billions of symbionts convert inorganic carbon into nutrient carbohydrates for both organisms.",
+              "prompt": "According to the text, how do <i>Riftia pachyptila</i> tube worms obtain essential nutrition despite lacking a digestive system?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "To analyze how Woolf uses narrative technique to contrast objective chronological time with subjective mental experience."
+                  "text": "They absorb dissolved organic molecules directly through their external chitinous protective plumes."
                 },
                 {
                   "letter": "B",
-                  "text": "To criticize the lack of traditional plot structure and chronological coherence in early 20th-century British fiction."
+                  "text": "They filter microscopic plankton and chemosynthetic microbes from surrounding hydrothermal currents."
                 },
                 {
                   "letter": "C",
-                  "text": "To trace the autobiographical origins of Virginia Woolf's thematic interest in London's civic infrastructure."
+                  "text": "They rely on internal symbiotic bacteria that convert volcanic chemical compounds into carbohydrates within a specialized organ."
                 },
                 {
                   "letter": "D",
-                  "text": "To compare the commercial reception of <i>Mrs. Dalloway</i> with that of other modernist novels published in 1925."
+                  "text": "They ingest hydrothermal mineral precipitates and metabolize elemental sulfur via specialized circulatory enzymes."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The text explicitly analyzes Woolf's structural technique of contrasting objective time with subjective psychological memory."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The passage explains that symbiotic bacteria inside the trophosome organ oxidize hydrogen sulfide to synthesize nutrient carbohydrates for the tube worm."
             },
             {
               "id": "t1-rw-m1-q8",
               "type": "mcq",
-              "domain": "Craft and Structure",
-              "subdomain": "Text Structure and Purpose",
-              "difficulty": "Medium",
-              "stimulus": "In her analysis of Renaissance portraiture, art historian Maria Santos contends that Dutch domestic portraits served as performative instruments of civic status. Santos notes that subjects were typically rendered alongside meticulously depicted luxury trade goods—such as Persian carpets and silver navigational astrolabes—to subtly signal their merchant prosperity while maintaining an outward facade of Calvinist modesty.",
-              "prompt": "Which choice best describes the overall structure of the text?",
+              "domain": "Information and Ideas",
+              "subdomain": "Command of Evidence",
+              "difficulty": "Hard",
+              "stimulus": "In urban ecology, the 'habitat fragmentation hypothesis' predicts that as continuous forest tracts are segmented by suburban road networks, avian nest predation will increase sharply because predatory mammals (such as raccoons and domestic cats) exploit roadway corridors for rapid foraging access into woodland interiors. Ornithologist Dr. Kevin Vance evaluated this hypothesis by monitoring 120 artificial songbird nests containing quail eggs across forest fragments varying in perimeter-to-area ratio. If Vance's observations support the habitat fragmentation hypothesis, which finding would most strongly demonstrate this?",
+              "prompt": "Which finding, if true, most strongly supports the hypothesis?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "It presents a scholarly argument and then supports it by describing specific visual elements used in the portraits."
+                  "text": "Total songbird population densities were identical in fragmented suburban woodlots and contiguous rural forest preserves."
                 },
                 {
                   "letter": "B",
-                  "text": "It introduces a popular misconception about Dutch portraiture and refutes it using financial receipts from 17th-century merchants."
+                  "text": "Predator mammals exhibited no measurable preference between traveling along roadway clearings and navigating dense unfragmented forest underbrush."
                 },
                 {
                   "letter": "C",
-                  "text": "It contrasts the painting techniques of Dutch Renaissance masters with those of contemporary Italian artists."
+                  "text": "Artificial nests situated on high canopy branches suffered equal rates of predation regardless of proximity to roads."
                 },
                 {
                   "letter": "D",
-                  "text": "It outlines the chronological development of Calvinist religious doctrine regarding visual art."
+                  "text": "Forest plots with high perimeter-to-area ratios that were dissected by roadways experienced significantly higher rates of nest disturbance than did expansive, undivided core forest tracts."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The passage presents Santos's claim (portraits served as instruments of status) and supports it by citing specific depicted trade goods (Persian carpets, astrolabes)."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. If road fragmentation facilitates predator access and increases predation, fragmented plots with high perimeter-to-area ratios and road dissections must show higher nest predation."
             },
             {
               "id": "t1-rw-m1-q9",
               "type": "mcq",
               "domain": "Information and Ideas",
-              "subdomain": "Central Ideas and Details",
-              "difficulty": "Easy",
-              "stimulus": "In deep-sea hydrothermal vents, where sunlight cannot penetrate, entire biological communities thrive independently of solar energy. Instead of relying on plant-based photosynthesis, these ecosystems are anchored by chemotrophic bacteria that oxidize hydrogen sulfide dissolved in the superheated, mineral-rich effluent emitted from the seafloor crust. Tubeworms, clams, and vent shrimp harbor these bacteria endosymbiotically or graze upon bacterial mats, demonstrating that complex multicellular life can be sustained entirely through geothermal and geochemical inputs.",
-              "prompt": "Which choice best summarizes the central idea of the text?",
+              "subdomain": "Command of Evidence",
+              "difficulty": "Hard",
+              "stimulus": "Materials scientists evaluated four ceramic composite formulations (Composites W, X, Y, and Z) to determine their tensile strength retention after 1,000 thermal cycles between 200\u00b0C and 1,200\u00b0C. <br><br><table style='width:100%; border-collapse: collapse; margin: 8px 0; font-size: 13px;'><tr style='background: #f1f5f9;'><th style='border: 1px solid #cbd5e1; padding: 6px;'>Material</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Initial Tensile Strength (MPa)</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Post-Cycle Strength (MPa)</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Microcrack Density (cracks/mm\u00b2)</th></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Composite W</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>420</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>395</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>1.2</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Composite X</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>510</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>330</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>8.7</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Composite Y</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>380</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>365</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>1.8</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Composite Z</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>460</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>290</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>9.4</td></tr></table><br>The lead researcher concluded that formulations incorporating silicon carbide whiskers effectively inhibit thermal microfracture propagation, preserving over 90% of structural integrity.",
+              "prompt": "Which choice is best supported by the data in the table?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Hydrothermal vent ecosystems are powered by chemotrophic bacteria that convert geothermal chemical compounds into organic energy."
+                  "text": "Composite X retained a higher percentage of its initial strength than did Composite Y despite experiencing severe microcracking."
                 },
                 {
                   "letter": "B",
-                  "text": "Sunlight-dependent marine organisms have gradually migrated to benthic hydrothermal fissures to escape surface predators."
+                  "text": "Composite Z exhibited the highest initial tensile strength but suffered the greatest absolute loss in structural load capacity."
                 },
                 {
                   "letter": "C",
-                  "text": "Tubeworms and vent shrimp produce hydrogen sulfide to generate protective thermal barriers against abyssal freezing temperatures."
+                  "text": "Composite W retained approximately 94% of its initial tensile strength while exhibiting the lowest microcrack density among the four materials."
                 },
                 {
                   "letter": "D",
-                  "text": "Photosynthesis remains an indispensable indirect biological process for all organisms residing in oceanic benthic zones."
+                  "text": "Every composite formulation suffered at least a 25% degradation in tensile strength following thermal cycling."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The central idea is that hydrothermal vent communities depend on chemotrophic bacteria using geothermal chemicals rather than sunlight."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Composite W: 395 / 420 = 94.05% retention, and its microcrack density of 1.2 cracks/mm\u00b2 is the lowest in the table."
             },
             {
               "id": "t1-rw-m1-q10",
               "type": "mcq",
               "domain": "Information and Ideas",
               "subdomain": "Inferences",
-              "difficulty": "Medium",
-              "stimulus": "Biologists studying monarch butterfly migration have long known that the insects navigate using a time-compensated sun compass, which integrates the sun's azimuth with internal circadian clocks in their antennae. In a controlled experiment, researchers placed migrating monarchs in a planetarium where magnetic fields could be artificially reversed while celestial lighting remained constant. The butterflies maintained their south-southwest trajectory regardless of magnetic disorientation; however, when the researchers shifted the artificial light-dark schedule by six hours, the butterflies' flight headings rotated by roughly 90 degrees. This finding strongly suggests that _____.",
+              "difficulty": "Hard",
+              "stimulus": "Paleoclimatologists analyzing speleothem calcite layers from caves in southern China noted that oxygen isotope ratios ($\\delta^{18}\text{O}$) reflect historical shifts in East Asian Summer Monsoon (EASM) intensity. Lower $\\delta^{18}\text{O}$ values indicate heightened precipitation and invigorated monsoon circulation. Remarkably, every major centennial-scale weakening of the EASM recorded over the past two millennia coincides precisely with agricultural collapse, nomadic migrations, and dynastic transitions documented in Chinese imperial annals. This robust chronological synchrony strongly implies that _____.",
               "prompt": "Which choice most logically completes the text?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "monarch butterflies prioritize solar and circadian cues over geomagnetic orientation during migratory navigation"
+                  "text": "abrupt climatic fluctuations exerted profound destabilizing pressures on agrarian political systems throughout premodern Chinese history"
                 },
                 {
                   "letter": "B",
-                  "text": "geomagnetic field lines serve as the exclusive sensory mechanism guiding monarchs across continental distances"
+                  "text": "dynastic rulers actively suppressed historical records of catastrophic droughts to maintain administrative legitimacy"
                 },
                 {
                   "letter": "C",
-                  "text": "circadian clock proteins in antennae operate completely independently of external diurnal photoperiods"
+                  "text": "cave speleothems in southern China are more reliable indicators of agricultural productivity than historical court chronicles"
                 },
                 {
                   "letter": "D",
-                  "text": "monarchs rely primarily on geographic landmarks such as coastlines rather than astronomical orientation"
+                  "text": "nomadic pastoralist confederacies possessed advanced irrigation technologies that shielded them from monsoon failures"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. Magnetic reversal did not alter heading, but light-cycle shifts rotated heading by 90 degrees, showing solar/circadian cues dominate."
+              "explanation": "Choice A is correct. The direct correlation between monsoon weakenings (droughts/reduced rain) and dynastic falls/agricultural collapse indicates that climatic disruption heavily destabilized agrarian dynasties."
             },
             {
               "id": "t1-rw-m1-q11",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Command of Evidence: Quantitative",
-              "difficulty": "Medium",
-              "stimulus": "<table style='width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 13px; background: #fff;'><thead><tr style='background: #f8fafc;'><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Bird Species</th><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Urban Noise (dB)</th><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Min Frequency (Hz)</th><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Song Duration (s)</th></tr></thead><tbody><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>European Robin</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>68</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>2,850</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>2.1</td></tr><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>Great Tit</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>71</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>3,420</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>1.4</td></tr><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>House Sparrow</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>74</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>3,910</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>0.9</td></tr><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>Song Sparrow</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>65</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>2,410</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>2.8</td></tr></tbody></table><br>Ornithologists hypothesize that urban songbirds modify acoustic parameters to avoid acoustic masking by low-frequency city rumble. Specifically, species occupying louder habitats are predicted to shift their minimum vocal frequencies upward into higher spectral bands.",
-              "prompt": "Which choice best uses data from the table to support the ornithologists' hypothesis?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Boundaries",
+              "difficulty": "Hard",
+              "stimulus": "During the Italian Renaissance, master fresco painters had to apply ground mineral pigments directly onto wet lime _____ chemical carbonation would lock the colors into the structural plaster permanently.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "The House Sparrow, recorded at the highest ambient noise level (74 dB), exhibited the highest minimum song frequency (3,910 Hz), whereas the Song Sparrow had the lowest values for both metrics."
+                  "text": "plaster, as the drying plaster absorbed atmospheric carbon dioxide,"
                 },
                 {
                   "letter": "B",
-                  "text": "The European Robin sang for a longer duration (2.1 s) than the Great Tit (1.4 s) despite experiencing lower ambient noise levels."
+                  "text": "plaster, which as the drying plaster absorbed atmospheric carbon dioxide"
                 },
                 {
                   "letter": "C",
-                  "text": "The Great Tit had a lower minimum frequency than the House Sparrow despite experiencing identical urban traffic volumes."
+                  "text": "plaster as the drying plaster absorbed atmospheric carbon dioxide"
                 },
                 {
                   "letter": "D",
-                  "text": "All four species exhibited identical minimum song frequencies regardless of variations in ambient city noise."
+                  "text": "plaster; as the drying plaster absorbed atmospheric carbon dioxide,"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The hypothesis states louder habitats correlate with higher minimum frequencies. Comparing the highest (House Sparrow: 74 dB / 3,910 Hz) and lowest (Song Sparrow: 65 dB / 2,410 Hz) directly supports this."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. A semicolon is required to separate the two independent clauses: 'master fresco painters had to apply...' and 'chemical carbonation would lock...' (which has the dependent clause 'as the drying plaster...'). A comma alone produces a comma splice."
             },
             {
               "id": "t1-rw-m1-q12",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Command of Evidence: Textual",
-              "difficulty": "Medium",
-              "stimulus": "In her study of 19th-century domestic economy manuals, historian Clara Vance argues that middle-class advice manuals did not simply mirror established domestic realities; rather, they constructed an idealized, prescriptive vision of domesticity intended to reassure families experiencing economic anxiety amidst volatile market panics.",
-              "prompt": "Which quotation from a 19th-century domestic manual would most directly support Vance's argument?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Form, Structure, and Sense",
+              "difficulty": "Hard",
+              "stimulus": "Synthesizing archival records with advanced isotopic bone _____ bioarchaeologist Dr. Miriam Chen demonstrated that the nomadic pastoralists engaged in extensive millet cultivation centuries earlier than previously hypothesized.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "\"Though fortunes outside these parlor walls may crumble in the mercantile exchange overnight, within this sanctified hearth the orderly homemaker preserves an unchanging haven of serenity and moral virtue.\""
+                  "text": "chemistry and"
                 },
                 {
                   "letter": "B",
-                  "text": "\"The price of wholesale tallow and lard has risen fourteen percent across the northeastern rail depots this autumn.\""
+                  "text": "chemistry,"
                 },
                 {
                   "letter": "C",
-                  "text": "\"A good iron stove requires three hours of continuous stoking before the oven chamber reaches sufficient temperature for pastry.\""
+                  "text": "chemistry"
                 },
                 {
                   "letter": "D",
-                  "text": "\"Most families in our township have hired domestic assistants to wash linens and tend the winter garden.\""
+                  "text": "chemistry; while"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. It directly expresses an idealized moral haven created to alleviate anxiety about outside mercantile volatility, aligning with Vance's claim."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. The introductory participial phrase ('Synthesizing archival records with advanced isotopic bone chemistry,') must be followed immediately by a comma and the logical subject who performed the action ('bioarchaeologist Dr. Miriam Chen')."
             },
             {
               "id": "t1-rw-m1-q13",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Inferences",
+              "domain": "Standard English Conventions",
+              "subdomain": "Form, Structure, and Sense",
               "difficulty": "Hard",
-              "stimulus": "Under normal physiological conditions, mammalian skeletal muscles rely predominantly on oxidative phosphorylation for sustained low-intensity aerobic activity. When physical exertion escalates past the anaerobic threshold, cells ramp up glycolysis, producing pyruvate faster than mitochondria can process it, which leads to lactate accumulation. For decades, athletes believed lactate was merely a toxic metabolic waste product responsible for muscle fatigue. However, recent radiolabeling studies reveal that hepatocytes and cardiac myocytes absorb circulating lactate from bloodstream pathways and rapidly reconvert it into glucose or direct fuel. Thus, rather than being an inert fatigue agent, lactate _____.",
-              "prompt": "Which choice most logically completes the text?",
+              "stimulus": "Neither the extensive computational models developed by the climatology consortium nor the empirical telemetry recorded from deep oceanic sensor _____ sufficient to explain the sudden deceleration of the North Atlantic subpolar gyre.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "serves as an adaptable, mobile energy shuttle that transfers carbohydrate fuel between differentiated tissues"
+                  "text": "buoys were"
                 },
                 {
                   "letter": "B",
-                  "text": "completely replaces adenosine triphosphate (ATP) as the exclusive chemical catalyst for muscular contraction"
+                  "text": "buoys, being"
                 },
                 {
                   "letter": "C",
-                  "text": "prevents skeletal muscle cells from engaging in aerobic respiration during prolonged periods of rest"
+                  "text": "buoys having been"
                 },
                 {
                   "letter": "D",
-                  "text": "causes irreversible mitochondrial damage whenever athletic exertion exceeds baseline resting levels"
+                  "text": "buoys was"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The text explains that liver and heart cells absorb lactate and use it as fuel or reconvert it to glucose, functioning as an energy shuttle."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. In a 'neither... nor...' construction with subjects of different number, the verb agrees with the subject closest to it. Wait: 'telemetry' is an uncountable singular noun! 'sensor buoys' is in the prepositional phrase 'from deep oceanic sensor buoys', so the subject is 'telemetry', which is singular, requiring 'was'."
             },
             {
               "id": "t1-rw-m1-q14",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Central Ideas and Details",
-              "difficulty": "Medium",
-              "stimulus": "In classical physics, black holes were conceptualized as perfect gravitational sinks from which no radiation or matter could escape. In 1974, physicist Stephen Hawking applied quantum field theory to curved spacetime and revealed that quantum fluctuations near the event horizon generate virtual particle-antiparticle pairs. When one particle falls past the horizon and its counterpart escapes into space, the black hole loses mass, emitting what is now known as Hawking radiation. Over astronomical timescales, this implies that isolated black holes will eventually evaporate entirely.",
-              "prompt": "According to the text, what causes a black hole to emit Hawking radiation?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Boundaries",
+              "difficulty": "Hard",
+              "stimulus": "Astronomer Vera Rubin gathered empirical rotational curves of spiral galaxies that contradicted Newtonian _____ stars at the galactic periphery orbited with velocities identical to stars situated near the bright galactic core.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "The escape of one particle from a quantum virtual pair generated near the event horizon while the other particle is captured."
+                  "text": "expectations, unexpectedly"
                 },
                 {
                   "letter": "B",
-                  "text": "The sudden catastrophic collapse of dense baryonic matter into a macroscopic mathematical singularity."
+                  "text": "expectations: unexpectedly,"
                 },
                 {
                   "letter": "C",
-                  "text": "Thermonuclear fusion reactions igniting between cosmic gas clouds and interstellar magnetic fields."
+                  "text": "expectations; unexpectedly"
                 },
                 {
                   "letter": "D",
-                  "text": "The absorption of superheated accretion disk plasma by neighboring galactic nuclei."
+                  "text": "expectations unexpectedly"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Hawking radiation occurs when one particle from a quantum virtual pair near the horizon escapes into space while its partner is absorbed."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. A colon is used to introduce an explanation, elaboration, or surprising specification of what the contradictory expectations revealed."
             },
             {
               "id": "t1-rw-m1-q15",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Boundaries",
+              "domain": "Expression of Ideas",
+              "subdomain": "Transitions",
               "difficulty": "Medium",
-              "stimulus": "During the Renaissance, Venetian glassmakers on the island of Murano were forbidden to leave the republic without special _____ the city council feared foreign rivals would acquire their proprietary secret for crafting crystalline glass.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "stimulus": "Early solar photovoltaic cells constructed from crystalline silicon exhibited an energy conversion efficiency of barely 6% in 1954. _____, modern multi-junction perovskite-silicon tandem cells routinely surpass 33% efficiency in laboratory benchmarks, approaching the thermodynamic limits of single-junction architectures.",
+              "prompt": "Which choice completes the text with the most logical transition?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "dispensation, because"
+                  "text": "Today"
                 },
                 {
                   "letter": "B",
-                  "text": "dispensation; because"
+                  "text": "Consequently"
                 },
                 {
                   "letter": "C",
-                  "text": "dispensation, and"
+                  "text": "For instance"
                 },
                 {
                   "letter": "D",
-                  "text": "dispensation because"
+                  "text": "In other words"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'During the Renaissance... dispensation' is an independent clause, and 'because the city council feared...' is a subordinate explanatory clause. A comma followed by because cleanly connects them."
+              "explanation": "Choice A is correct. The passage contrasts historical early efficiency in 1954 with current modern efficiency, making 'Today' the correct chronological contrast transition."
             },
             {
               "id": "t1-rw-m1-q16",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Boundaries",
-              "difficulty": "Medium",
-              "stimulus": "The archaeological excavation uncovered hundreds of artifacts dating to the late Bronze Age: bronze sickles, ceramic storage vessels, woven textile fragments, and ornamental amber _____ all of which had remained preserved within the waterlogged peat bog.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Expression of Ideas",
+              "subdomain": "Transitions",
+              "difficulty": "Hard",
+              "stimulus": "Critics argued that the construction of municipal sea walls would disrupt fragile shoreline sediment transport and destroy intertidal mudflats. _____, coastal engineers demonstrated that integrating permeable riprap revetments with artificial oyster reefs would dissipate wave kinetic energy while actively promoting wetland accretion.",
+              "prompt": "Which choice completes the text with the most logical transition?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "beads;"
+                  "text": "Furthermore"
                 },
                 {
                   "letter": "B",
-                  "text": "beads,"
+                  "text": "For example"
                 },
                 {
                   "letter": "C",
-                  "text": "beads—"
+                  "text": "Conversely"
                 },
                 {
                   "letter": "D",
-                  "text": "beads:"
+                  "text": "Therefore"
                 }
               ],
-              "correctAnswer": "B",
-              "explanation": "Choice B is correct. A comma followed by the nonessential relative clause 'all of which had remained preserved...' properly attaches the clause to the preceding noun list."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The passage contrasts the critics' negative predictions with the coastal engineers' opposing positive findings, requiring the contrast transition 'Conversely'."
             },
             {
               "id": "t1-rw-m1-q17",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Subject-Verb Agreement",
-              "difficulty": "Easy",
-              "stimulus": "A recent survey of tropical rainforest epiphytes found that the structural complexity of host tree canopies _____ directly correlated with the species richness of resident bryophyte communities.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Expression of Ideas",
+              "subdomain": "Rhetorical Synthesis",
+              "difficulty": "Medium",
+              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>The James Webb Space Telescope (JWST) operates at an orbit around the Sun-Earth Lagrange point 2 (L2).</li><li style='margin-bottom: 4px;'>L2 is located approximately 1.5 million kilometers from Earth.</li><li style='margin-bottom: 4px;'>JWST observes predominantly in the infrared spectrum.</li><li style='margin-bottom: 4px;'>Its primary beryllium mirror measures 6.5 meters in diameter.</li><li style='margin-bottom: 4px;'>Because of its infrared capability and massive mirror, JWST can observe high-redshift galaxies formed less than 400 million years after the Big Bang.</li></ul>",
+              "prompt": "The student wants to emphasize how JWST's optical specifications enable the study of early cosmic history. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "is"
+                  "text": "Equipped with a 6.5-meter mirror and infrared detection capabilities, the James Webb Space Telescope can observe ancient high-redshift galaxies that formed within 400 million years of the Big Bang."
                 },
                 {
                   "letter": "B",
-                  "text": "are"
+                  "text": "Orbiting at Lagrange point 2 roughly 1.5 million kilometers from Earth, the James Webb Space Telescope features a primary mirror constructed from beryllium."
                 },
                 {
                   "letter": "C",
-                  "text": "were"
+                  "text": "The James Webb Space Telescope observes the universe primarily across infrared wavelengths from an orbital location known as L2."
                 },
                 {
                   "letter": "D",
-                  "text": "have been"
+                  "text": "Measuring 6.5 meters across, the primary mirror of the James Webb Space Telescope is significantly larger than previous orbital telescopes."
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. The head noun of the subject is 'the structural complexity' (singular), which requires the singular verb 'is'."
+              "explanation": "Choice A is correct. The correct choice directly connects the optical specifications (6.5-meter mirror, infrared detection) to the goal (studying ancient galaxies formed shortly after the Big Bang)."
             },
             {
               "id": "t1-rw-m1-q18",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Modifiers",
-              "difficulty": "Medium",
-              "stimulus": "Having completed an exhaustive two-year survey of orbital trajectory data from the Hubble Space Telescope, _____.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Craft and Structure",
+              "subdomain": "Words in Context",
+              "difficulty": "Hard",
+              "stimulus": "The historian emphasized that medieval court chronicles were rarely objective depositions; rather, scribes frequently framed political assassinations in _____ terms, depicting the dynastic usurpations as divine retributions for moral failings.",
+              "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "astrophysicist Dr. Marcus Chen identified a subtle perturbation caused by a previously undocumented Kuiper Belt object."
+                  "text": "utilitarian"
                 },
                 {
                   "letter": "B",
-                  "text": "a subtle perturbation caused by a previously undocumented Kuiper Belt object was identified by astrophysicist Dr. Marcus Chen."
+                  "text": "tangential"
                 },
                 {
                   "letter": "C",
-                  "text": "the identification of a previously undocumented Kuiper Belt object was achieved by astrophysicist Dr. Marcus Chen."
+                  "text": "clandestine"
                 },
                 {
                   "letter": "D",
-                  "text": "it was possible for astrophysicist Dr. Marcus Chen to identify a subtle perturbation in the Kuiper Belt."
+                  "text": "didactic"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The introductory modifying phrase 'Having completed an exhaustive two-year survey...' must logically modify 'astrophysicist Dr. Marcus Chen'."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. 'Didactic' means intended to instruct, particularly in moral lessons. Depicting political usurpations as divine moral retributions represents a didactic framing."
             },
             {
               "id": "t1-rw-m1-q19",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Punctuation",
-              "difficulty": "Easy",
-              "stimulus": "Biochemist Jennifer Doudna and her colleagues demonstrated that the Cas9 enzyme functions as molecular _____ guided by custom RNA sequences to introduce precise double-stranded breaks in target DNA.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Craft and Structure",
+              "subdomain": "Text Structure and Purpose",
+              "difficulty": "Hard",
+              "stimulus": "In his 1903 treatise on sociology, W.E.B. Du Bois introduced the concept of 'double consciousness,' describing the internal psychological conflict experienced by African Americans living in an oppressive society: 'this sense of always looking at one's self through the eyes of others, of measuring one's soul by the tape of a world that looks on in amused contempt and pity.' Du Bois does not merely describe this psychological state as an affliction; he identifies it as a source of distinctive epistemological insight, endowing African Americans with a 'second-sight' capable of perceiving the deep contradictions beneath American democratic ideals.",
+              "prompt": "Which choice best describes the main function of the underlined portion ('he identifies it as a source of distinctive epistemological insight...')?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "scissors,"
+                  "text": "It dismisses Du Bois's initial definition of double consciousness as an outdated artifact of early twentieth-century racial sociology."
                 },
                 {
                   "letter": "B",
-                  "text": "scissors;"
+                  "text": "It shifts the focus from a purely psychological pathology to a profound analytical capability that enables critical perception of societal contradictions."
                 },
                 {
                   "letter": "C",
-                  "text": "scissors:"
+                  "text": "It provides statistical evidence corroborating the prevalence of psychological distress among minority populations in democratic nations."
                 },
                 {
                   "letter": "D",
-                  "text": "scissors"
+                  "text": "It contrasts Du Bois's sociological theories with the economic frameworks advanced by his contemporary Booker T. Washington."
                 }
               ],
-              "correctAnswer": "D",
-              "explanation": "Choice D is correct. No punctuation should separate the noun 'scissors' from its essential restrictive participle phrase 'guided by custom RNA sequences'."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. The passage contrasts viewing double consciousness simply as an affliction with Du Bois's view that it provides unique insight ('second-sight') into democratic contradictions."
             },
             {
               "id": "t1-rw-m1-q20",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Boundaries",
-              "difficulty": "Easy",
-              "stimulus": "While the North American gray wolf typically hunts in cooperative packs across vast territorial _____ solitary coyotes often forage near suburban margins, scavenging opportunistic food sources.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Information and Ideas",
+              "subdomain": "Central Ideas and Details",
+              "difficulty": "Hard",
+              "stimulus": "Prion diseases, such as Creutzfeldt-Jakob disease, represent an unprecedented biological paradigm because the infectious agent is completely devoid of genetic nucleic acids (DNA or RNA). The disease propagates when an abnormally folded isoform of the cellular prion protein ($\text{PrP}^\text{Sc}$) encounters normal cellular prion proteins ($\text{PrP}^\text{C}$), inducing them to refold into the infectious $\beta$-sheet-rich conformation through template-directed misfolding. These misfolded proteins aggregate into insoluble amyloid fibrils that induce neurodegenerative spongiform vacuolation in cerebral cortex tissue, impervious to conventional autoclaving and enzymatic proteolysis.",
+              "prompt": "Which statement regarding prion propagation is most directly supported by the text?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "ranges,"
+                  "text": "Prion replication requires host cellular viral reverse transcriptase to synthesize abnormal neurodegenerative polypeptides."
                 },
                 {
                   "letter": "B",
-                  "text": "ranges;"
+                  "text": "Standard laboratory sterilization methods like autoclaving reliably neutralize prion infectiousness by hydrolyzing peptide backbones."
                 },
                 {
                   "letter": "C",
-                  "text": "ranges"
+                  "text": "Prions multiply by mechanically altering the three-dimensional structural conformation of native cellular proteins rather than replicating genetic material."
                 },
                 {
                   "letter": "D",
-                  "text": "ranges:"
+                  "text": "The primary catalyst for prion aggregation is a chemical mutation that converts host DNA into misfolded ribonucleic acids."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. A comma is required to separate the introductory dependent clause ('While the North American gray wolf...') from the independent main clause."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The passage explicitly states prions lack nucleic acids and propagate when misfolded prions induce normal proteins to refold into the infectious conformation."
             },
             {
               "id": "t1-rw-m1-q21",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Pronouns",
-              "difficulty": "Easy",
-              "stimulus": "In her landmark critique of neoclassical economics, Elinor Ostrom challenged the assumption that common-pool resources must inevitably be depleted; she demonstrated that community-governed pastures and fisheries often manage _____ sustainability far more effectively than centralized state agencies.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Information and Ideas",
+              "subdomain": "Command of Evidence",
+              "difficulty": "Hard",
+              "stimulus": "Plant evolutionary biologist Dr. Hiroshi Tanaka investigated whether the evolution of CAM (crassulacean acid metabolism) photosynthesis in desert succulents constitutes an adaptation strictly for water preservation or whether it also confers significant thermal tolerance. Tanaka measured stomatal conductance and internal leaf temperature in <i>Agave tequilana</i> specimens under high drought conditions ($38^\\circ\text{C}$, $15\\%$ soil moisture) compared to control conditions ($24^\\circ\text{C}$, $65\\%$ moisture). If Tanaka's findings support the water preservation hypothesis over the thermal tolerance hypothesis, which result would most directly support this?",
+              "prompt": "Which finding, if true, most strongly supports the hypothesis?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "their"
+                  "text": "Internal leaf temperatures dropped significantly during daylight hours despite persistent stomatal aperture closure."
                 },
                 {
                   "letter": "B",
-                  "text": "its"
+                  "text": "Specimens subjected to drought exhibited higher photosynthetic carbon assimilation rates at noon than did irrigated control specimens."
                 },
                 {
                   "letter": "C",
-                  "text": "they're"
+                  "text": "Stomatal closure during scorching daylight hours reduced transpiration water loss by 82% without producing any measurable reduction in internal midday leaf tissue temperatures."
                 },
                 {
                   "letter": "D",
-                  "text": "it's"
+                  "text": "High nighttime humidity caused plants to abandon nighttime malate storage in favor of standard C3 photosynthetic pathways."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The antecedent is 'community-governed pastures and fisheries' (plural), requiring the plural possessive pronoun 'their'."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. If CAM photosynthesis is strictly for water conservation and not thermal cooling, stomata closing during the day will prevent water loss without reducing leaf temperature."
             },
             {
               "id": "t1-rw-m1-q22",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Transitions",
-              "difficulty": "Easy",
-              "stimulus": "Early cartographers assumed that Greenland and Africa were comparable in land area because Mercator projection maps dramatically exaggerate geographic features located near the poles. _____, Africa encompasses approximately 30.3 million square kilometers, whereas Greenland measures only 2.16 million square kilometers, making Africa roughly fourteen times larger.",
-              "prompt": "Which choice completes the text with the most logical transition?",
+              "domain": "Information and Ideas",
+              "subdomain": "Inferences",
+              "difficulty": "Hard",
+              "stimulus": "In high-energy physics, the observation of neutrino oscillations demonstrated that neutrinos possess non-zero rest masses, defying the minimal Standard Model where neutrinos are strictly massless. Because neutrino masses are astonishingly tiny\u2014less than one-millionth the mass of an electron\u2014theorists proposed the 'seesaw mechanism,' which posits that the known light neutrinos obtain their minuscule masses through quantum mixing with undiscovered, ultra-heavy Majorana neutrinos. If experimental searches at the Large Hadron Collider definitively rule out the existence of such heavy Majorana partners up to the Planck energy scale, physicists would be forced to conclude that _____.",
+              "prompt": "Which choice most logically completes the text?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "In reality,"
+                  "text": "neutrinos must actually be completely massless particles conforming exactly to the minimal Standard Model"
                 },
                 {
                   "letter": "B",
-                  "text": "Furthermore,"
+                  "text": "the origin of neutrino mass requires an alternative theoretical mechanism beyond the canonical high-energy seesaw framework"
                 },
                 {
                   "letter": "C",
-                  "text": "Consequently,"
+                  "text": "neutrino oscillation phenomena observed in subterranean detectors were the result of systematic measurement errors"
                 },
                 {
                   "letter": "D",
-                  "text": "Similarly,"
+                  "text": "neutrinos cannot interact with the Higgs boson or any other fundamental scalar fields in quantum field theory"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'In reality,' introduces the factual reality that contradicts the mistaken assumption described in the opening sentence."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Ruling out the heavy Majorana neutrinos eliminates the seesaw mechanism, forcing physicists to look for an alternative mechanism to explain observed non-zero mass."
             },
             {
               "id": "t1-rw-m1-q23",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Transitions",
-              "difficulty": "Medium",
-              "stimulus": "Many ceramic glazes develop micro-fissures upon cooling if the glaze and clay body have differing thermal expansion coefficients. _____, master potters formulate custom frits that contract at precisely the same rate as the underlying porcelain during kiln firings.",
-              "prompt": "Which choice completes the text with the most logical transition?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Boundaries",
+              "difficulty": "Hard",
+              "stimulus": "In 1912, Alfred Wegener published his continental drift hypothesis, marshal-ling geological similarities across transatlantic coastlines _____ most geophysicists vehemently rejected his ideas because he could not propose a plausible geophysical propulsion mechanism.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "To prevent this defect,"
+                  "text": ", nevertheless at that time"
                 },
                 {
                   "letter": "B",
-                  "text": "In other words,"
+                  "text": "nevertheless at that time,"
                 },
                 {
                   "letter": "C",
-                  "text": "By contrast,"
+                  "text": "nevertheless, at that time"
                 },
                 {
                   "letter": "D",
-                  "text": "Nevertheless,"
+                  "text": "; nevertheless, at that time,"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Custom frits are formulated specifically to avoid the micro-fissuring problem stated in the first sentence."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Wait: 'In 1912, Alfred Wegener published his continental drift hypothesis, marshalling geological similarities across transatlantic coastlines' is an independent clause. 'most geophysicists vehemently rejected his ideas...' is a second independent clause. A semicolon followed by 'nevertheless, at that time,' is the grammatically correct boundary!"
             },
             {
               "id": "t1-rw-m1-q24",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Transitions",
-              "difficulty": "Easy",
-              "stimulus": "Proponents of urban vertical farming emphasize that indoor hydroponic towers use up to 95 percent less water than conventional outdoor cropland. _____, the high electricity demand required to power artificial LED illumination throughout the growth cycle remains a substantial environmental drawback.",
-              "prompt": "Which choice completes the text with the most logical transition?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Form, Structure, and Sense",
+              "difficulty": "Hard",
+              "stimulus": "Exceeding the carrying capacity of their fragile subalpine tundra _____ populations of feral mountain goats in Olympic National Park degraded delicate endemic wildflower meadows, prompting federal wildlife managers to initiate helicopter relocations.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "However,"
+                  "text": "habitat,"
                 },
                 {
                   "letter": "B",
-                  "text": "Therefore,"
+                  "text": "habitat; the"
                 },
                 {
                   "letter": "C",
-                  "text": "In addition,"
+                  "text": "habitat, and the"
                 },
                 {
                   "letter": "D",
-                  "text": "Specifically,"
+                  "text": "habitat the"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'However,' introduces a contrasting counterpoint (high energy consumption) to the initial benefit (water efficiency)."
+              "explanation": "Choice A is correct. The introductory participial phrase ('Exceeding the carrying capacity of their fragile subalpine tundra habitat,') must be followed by a comma, and the subject being modified is 'populations of feral mountain goats'."
             },
             {
               "id": "t1-rw-m1-q25",
               "type": "mcq",
               "domain": "Expression of Ideas",
-              "subdomain": "Rhetorical Synthesis",
-              "difficulty": "Medium",
-              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>The James Webb Space Telescope (JWST) was launched in December 2021.</li><li style='margin-bottom: 4px;'>It observes celestial objects primarily in the infrared spectrum.</li><li style='margin-bottom: 4px;'>The Hubble Space Telescope observes primarily in optical and ultraviolet wavelengths.</li><li style='margin-bottom: 4px;'>Infrared astronomy allows JWST to peer through dense interstellar dust clouds that obscure visible light.</li><li style='margin-bottom: 4px;'>In 2022, JWST captured unprecedented images of the Carina Nebula's 'Cosmic Cliffs'.</li></ul>",
-              "prompt": "The student wants to contrast the observational capabilities of the JWST with those of the Hubble Space Telescope. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
+              "subdomain": "Transitions",
+              "difficulty": "Hard",
+              "stimulus": "Proponents of nuclear fusion energy highlight its near-limitless deuterium fuel supply and zero greenhouse gas emissions. _____, monumental engineering hurdles\u2014including stabilizing plasma turbulence at 100 million Kelvin and mitigating neutron damage to reactor walls\u2014continue to delay commercial grid deployment.",
+              "prompt": "Which choice completes the text with the most logical transition?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "While the Hubble Space Telescope observes primarily in optical and ultraviolet wavelengths, the JWST observes in the infrared spectrum, enabling it to penetrate dense interstellar dust clouds."
+                  "text": "In addition,"
                 },
                 {
                   "letter": "B",
-                  "text": "Launched in December 2021, the JWST captured unprecedented images of the Carina Nebula's 'Cosmic Cliffs' using infrared instruments."
+                  "text": "That said,"
                 },
                 {
                   "letter": "C",
-                  "text": "Infrared astronomy allows instruments like the JWST to peer through cosmic dust clouds that would otherwise block optical observations."
+                  "text": "Specifically,"
                 },
                 {
                   "letter": "D",
-                  "text": "Both the Hubble Space Telescope and the JWST are space-based observatories designed to study distant celestial phenomena."
+                  "text": "Consequently,"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. It directly contrasts the spectral capabilities of both telescopes and explains the operational consequence of JWST's infrared sensors."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. 'That said' introduces a major qualifying contrast or concession against the initial enthusiastic claims of fusion energy."
             },
             {
               "id": "t1-rw-m1-q26",
               "type": "mcq",
               "domain": "Expression of Ideas",
               "subdomain": "Rhetorical Synthesis",
-              "difficulty": "Medium",
-              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>Aaron Douglas (1899–1979) was a prominent artist of the Harlem Renaissance.</li><li style='margin-bottom: 4px;'>He synthesized elements of African art, Art Deco, and modernist abstraction.</li><li style='margin-bottom: 4px;'>His signature aesthetic incorporated geometric silhouettes bathed in concentric circles of light.</li><li style='margin-bottom: 4px;'>In 1934, he painted the celebrated mural series Aspects of Negro Life for the New York Public Library.</li><li style='margin-bottom: 4px;'>The mural series illustrates African American history from freedom in Africa through the Great Migration.</li></ul>",
-              "prompt": "The student wants to emphasize the thematic subject of Douglas's mural series Aspects of Negro Life. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
+              "difficulty": "Hard",
+              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>The Antikythera mechanism is an ancient Greek analog computer retrieved from an Aegean shipwreck in 1901.</li><li style='margin-bottom: 4px;'>Dating to circa 150\u2013100 BCE, it contains over 30 precision bronze gears.</li><li style='margin-bottom: 4px;'>It calculated and displayed astronomical cycles, solar eclipses, and lunar phases.</li><li style='margin-bottom: 4px;'>It accurately accounted for the Moon's variable orbital speed using an innovative pin-and-slot epicyclic gear arrangement.</li><li style='margin-bottom: 4px;'>Mechanical complexity of this level was not seen again in Europe until medieval clockwork mechanisms 1,400 years later.</li></ul>",
+              "prompt": "The student wants to emphasize the unprecedented mechanical sophistication of the Antikythera mechanism. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Painted in 1934, Aaron Douglas's mural series Aspects of Negro Life illustrates African American history spanning from life in Africa through the Great Migration."
+                  "text": "Recovered from an Aegean shipwreck in 1901, the bronze Antikythera mechanism dates to approximately 150\u2013100 BCE."
                 },
                 {
                   "letter": "B",
-                  "text": "Aaron Douglas, an influential Harlem Renaissance artist, developed a style combining African art with geometric silhouettes and circles of light."
+                  "text": "The Antikythera mechanism utilized more than 30 bronze gears to predict solar eclipses and tracking lunar cycles in ancient Greece."
                 },
                 {
                   "letter": "C",
-                  "text": "In 1934, Douglas completed Aspects of Negro Life, a mural series for the New York Public Library that utilized Art Deco and modernist abstraction."
+                  "text": "Featuring an innovative pin-and-slot gear system to model the Moon's irregular orbital velocity, the Antikythera mechanism achieved a level of astronomical computation and mechanical complexity not matched until European clockwork 1,400 years later."
                 },
                 {
                   "letter": "D",
-                  "text": "Synthesizing elements of African art and modernism, Aaron Douglas created numerous celebrated works between 1899 and 1979."
+                  "text": "European artisans developed complex astronomical clockwork during the medieval era, over a millennium after ancient Greek gears were cast."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. It directly states the thematic content of the mural series (African American history from Africa through the Great Migration)."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The choice directly fulfills the goal of highlighting unprecedented mechanical sophistication (modeling irregular orbital velocity with pin-and-slot gears; complexity unmatched for 1,400 years)."
             },
             {
               "id": "t1-rw-m1-q27",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Rhetorical Synthesis",
-              "difficulty": "Medium",
-              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>Geothermal power plants harness heat from underground hydrothermal reservoirs to drive steam turbines.</li><li style='margin-bottom: 4px;'>Dry steam plants pipe underground steam directly into turbines.</li><li style='margin-bottom: 4px;'>Flash steam plants draw high-pressure hot water into surface tanks, causing it to flash into vapor.</li><li style='margin-bottom: 4px;'>Binary cycle plants pass moderately hot geothermal fluid through a heat exchanger to boil a secondary working fluid with a lower boiling point.</li><li style='margin-bottom: 4px;'>Binary cycle systems produce virtually zero atmospheric emissions because fluids circulate in a closed loop.</li></ul>",
-              "prompt": "The student wants to highlight an operational feature unique to binary cycle geothermal plants. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
+              "domain": "Craft and Structure",
+              "subdomain": "Words in Context",
+              "difficulty": "Hard",
+              "stimulus": "Far from being an immutable canon carved in stone, the legal scholar argued that constitutional law is an inherently _____ framework, continually reinterpreted and reshaped by successive judicial generations to address unprecedented economic and technological exigencies.",
+              "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Unlike dry and flash steam systems, binary cycle plants operate as closed loops that vaporize a secondary fluid with a low boiling point, resulting in virtually zero emissions."
+                  "text": "malleable"
                 },
                 {
                   "letter": "B",
-                  "text": "Geothermal power plants generate clean electrical energy by extracting subterranean heat to drive industrial steam turbines."
+                  "text": "indolent"
                 },
                 {
                   "letter": "C",
-                  "text": "Flash steam plants use surface depressurization tanks, whereas dry steam plants pipe hot reservoir steam directly into electrical turbines."
+                  "text": "dogmatic"
                 },
                 {
                   "letter": "D",
-                  "text": "Hydrothermal reservoirs provide the heat energy necessary to power dry steam, flash steam, and binary cycle power generation facilities."
+                  "text": "archaic"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. It specifies the unique operational characteristic of binary cycle plants (closed loop boiling a secondary fluid) and the resulting zero emissions."
+              "explanation": "Choice A is correct. 'Malleable' means adaptable or capable of being reshaped. It directly contrasts with 'immutable canon carved in stone' and aligns with 'continually reinterpreted and reshaped'."
             }
           ]
         },
@@ -812,29 +812,29 @@ export const test1 = {
               "type": "mcq",
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
-              "difficulty": "Medium",
-              "stimulus": "Although the initial laboratory trials showed promising enzymatic breakdown of synthetic polymers, the chemical engineers cautioned that the reaction rate tends to _____ dramatically when ambient temperatures drop below fifteen degrees Celsius.",
+              "difficulty": "Hard",
+              "stimulus": "The diplomat recognized that issuing a public ultimatum would merely entrench the adversarial government's defensive posturing; instead, she engaged in _____ backchannel discussions to negotiate bilateral disarmament concessions without inciting domestic nationalist uproar.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "attenuate"
+                  "text": "ostentatious"
                 },
                 {
                   "letter": "B",
-                  "text": "proliferate"
+                  "text": "discreet"
                 },
                 {
                   "letter": "C",
-                  "text": "culminate"
+                  "text": "insolent"
                 },
                 {
                   "letter": "D",
-                  "text": "fluctuate"
+                  "text": "precipitous"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Attenuate' means to weaken or reduce in force or intensity. The context indicates the enzymatic reaction slows down/weakens under lower temperatures."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. 'Discreet' means circumspect, unobtrusive, or careful to avoid public embarrassment. The contrast with a public ultimatum confirms 'discreet backchannel discussions'."
             },
             {
               "id": "t1-rw-m2-q2",
@@ -842,28 +842,28 @@ export const test1 = {
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
               "difficulty": "Hard",
-              "stimulus": "In his concluding chapter, the political theorist does not merely _____ the arguments of previous scholars; rather, he synthesizes their disparate frameworks into a novel taxonomy of constitutional jurisprudence.",
+              "stimulus": "Despite the author's extensive citations of primary colonial diaries, literary historians criticized the novel for its _____ depiction of seventeenth-century domestic life, arguing that the characters' egalitarian sensibilities were anachronistic projections of modern secular values.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "recapitulate"
+                  "text": "spurious"
                 },
                 {
                   "letter": "B",
-                  "text": "repudiate"
+                  "text": "unimpeachable"
                 },
                 {
                   "letter": "C",
-                  "text": "fabricate"
+                  "text": "austere"
                 },
                 {
                   "letter": "D",
-                  "text": "obviate"
+                  "text": "pellucid"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Recapitulate' means to summarize or restate the main points. The sentence contrasts merely restating previous scholars' points with synthesizing them into a new taxonomy."
+              "explanation": "Choice A is correct. 'Spurious' means illegitimate, false, or not genuine. The historians criticized the depiction as anachronistic projections of modern values rather than genuine history."
             },
             {
               "id": "t1-rw-m2-q3",
@@ -871,28 +871,28 @@ export const test1 = {
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
               "difficulty": "Hard",
-              "stimulus": "The diplomatic envoy was celebrated for her exceptionally _____ demeanor, maintaining an impenetrable poker face during hostile treaty negotiations that unnerved opposing delegations.",
+              "stimulus": "Rather than viewing political polarization as an entirely modern malady, historical political theorists argue that factional dispute is an _____ facet of popular democracy, naturally arising whenever citizens possess the liberty to express conflicting material interests.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "impassive"
+                  "text": "ephemeral"
                 },
                 {
                   "letter": "B",
-                  "text": "effusive"
+                  "text": "anomalous"
                 },
                 {
                   "letter": "C",
-                  "text": "bellicose"
+                  "text": "esoteric"
                 },
                 {
                   "letter": "D",
-                  "text": "querulous"
+                  "text": "inexorable"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Impassive' means emotionless or serene. Maintaining an impenetrable poker face during tense talks exemplifies an impassive demeanor."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. 'Inexorable' means impossible to prevent or stop; inevitable. The theorists argue factional dispute is inevitable whenever freedom exists."
             },
             {
               "id": "t1-rw-m2-q4",
@@ -900,695 +900,695 @@ export const test1 = {
               "domain": "Craft and Structure",
               "subdomain": "Words in Context",
               "difficulty": "Hard",
-              "stimulus": "The restoration team discovered that previous 19th-century conservators had applied a heavy, varnish-based coating that had over time _____ the luminous, delicate tempera underlayers applied by the Florentine master.",
+              "stimulus": "The bioethicist argued that gene drives capable of eradicating disease-carrying mosquito species should not be released into wild ecosystems without international consensus; the potential for irreversible ecological disruption is simply too _____ to justify unilateral national experimentation.",
               "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "obscured"
+                  "text": "trifling"
                 },
                 {
                   "letter": "B",
-                  "text": "explicated"
+                  "text": "nebulous"
                 },
                 {
                   "letter": "C",
-                  "text": "rejuvenated"
+                  "text": "momentous"
                 },
                 {
                   "letter": "D",
-                  "text": "demarcated"
+                  "text": "quixotic"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Obscured' means concealed or darkened. The heavy varnish covered up and hid the original delicate tempera paint."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. 'Momentous' means of immense consequence or importance. The risk of irreversible ecological disruption is of immense significance."
             },
             {
               "id": "t1-rw-m2-q5",
               "type": "mcq",
               "domain": "Craft and Structure",
-              "subdomain": "Cross-Text Connections",
+              "subdomain": "Text Structure and Purpose",
               "difficulty": "Hard",
-              "stimulus": "<strong>Text 1</strong><br>Anthropologist Samuel Vance contends that the decline of major urban centers in the Bronze Age Indus Valley was precipitated primarily by systemic trade route disruptions across the Persian Gulf, which impoverished craft guilds and undermined centralized municipal sanitation.<br><br><strong>Text 2</strong><br>Geoscientist Linda Chen analyzed oxygen isotope ratios in speleothems from regional caves and concluded that a multi-century weakening of the summer monsoon drastically reduced river discharges across the Indus basin, forcing agrarian populations to disperse east into smaller agricultural hamlets.",
-              "prompt": "Based on the texts, how would Chen (Text 2) most likely characterize Vance's explanation in Text 1?",
+              "stimulus": "In <i>The Structural Transformation of the Public Sphere</i> (1962), German philosopher J\u00fcrgen Habermas historicized the emergence of a bourgeois public sphere in eighteenth-century European coffeehouses and salons, where private individuals assembled to debate civic governance through rational-critical discourse uninhibited by feudal hierarchies. Habermas acknowledges that this early public sphere was idealistically egalitarian in theory yet exclusionary in practice, systematically barring women, the working class, and colonial subjects. Nevertheless, he argues that the foundational ideal of rational communicative action established an enduring normative benchmark by which modern democratic institutions can critically evaluate their own democratic deficits.",
+              "prompt": "Which choice best describes the function of the underlined portion ('Nevertheless, he argues that the foundational ideal...') in the passage as a whole?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "As attributing the urban collapse to socioeconomic factors while failing to account for regional hydroclimatic collapse."
+                  "text": "It asserts that despite its historical exclusionary shortcomings, the conceptual ideal of the public sphere provides a valuable normative standard for critiquing contemporary governance."
                 },
                 {
                   "letter": "B",
-                  "text": "As overstating the resilience of rural agricultural hamlets during sustained continental droughts."
+                  "text": "It proves that eighteenth-century bourgeois salons were genuinely more democratic than contemporary parliamentary democracies."
                 },
                 {
                   "letter": "C",
-                  "text": "As providing conclusive geological evidence that maritime trade routes flourished throughout the Bronze Age."
+                  "text": "It repudiates the critiques of modern feminist historians by asserting that class exclusions were necessary for rational discourse."
                 },
                 {
                   "letter": "D",
-                  "text": "As proving that municipal sanitation systems were unaffected by environmental fluctuations."
+                  "text": "It traces how modern digital communications platforms have perfectly restored the deliberative democracy of Enlightenment salons."
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. Vance focuses exclusively on mercantile trade disruption, whereas Chen's geological speleothem data demonstrates that massive monsoon failure and water depletion caused the societal collapse."
+              "explanation": "Choice A is correct. The passage concedes exclusionary practices but emphasizes that the underlying ideal remains an enduring normative standard to evaluate modern democracy."
             },
             {
               "id": "t1-rw-m2-q6",
               "type": "mcq",
               "domain": "Craft and Structure",
-              "subdomain": "Text Structure and Purpose",
-              "difficulty": "Medium",
-              "stimulus": "Emily Dickinson's poetic output is distinguished by unconventional capitalization, erratic dash punctuation, and idiosyncratic slant rhymes. While traditional 19th-century editors sanitized these features to conform to Victorian metrical regularities, contemporary literary scholars celebrate these syntactic disruptions as deliberate aesthetic choices designed to embody the fractured, hesitating nature of subjective human consciousness.",
-              "prompt": "Which choice best states the primary purpose of the text?",
+              "subdomain": "Cross-Text Connections",
+              "difficulty": "Hard",
+              "stimulus": "<strong>Text 1</strong><br>Psycholinguist Noam Chomsky's Universal Grammar framework posits that humans are born with an innate, genetically encoded language acquisition device (LAD). According to this view, the superficial syntactic diversity of the world's 7,000 languages conceals a deep, universal computational blueprint comprising discrete principles (such as recursion and hierarchical structure). Proponents point to the 'poverty of the stimulus'\u2014the fact that children rapidly master complex grammatical rules from messy and incomplete speech inputs without explicit instruction\u2014as definitive proof of innate grammatical knowledge.<br><br><strong>Text 2</strong><br>Cognitive linguist Michael Tomasello and usage-based theorists reject the necessity of an innate Universal Grammar. Instead, they demonstrate through longitudinal child development corpora that language acquisition is achieved through general-purpose human cognitive mechanisms: statistical pattern-recognition and intention-reading. Children do not access abstract pre-programmed universal trees; rather, they gradually build linguistic competence by generalizing from specific lexical tokens and communicative interactions encountered in daily social scaffolding.",
+              "prompt": "Based on the texts, how would the author of Text 2 most likely respond to the 'poverty of the stimulus' argument cited in Text 1?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "To contrast 19th-century editorial dismissals of Dickinson's style with modern appreciation of its expressive function."
+                  "text": "By demonstrating that children only master grammatical language after receiving formal classroom linguistic instruction in elementary school."
                 },
                 {
                   "letter": "B",
-                  "text": "To argue that Dickinson deliberately modeled her punctuation on English liturgical hymns."
+                  "text": "By contending that powerful general-purpose statistical pattern-recognition and social scaffolding provide children with sufficient information to master grammar without innate rules."
                 },
                 {
                   "letter": "C",
-                  "text": "To provide a chronological biography of Dickinson's publishing relationship with 19th-century editors."
+                  "text": "By asserting that the 7,000 languages of the world share identical surface syntaxes that make learning effortless."
                 },
                 {
                   "letter": "D",
-                  "text": "To criticize modern editors for failing to correct typographical errors in early print editions."
+                  "text": "By arguing that recursion is biologically impossible in human speech processing due to working memory constraints."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The text contrasts how 19th-century editors smoothed over Dickinson's syntax with how modern scholars view her syntactic disruptions as deliberate aesthetic representations of consciousness."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Text 2 counters that general-purpose cognitive mechanisms (statistical pattern-recognition and social intention-reading) explain language acquisition without requiring an innate Universal Grammar."
             },
             {
               "id": "t1-rw-m2-q7",
               "type": "mcq",
-              "domain": "Craft and Structure",
-              "subdomain": "Text Structure and Purpose",
+              "domain": "Information and Ideas",
+              "subdomain": "Central Ideas and Details",
               "difficulty": "Hard",
-              "stimulus": "Biochemist Dr. Kenji Sato cautions that while machine learning algorithms have revolutionized protein structure prediction, they cannot reliably predict allosteric conformational changes occurring upon ligand binding. <u>Because deep-learning models are trained on static crystallographic databases, they inherently underestimate the dynamic, entropy-driven thermodynamic landscapes that govern protein-substrate kinetics in living cytoplasm.</u>",
-              "prompt": "Which choice best describes the function of the underlined sentence?",
+              "stimulus": "Ecosystem resilience in tropical coral reefs depends critically on functional redundancy among herbivorous reef fish. Parrotfish (family Scaridae) and surgeonfish (family Acanthuridae) graze on fleshy macroalgae that compete with reef-building stony corals (<i>Scleractinia</i>) for substrate and sunlight. When overfishing removes large scarid parrotfish, surgeonfish can partially compensate by cropping turf algae; however, surgeonfish possess finer pharyngeal jaws incapable of bioeroding calcified carbonate or scraping deep crustose coralline algae. Consequently, without parrotfish, macroalgae swiftly smother juvenile coral polyps, triggering a catastrophic phase shift from coral-dominated reefs to degraded algal wastelands.",
+              "prompt": "Which choice most accurately characterizes the ecological limitation of surgeonfish described in the passage?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "It provides a mechanistic explanation for the methodological limitation highlighted in the preceding sentence."
+                  "text": "Surgeonfish actively consume juvenile stony coral polyps when macroalgae populations become depleted by parrotfish."
                 },
                 {
                   "letter": "B",
-                  "text": "It refutes the claim that protein folding can be modeled through machine learning algorithms."
+                  "text": "Surgeonfish are rapidly extirpated by predatory reef sharks when coral canopy complexity declines."
                 },
                 {
                   "letter": "C",
-                  "text": "It proposes an experimental protocol to replace crystallographic imaging with dynamic thermodynamic sensors."
+                  "text": "Although surgeonfish consume turf algae, their jaw morphology prevents them from scraping calcified substrate or clearing deep macroalgae as parrotfish do."
                 },
                 {
                   "letter": "D",
-                  "text": "It summarizes the historical development of machine learning in computational biochemistry."
+                  "text": "Surgeonfish grazing accelerates the catastrophic phase shift toward algal dominance by fertilizing macroalgal blooms."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The first sentence highlights a limitation (algorithms cannot predict allosteric changes), and the underlined sentence explains why (training on static crystals underrepresents dynamic thermodynamic states)."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The text states surgeonfish have finer jaws that cannot bioerode calcified carbonate or scrape deep algae, meaning they cannot fully substitute for parrotfish."
             },
             {
               "id": "t1-rw-m2-q8",
               "type": "mcq",
-              "domain": "Craft and Structure",
-              "subdomain": "Cross-Text Connections",
+              "domain": "Information and Ideas",
+              "subdomain": "Command of Evidence",
               "difficulty": "Hard",
-              "stimulus": "<strong>Text 1</strong><br>Ethicist Julian Rivera argues that algorithmic decision-making in medical diagnostics eliminates human diagnostic bias and should be made mandatory for preliminary radiology screening across all acute care hospitals.<br><br><strong>Text 2</strong><br>Physician Maya Lin cautions that diagnostic algorithms frequently replicate historical training disparities, misclassifying pathology in patient demographics that are underrepresented in baseline clinical imagery databases.",
-              "prompt": "Based on the texts, how does Lin's perspective in Text 2 differ from Rivera's perspective in Text 1?",
+              "stimulus": "Neuroscientist Dr. Leona Vance investigated the 'synaptic homeostasis hypothesis,' which proposes that the biological function of slow-wave sleep is to scale down the total synaptic strength accumulated across the brain during wakefulness, thereby preventing metabolic overload and restoring cognitive baseline capacity. Vance recorded miniature excitatory postsynaptic currents (mEPSCs) in pyramidal neurons of rodents across 12 hours of sustained wakefulness versus 8 hours of uninterrupted slow-wave sleep. If Vance's empirical data validate the synaptic homeostasis hypothesis, which finding would be observed?",
+              "prompt": "Which finding, if true, most strongly supports the hypothesis?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Lin identifies a source of systematic algorithmic error that contradicts Rivera's claim of bias-free diagnostic automation."
+                  "text": "Synaptic spine densities remained completely constant across both wake and sleep cycles while axonal firing rates doubled during slow-wave sleep."
                 },
                 {
                   "letter": "B",
-                  "text": "Lin advocates for the complete elimination of radiology departments in modern acute care facilities."
+                  "text": "Rodents deprived of sleep exhibited a precipitous decline in total cerebral glucose consumption and widespread synaptic atrophy."
                 },
                 {
                   "letter": "C",
-                  "text": "Lin demonstrates that human radiologists possess higher perceptual speed than any computer vision system."
+                  "text": "Slow-wave sleep triggered a selective amplification of high-frequency synaptic connections in the sensory cortex while scaling down the hippocampus."
                 },
                 {
                   "letter": "D",
-                  "text": "Lin argues that demographic disparities in medicine are caused solely by differences in insurance coverage."
+                  "text": "Average mEPSC amplitudes and synaptic spine densities were significantly elevated after sustained wakefulness and systematically renormalized downward following slow-wave sleep."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Rivera claims automated diagnostics eliminate human bias, but Lin shows algorithms encode and replicate training disparities, directly challenging Rivera's assertion."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. If the hypothesis is correct, wakefulness builds up synaptic strength (elevated mEPSCs/spine density) and slow-wave sleep scales it down (renormalization)."
             },
             {
               "id": "t1-rw-m2-q9",
               "type": "mcq",
               "domain": "Information and Ideas",
-              "subdomain": "Command of Evidence: Quantitative",
+              "subdomain": "Command of Evidence",
               "difficulty": "Hard",
-              "stimulus": "<table style='width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 13px; background: #fff;'><thead><tr style='background: #f8fafc;'><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Aerosol Type</th><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Mean Particle Size (nm)</th><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Optical Depth</th><th style='padding: 6px; text-align: left; border-bottom: 2px solid #cbd5e1;'>Radiative Forcing (W/m²)</th></tr></thead><tbody><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>Sulfate</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>180</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>0.28</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>-0.45</td></tr><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>Black Carbon</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>85</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>0.08</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>+0.35</td></tr><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>Sea Salt</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>420</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>0.19</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>-0.22</td></tr><tr><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>Mineral Dust</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>650</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>0.22</td><td style='padding: 5px; border-bottom: 1px solid #e2e8f0;'>-0.15</td></tr></tbody></table><br>Atmospheric scientists study the net climatic impact of airborne aerosols. Negative radiative forcing corresponds to a net cooling effect on global temperatures (reflecting solar radiation), whereas positive radiative forcing indicates net warming (absorbing infrared radiation).",
-              "prompt": "Which choice is best supported by the data in the table?",
+              "stimulus": "Agronomists evaluated four drought-tolerant maize cultivars (Lines Alpha, Beta, Gamma, and Delta) grown under induced moisture deficit (25% field capacity) to measure grain yield and water-use efficiency (WUE, kg grain per m\u00b3 water).<br><br><table style='width:100%; border-collapse: collapse; margin: 8px 0; font-size: 13px;'><tr style='background: #f1f5f9;'><th style='border: 1px solid #cbd5e1; padding: 6px;'>Maize Cultivar</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Yield under Irrigation (t/ha)</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Yield under Drought (t/ha)</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>WUE under Drought (kg/m\u00b3)</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Yield Reduction (%)</th></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Line Alpha</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>9.8</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>5.2</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>1.45</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>46.9%</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Line Beta</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>8.4</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>6.1</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>1.92</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>27.4%</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Line Gamma</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>10.2</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>4.8</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>1.28</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>52.9%</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Line Delta</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>7.9</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>5.8</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>1.81</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>26.6%</td></tr></table><br>The researchers concluded that Line Beta represents the superior candidate for commercial drought-prone deployment because it couples the highest absolute yield under drought with superior water-use efficiency.",
+              "prompt": "Which statement is best supported by the data in the table?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Sulfate aerosols produce the greatest net cooling effect of all four aerosol types evaluated."
+                  "text": "Line Gamma was the most resilient cultivar because it produced the highest yield under fully irrigated conditions."
                 },
                 {
                   "letter": "B",
-                  "text": "Black carbon produces a stronger cooling effect than sea salt particles."
+                  "text": "Line Delta suffered a greater percentage yield reduction than any other cultivar evaluated in the trial."
                 },
                 {
                   "letter": "C",
-                  "text": "Mineral dust has the highest optical depth among the four aerosol categories."
+                  "text": "Line Beta achieved the highest drought yield (6.1 t/ha) and the highest water-use efficiency (1.92 kg/m\u00b3) while experiencing a lower percentage yield reduction than Line Alpha or Line Gamma."
                 },
                 {
                   "letter": "D",
-                  "text": "All four aerosol types exhibit positive radiative forcing."
+                  "text": "Line Alpha consumed less water per kilogram of grain produced under drought stress than did Line Beta."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Sulfate aerosols have a radiative forcing of -0.45 W/m², which is the most negative value in the table, indicating the greatest net cooling effect."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The table shows Line Beta has highest drought yield (6.1), highest WUE (1.92), and only 27.4% reduction (much lower than Alpha's 46.9% and Gamma's 52.9%)."
             },
             {
               "id": "t1-rw-m2-q10",
               "type": "mcq",
               "domain": "Information and Ideas",
-              "subdomain": "Command of Evidence: Textual",
-              "difficulty": "Medium",
-              "stimulus": "In her analysis of ancient Mesopotamian agriculture, archaeologist Dr. Fatima Al-Hassan argues that the transition from emmer wheat cultivation to barley in southern Sumerian city-states between 2400 BCE and 1800 BCE was an adaptive response to progressive soil salinization caused by intensive irrigation.",
-              "prompt": "Which archaeological finding, if true, would most directly support Al-Hassan's argument?",
+              "subdomain": "Inferences",
+              "difficulty": "Hard",
+              "stimulus": "In economic history, the 'resource curse' or 'Dutch disease' describes an apparent paradox: nations endowed with abundant natural resource reserves (such as petroleum or minerals) frequently experience slower long-term economic growth, lower industrial diversification, and higher currency volatility than nations lacking natural wealth. When natural resource export revenues surge, the domestic currency appreciates sharply on international foreign exchange markets, making domestic manufacturing and agricultural exports uncompetitively expensive abroad. Over time, manufacturing capital and skilled labor migrate into the extractive resource sector, leaving the broader economy hollowed out. It can reasonably be inferred from the passage that a government seeking to mitigate Dutch disease during a resource boom should _____.",
+              "prompt": "Which choice most logically completes the text?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Laboratory grain testing showing that ancient barley varieties tolerated four times the soil salinity concentrations that caused emmer wheat crops to fail."
+                  "text": "divert resource revenues into sovereign wealth funds invested in foreign assets to suppress artificial currency appreciation and preserve industrial export competitiveness"
                 },
                 {
                   "letter": "B",
-                  "text": "Tablets indicating that the price of emmer wheat remained permanently higher than barley throughout Mesopotamia."
+                  "text": "subsidize domestic mining conglomerates to maximize extraction volumes before global commodity prices crash"
                 },
                 {
                   "letter": "C",
-                  "text": "Excavations showing that ceramic irrigation canals in Sumer were constructed from unbaked sun-dried clay."
+                  "text": "impose severe import tariffs on foreign manufactured goods to forcibly eliminate domestic reliance on international trade"
                 },
                 {
                   "letter": "D",
-                  "text": "Pollen records demonstrating that date palm orchards expanded alongside emmer wheat fields during the same period."
+                  "text": "mandate that manufacturing firms relocate their headquarters to extractive resource extraction zones"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. Showing that barley tolerated four times higher soil salinity than emmer directly corroborates the claim that switching to barley was a response to salinization."
+              "explanation": "Choice A is correct. To prevent currency appreciation that harms domestic manufacturing, governments invest resource revenues abroad in sovereign wealth funds, keeping exchange rates stable."
             },
             {
               "id": "t1-rw-m2-q11",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Inferences",
+              "domain": "Standard English Conventions",
+              "subdomain": "Boundaries",
               "difficulty": "Hard",
-              "stimulus": "Marine biologists studying bioluminescent dinoflagellates noted that these single-celled algae flash brilliant blue light upon mechanical deformation of their cell membranes, such as when water is disturbed by swimming predators. Researchers hypothesized that this luminescence serves as a 'burglar alarm,' exposing the swimming copepod predators to larger tertiary hunters such as fish. When researchers placed copepods and dinoflagellates in a dark tank containing juvenile fish, fish predation on copepods increased fivefold in turbulent water compared to still water. However, when dinoflagellates engineered to lack luciferase (the light-emitting enzyme) were used under identical turbulent conditions, fish predation rates did not increase above still-water baselines. This result strongly implies that _____.",
-              "prompt": "Which choice most logically completes the text?",
+              "stimulus": "By deploying radio telemetry to track leatherback sea turtles across the Pacific, marine ecologist Dr. Helen Thorne discovered that post-nesting females undertake thousands of kilometers of trans-oceanic _____ ocean currents alone cannot account for their precise navigation toward temperate foraging grounds.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "the elevated predation on copepods was triggered by the visual bioluminescent flash rather than physical water turbulence alone"
+                  "text": "migration, passive"
                 },
                 {
                   "letter": "B",
-                  "text": "dinoflagellates rely exclusively on chemical toxins rather than optical emissions to deter microscopic grazers"
+                  "text": "migration passive"
                 },
                 {
                   "letter": "C",
-                  "text": "copepods navigate dark aquatic environments by actively tracking the blue light pulses emitted by dinoflagellates"
+                  "text": "migration, and passive"
                 },
                 {
                   "letter": "D",
-                  "text": "juvenile fish locate copepod prey by detecting mechanical pressure waves rather than visual light cues"
+                  "text": "migration; passive"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. When luminescence was eliminated (luciferase-lacking mutants), the predation increase disappeared despite turbulence remaining constant, proving the light flash was the causal factor."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Two complete independent clauses: 'marine ecologist Dr. Helen Thorne discovered that post-nesting females undertake thousands of kilometers of trans-oceanic migration' and 'passive ocean currents alone cannot account...' Semicolon correctly links them."
             },
             {
               "id": "t1-rw-m2-q12",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Central Ideas and Details",
-              "difficulty": "Medium",
-              "stimulus": "For centuries, historians attributed the rapid collapse of the Norse settlements in southern Greenland during the 15th century solely to abrupt climatic cooling associated with the Little Ice Age. Recent bioarchaeological analyses of carbon and nitrogen isotopes in skeletal remains, however, complicate this mono-causal narrative. The isotopic signatures demonstrate that the Norse diet shifted dramatically over two centuries from 80 percent terrestrial livestock to more than 70 percent marine resources (specifically seals), proving that the colonists exhibited substantial adaptive resilience. The eventual abandonment was likely catalyzed by compound factors, including declining European ivory markets for walrus tusks, pirate raids, and soil erosion.",
-              "prompt": "Which choice best summarizes the central idea of the text?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Form, Structure, and Sense",
+              "difficulty": "Hard",
+              "stimulus": "Having decoded the intricate cuneiform administrative tablets excavated at ancient _____ the economic historian demonstrated that Mesopotamian temple complexes functioned as sophisticated centralized banking systems with formal credit accounting.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Isotopic evidence reveals that the Greenland Norse adapted their diet to changing conditions, suggesting their abandonment resulted from multifaceted economic and environmental pressures rather than climate cooling alone."
+                  "text": "Uruk;"
                 },
                 {
                   "letter": "B",
-                  "text": "The Little Ice Age forced Greenland Norse settlers to abandon seal hunting and return to cattle husbandry prior to their extinction."
+                  "text": "Uruk,"
                 },
                 {
                   "letter": "C",
-                  "text": "European demand for walrus ivory was the sole factor preventing the Norse from developing sustainable maritime fishing techniques."
+                  "text": "Uruk, and"
                 },
                 {
                   "letter": "D",
-                  "text": "Skeletal analysis proves that nutritional deficiencies resulting from a seal-based diet caused the demise of the Norse colony."
+                  "text": "Uruk where"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The text shows dietary adaptation (shifting to marine seals) proved resilience, indicating collapse was due to complex combined factors rather than just climate cooling."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. The introductory participial phrase ('Having decoded the intricate cuneiform administrative tablets excavated at ancient Uruk,') must be followed by a comma, and the subject is 'the economic historian'."
             },
             {
               "id": "t1-rw-m2-q13",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Inferences",
+              "domain": "Standard English Conventions",
+              "subdomain": "Form, Structure, and Sense",
               "difficulty": "Hard",
-              "stimulus": "In behavioral economics, the 'endowment effect' describes the tendency of individuals to value an object more highly once they establish psychological ownership of it. In a classic experiment, participants randomly given a ceramic coffee mug demanded twice as much money to sell it as unendowed participants were willing to pay to purchase it. Neuroimaging reveals that contemplating the sale of an owned item activates the insula, an area of the brain associated with pain and disgust, whereas merely deciding whether to buy an item does not. This neurological pattern suggests that the endowment effect _____.",
-              "prompt": "Which choice most logically completes the text?",
+              "stimulus": "The discovery of fossilized melanosomes in exceptionally preserved feathered dinosaur specimens from Liaoning _____ that structural coloration and iridescent plumage evolved tens of millions of years prior to the radiation of crown birds.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "is driven fundamentally by an aversion to perceived loss rather than by an objective appreciation of an item's intrinsic utility"
+                  "text": "demonstrate"
                 },
                 {
                   "letter": "B",
-                  "text": "disappears completely whenever monetary transactions are conducted through anonymous electronic exchanges"
+                  "text": "demonstrating"
                 },
                 {
                   "letter": "C",
-                  "text": "occurs only among individuals who exhibit hyperactive cognitive processing in the prefrontal cortex"
+                  "text": "have demonstrated"
                 },
                 {
                   "letter": "D",
-                  "text": "causes consumers to systematically overvalue commodities that have low manufacturing costs"
+                  "text": "demonstrates"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Activation of the insular cortex (linked to pain and loss) during sales demonstrates that the endowment effect is rooted in loss aversion rather than objective utility."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. The subject of the sentence is the singular noun 'The discovery' (not 'melanosomes' or 'specimens', which are objects of prepositions), requiring the singular verb 'demonstrates'."
             },
             {
               "id": "t1-rw-m2-q14",
               "type": "mcq",
-              "domain": "Information and Ideas",
-              "subdomain": "Central Ideas and Details",
-              "difficulty": "Medium",
-              "stimulus": "The mycorrhizal networks connecting temperate forest trees are often described colloquially as a harmonious 'wood-wide web.' However, forest ecologists point out that these fungal conduits are fundamentally transactional arenas driven by reciprocal exploitation. Trees that fail to supply surplus photosynthates to the fungi are selectively choked off from phosphorus and nitrogen supplies, and larger mature trees frequently utilize the network to export allelopathic biochemical inhibitors that suppress the germination of competing understory seedlings.",
-              "prompt": "According to the text, how do mature trees sometimes utilize mycorrhizal networks against competitors?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Boundaries",
+              "difficulty": "Hard",
+              "stimulus": "The fundamental pillars of the Standard Model of particle physics\u2014quarks, leptons, and gauge _____ have withstood five decades of intense experimental bombardment at CERN without revealing a single unpredicted flaw.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "By transmitting chemical inhibitors through the fungal network to suppress the growth of neighboring seedlings."
+                  "text": "bosons,"
                 },
                 {
                   "letter": "B",
-                  "text": "By absorbing all moisture from the canopy to cause localized drought conditions around saplings."
+                  "text": "bosons\u2014"
                 },
                 {
                   "letter": "C",
-                  "text": "By producing enzymes that break down fungal hyphae in the root systems of nearby competitors."
+                  "text": "bosons;"
                 },
                 {
                   "letter": "D",
-                  "text": "By recruiting parasitic insect species to feed exclusively on the foliage of adjacent trees."
+                  "text": "bosons"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The text explicitly states that mature trees 'frequently utilize the network to export allelopathic biochemical inhibitors that suppress the germination of competing understory seedlings'."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. An em-dash is opened before 'quarks' ('particle physics\u2014quarks, leptons, and gauge bosons\u2014'), so an em-dash must close the parenthetical appositive."
             },
             {
               "id": "t1-rw-m2-q15",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Boundaries",
+              "domain": "Expression of Ideas",
+              "subdomain": "Transitions",
               "difficulty": "Hard",
-              "stimulus": "The committee considered three distinct proposals: Dr. Aris's plan to expand public transit _____ Dr. Gomez's initiative to subsidize municipal rooftop solar arrays; and Director Vance's proposal to revitalize waterfront wetlands.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "stimulus": "Classical macroeconomists argued that government interventions during market downturns inevitably cause distortionary inflation and impede private capital reallocation. _____, Keynesian theorists maintained that during severe liquidity traps, private aggregate demand collapses so profoundly that only counter-cyclical deficit spending can restore employment equilibria.",
+              "prompt": "Which choice completes the text with the most logical transition?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "corridors;"
+                  "text": "By contrast,"
                 },
                 {
                   "letter": "B",
-                  "text": "corridors,"
+                  "text": "Accordingly,"
                 },
                 {
                   "letter": "C",
-                  "text": "corridors"
+                  "text": "In fact,"
                 },
                 {
                   "letter": "D",
-                  "text": "corridors—"
+                  "text": "Similarly,"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. In a complex list where individual list items contain internal commas (or parallel semicolon separation is already established, as in '; and Director Vance...'), semicolons must separate the items."
+              "explanation": "Choice A is correct. The passage contrasts the classical viewpoint (hands-off government) with the Keynesian viewpoint (counter-cyclical intervention), making 'By contrast' the precise transition."
             },
             {
               "id": "t1-rw-m2-q16",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Punctuation",
+              "domain": "Expression of Ideas",
+              "subdomain": "Transitions",
               "difficulty": "Hard",
-              "stimulus": "The lead researcher explained that the expedition's primary objective—locating the subterranean fossil chambers of the submerged karst _____ had been accomplished despite severe flooding.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "stimulus": "Urban developers initially assumed that constructing elevated highway bypasses would relieve chronic traffic gridlock in the city center. _____, traffic congestion worsened significantly over the subsequent five years as reduced travel times stimulated latent commuter demand, a phenomenon urban planners term 'induced travel demand.'",
+              "prompt": "Which choice completes the text with the most logical transition?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "caves—"
+                  "text": "Likewise,"
                 },
                 {
                   "letter": "B",
-                  "text": "caves,"
+                  "text": "For example,"
                 },
                 {
                   "letter": "C",
-                  "text": "caves;"
+                  "text": "Instead,"
                 },
                 {
                   "letter": "D",
-                  "text": "caves"
+                  "text": "Hence,"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. A pair of em-dashes is required to set off the parenthetical appositive phrase ('—locating the subterranean fossil chambers of the submerged karst caves—')."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The sentence demonstrates that the opposite of the developers' assumption occurred; rather than gridlock being relieved, congestion worsened. 'Instead' conveys this counter-result."
             },
             {
               "id": "t1-rw-m2-q17",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Subject-Verb Agreement",
-              "difficulty": "Medium",
-              "stimulus": "Neither the lead conservationist nor the field technicians _____ able to account for the sudden resurgence of the endangered ivory-billed woodpecker in the remote river basin.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Expression of Ideas",
+              "subdomain": "Rhetorical Synthesis",
+              "difficulty": "Hard",
+              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>Bioluminescence in marine organisms is generated by the oxidation of a luciferin substrate catalyzed by a luciferase enzyme.</li><li style='margin-bottom: 4px;'>Dinoflagellates emit flashes of blue-green light (~470 nm) in response to mechanical shear stress caused by waves or predators.</li><li style='margin-bottom: 4px;'>This flash acts as a 'burglar alarm,' illuminating grazing copepods and attracting secondary predators to consume the grazers.</li><li style='margin-bottom: 4px;'>Blue-green light travels further through oceanic water columns than any other visible wavelength.</li><li style='margin-bottom: 4px;'>Over 75% of deep-sea pelagic organisms possess bioluminescent capabilities.</li></ul>",
+              "prompt": "The student wants to explain the ecological defense mechanism of dinoflagellate bioluminescence. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "was"
+                  "text": "When disturbed by mechanical shear stress from grazers, dinoflagellates emit blue-green bioluminescent flashes that act as a 'burglar alarm,' illuminating predators to attract secondary carnivores."
                 },
                 {
                   "letter": "B",
-                  "text": "were"
+                  "text": "Bioluminescence is a chemical reaction occurring in over 75% of deep-sea organisms when luciferin is oxidized by luciferase."
                 },
                 {
                   "letter": "C",
-                  "text": "is"
+                  "text": "Because blue-green light at 470 nanometers penetrates further through water columns than red light, many marine creatures emit flashes."
                 },
                 {
                   "letter": "D",
-                  "text": "has been"
+                  "text": "Dinoflagellates are microscopic marine plankton that produce blue-green light whenever ocean currents create mechanical shear stress."
                 }
               ],
-              "correctAnswer": "B",
-              "explanation": "Choice B is correct. In a 'neither... nor' construction, the verb agrees with the closer subject: 'field technicians' (plural), which takes 'were'."
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. The correct choice directly explains the ecological defense mechanism: emitting flashes as a 'burglar alarm' that exposes predators to secondary carnivores."
             },
             {
               "id": "t1-rw-m2-q18",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Modifiers",
+              "domain": "Craft and Structure",
+              "subdomain": "Words in Context",
               "difficulty": "Hard",
-              "stimulus": "Synthesized in the laboratory using high-pressure chemical vapor deposition, _____.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "stimulus": "While the political orator's speeches were filled with passionate appeals and florid metaphors, policy analysts dismissed his platform as completely _____, pointing out that none of his proposed statutory reforms contained actionable fiscal appropriations.",
+              "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "the synthetic diamonds possessed an optical clarity exceeding that of naturally occurring stones."
+                  "text": "trenchant"
                 },
                 {
                   "letter": "B",
-                  "text": "materials scientists praised the synthetic diamonds for having an optical clarity that exceeded natural stones."
+                  "text": "unprecedented"
                 },
                 {
                   "letter": "C",
-                  "text": "the optical clarity of the synthetic diamonds exceeded that of naturally occurring stones."
+                  "text": "imperious"
                 },
                 {
                   "letter": "D",
-                  "text": "it was found that the synthetic diamonds possessed higher optical clarity than natural stones."
+                  "text": "vacuous"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The introductory participial modifier 'Synthesized in the laboratory...' must logically describe 'the synthetic diamonds'."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. 'Vacuous' means devoid of substance, empty, or meaningless. The analysts dismissed the platform because it lacked actionable substance or fiscal appropriations."
             },
             {
               "id": "t1-rw-m2-q19",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Boundaries",
-              "difficulty": "Medium",
-              "stimulus": "Astronomers originally classified Pluto as the solar system's ninth planet; _____ the discovery of Eris and other massive trans-Neptunian objects in the Kuiper Belt prompted the International Astronomical Union to reclassify it as a dwarf planet in 2006.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Craft and Structure",
+              "subdomain": "Text Structure and Purpose",
+              "difficulty": "Hard",
+              "stimulus": "In historical climatology, the 'Little Ice Age' (spanning approximately 1300 to 1850 CE) was characterized by widespread cooling across the Northern Hemisphere. Historically, scholars attributed this multi-century cooling episode to reduced solar irradiance (such as the Maunder Minimum) and frequent explosive volcanic eruptions injecting sulfate aerosols into the stratosphere. However, recent high-resolution ice-core analyses by Dr. Matthew Toohey suggest an intriguing compounding anthropogenic factor: the massive reforestation of indigenous agricultural lands across the Americas following European epidemic contact sequestered billions of tons of atmospheric carbon dioxide, thereby reinforcing global radiative cooling.",
+              "prompt": "Which choice best describes the relationship between the two sentences?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "however,"
+                  "text": "The first sentence defines an unresolved meteorological dispute, and the second sentence provides experimental data that definitively invalidates solar theories."
                 },
                 {
                   "letter": "B",
-                  "text": "moreover,"
+                  "text": "The first sentence presents the prevailing conventional explanation for a historical climatic phenomenon, and the second sentence introduces a complementary anthropogenic mechanism supported by recent ice-core evidence."
                 },
                 {
                   "letter": "C",
-                  "text": "similarly,"
+                  "text": "The first sentence describes a severe ecological catastrophe, and the second sentence details the technological interventions medieval societies used to reverse it."
                 },
                 {
                   "letter": "D",
-                  "text": "furthermore,"
+                  "text": "The first sentence chronicles agricultural practices in pre-Columbian America, and the second sentence explains their relationship to volcanic sulfate eruptions."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'However,' signals the contrast between the historical classification of Pluto as a planet and its subsequent demotion to dwarf planet."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Sentence 1 outlines the conventional causes (volcanoes, solar minimum); sentence 2 introduces the complementary reforestation CO2 sequestration mechanism."
             },
             {
               "id": "t1-rw-m2-q20",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Pronouns",
-              "difficulty": "Easy",
-              "stimulus": "Each of the participating laboratories submitted _____ experimental protocols to the bioethics oversight panel prior to initiating clinical trials.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Information and Ideas",
+              "subdomain": "Central Ideas and Details",
+              "difficulty": "Hard",
+              "stimulus": "The blood-brain barrier (BBB) is a highly selective semipermeable border of brain capillary endothelial cells connected by complex tight junctions (claudins, occludins, and junctional adhesion molecules). While the BBB effectively shields neural parenchyma from circulating systemic pathogens, neurotoxins, and inflammatory cytokines, its exceptional selectivity presents a formidable obstacle for pharmacotherapy, blocking more than 98% of small-molecule neurotherapeutics and virtually all macromolecular biopharmaceuticals (including monoclonal antibodies and viral gene vectors) from accessing the central nervous system.",
+              "prompt": "Which choice best summarizes the clinical dilemma highlighted in the passage?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "its"
+                  "text": "Tight junctions in brain capillary endothelial cells degrade rapidly when exposed to therapeutic monoclonal antibodies."
                 },
                 {
                   "letter": "B",
-                  "text": "their"
+                  "text": "Neurodegenerative pathogens exploit claudin proteins to breach the blood-brain barrier and infect the central nervous system."
                 },
                 {
                   "letter": "C",
-                  "text": "they're"
+                  "text": "The anatomical mechanism that shields the brain from systemic toxins simultaneously prevents the overwhelming majority of therapeutic drugs from reaching diseased neural tissue."
                 },
                 {
                   "letter": "D",
-                  "text": "it's"
+                  "text": "Small-molecule pharmaceuticals are more toxic to cerebral microvessels than macromolecular viral gene vectors."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'Each' is grammatically singular and requires the singular possessive pronoun 'its'."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The clinical dilemma is that the protective selectivity of the BBB also keeps out over 98% of therapeutic molecules."
             },
             {
               "id": "t1-rw-m2-q21",
               "type": "mcq",
-              "domain": "Standard English Conventions",
-              "subdomain": "Parallel Structure",
-              "difficulty": "Medium",
-              "stimulus": "The new urban planning ordinance aims to reduce vehicular emissions, promote public transit ridership, and _____ pedestrian accessibility across commercial corridors.",
-              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
+              "domain": "Information and Ideas",
+              "subdomain": "Command of Evidence",
+              "difficulty": "Hard",
+              "stimulus": "Evolutionary biologists debated whether the elaborate plumage of male birds-of-paradise evolved through the 'good genes' hypothesis (plumage ornaments honestly signal genetic resistance to debilitating parasites) or the 'runaway sexual selection' hypothesis (plumage evolves through arbitrary female aesthetic preferences uncoupled from survival fitness). Dr. Clara Ruiz evaluated 200 male <i>Paradisaea raggiana</i> individuals, scoring tail ornament length, blood parasite load (<i>Haemoproteus</i> titers), and annual offspring survival rates. Which finding, if true, would most strongly support the 'good genes' hypothesis over the 'runaway sexual selection' hypothesis?",
+              "prompt": "Which finding, if true, most strongly supports the hypothesis?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "expand"
+                  "text": "Females exhibited strong mating preferences for males with longer plumes regardless of whether those males were infected with blood parasites."
                 },
                 {
                   "letter": "B",
-                  "text": "expanding"
+                  "text": "Male tail ornament length correlated with higher mortality from predatory raptors during seasonal courtship displays."
                 },
                 {
                   "letter": "C",
-                  "text": "to expanding"
+                  "text": "Males with the longest and most symmetrical ornamental plumes exhibited significantly lower blood parasite titers, and their offspring survived to reproductive maturity at a rate 40% higher than the offspring of less ornamented males."
                 },
                 {
                   "letter": "D",
-                  "text": "expands"
+                  "text": "Offspring of highly ornamented males inherited identical plume dimensions but demonstrated no measurable difference in immune resistance compared to the general population."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The parallel verb series consists of base verbs: 'reduce...', 'promote...', and 'expand...'."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Good genes requires honest signaling: more ornamented males have fewer parasites and sire offspring with higher survival fitness."
             },
             {
               "id": "t1-rw-m2-q22",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Transitions",
+              "domain": "Information and Ideas",
+              "subdomain": "Inferences",
               "difficulty": "Hard",
-              "stimulus": "Geologists long believed that the Appalachian Mountains were formed in a single catastrophic tectonic collision. _____, modern paleogeographic mapping indicates that the range resulted from three distinct orogenic events occurring over a span of two hundred million years.",
-              "prompt": "Which choice completes the text with the most logical transition?",
+              "stimulus": "In cognitive neuroscience, the 'predictive processing' framework asserts that the human brain does not passively process incoming sensory streams. Instead, it functions as a Bayesian inference machine that continuously generates top-down predictions about the causes of sensory inputs, updating its internal generative model only when a 'prediction error'\u2014a mismatch between expectation and incoming sensory data\u2014is registered. When sensory input matches predictions perfectly, sensory signals are effectively silenced or attenuated at lower cortical levels. It follows from this framework that sensory signals ascending from peripheral receptors to higher cortical processing centers primarily represent _____.",
+              "prompt": "Which choice most logically completes the text?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "To the contrary,"
+                  "text": "complete, unfiltered reproductions of the physical environment captured by sensory organs"
                 },
                 {
                   "letter": "B",
-                  "text": "In addition,"
+                  "text": "the discrepancies between prior top-down internal hypotheses and actual bottom-up sensory feedback"
                 },
                 {
                   "letter": "C",
-                  "text": "For example,"
+                  "text": "random neural noise that higher associative brain regions must actively suppress through motor inhibition"
                 },
                 {
                   "letter": "D",
-                  "text": "Consequently,"
+                  "text": "evolutionarily static cognitive templates that remain impervious to experiential modification"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'To the contrary,' introduces the modern finding that directly refutes the single-collision belief."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Under predictive processing, signals that ascend are 'prediction errors'\u2014the discrepancies between top-down hypotheses and bottom-up sensory data."
             },
             {
               "id": "t1-rw-m2-q23",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Transitions",
-              "difficulty": "Medium",
-              "stimulus": "Traditional lithium-ion batteries utilize flammable liquid organic electrolytes that pose thermal runaway risks if punctured. _____, solid-state battery designs replace volatile liquids with ceramic or polymer electrolytes, substantially reducing combustion risks.",
-              "prompt": "Which choice completes the text with the most logical transition?",
+              "domain": "Standard English Conventions",
+              "subdomain": "Boundaries",
+              "difficulty": "Hard",
+              "stimulus": "In 1938, physicists Lise Meitner and Otto Frisch calculated that the nuclear fission of uranium releases approximately 200 million electron volts of kinetic energy per _____ immense quantity that Frisch famously described as verifying Einstein's mass-energy equivalence equation.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "In response,"
+                  "text": "atom an"
                 },
                 {
                   "letter": "B",
-                  "text": "Likewise,"
+                  "text": "atom; an"
                 },
                 {
                   "letter": "C",
-                  "text": "Specifically,"
+                  "text": "atom: being an"
                 },
                 {
                   "letter": "D",
-                  "text": "Nevertheless,"
+                  "text": "atom, an"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. 'In response,' signals that solid-state batteries were developed directly to address and solve the liquid electrolyte safety hazard."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. 'an immense quantity that Frisch famously described...' is an appositive phrase modifying the 200 million electron volts. A comma ('atom, an') is the correct punctuation."
             },
             {
               "id": "t1-rw-m2-q24",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Transitions",
+              "domain": "Standard English Conventions",
+              "subdomain": "Form, Structure, and Sense",
               "difficulty": "Hard",
-              "stimulus": "The author's prose is deceptively simple, employing commonplace diction and short declarative sentences. _____, this stylistic restraint generates an atmosphere of intense psychological claustrophobia.",
-              "prompt": "Which choice completes the text with the most logical transition?",
+              "stimulus": "Neither the sudden increase in global agricultural fertilizer consumption nor the expansion of municipal wastewater treatment _____ sufficient to explain the localized surge of toxic cyanobacteria blooms in Lake Erie.",
+              "prompt": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Far from rendering the text flat,"
+                  "text": "facilities was"
                 },
                 {
                   "letter": "B",
-                  "text": "In other words,"
+                  "text": "facilities were"
                 },
                 {
                   "letter": "C",
-                  "text": "For instance,"
+                  "text": "facilities, being"
                 },
                 {
                   "letter": "D",
-                  "text": "As a result,"
+                  "text": "facilities having been"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. It smoothly transitions from the description of simple syntax to the surprising, impactful emotional intensity that this restraint produces."
+              "explanation": "Choice A is correct. Wait: 'Neither the sudden increase... nor the expansion...' Both subjects are singular ('increase' and 'expansion'). 'facilities' is in the prepositional phrase 'of municipal wastewater treatment facilities'. The singular subject 'expansion' requires the singular verb 'was'."
             },
             {
               "id": "t1-rw-m2-q25",
               "type": "mcq",
               "domain": "Expression of Ideas",
-              "subdomain": "Rhetorical Synthesis",
-              "difficulty": "Medium",
-              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>Zaha Hadid (1950–2016) was an Iraqi-British architect celebrated for her revolutionary parametric designs.</li><li style='margin-bottom: 4px;'>Parametric architecture utilizes algorithmic computation to generate curvilinear, fluid structural geometries.</li><li style='margin-bottom: 4px;'>In 2004, Hadid became the first woman to win the prestigious Pritzker Architecture Prize.</li><li style='margin-bottom: 4px;'>One of her most celebrated works is the Heydar Aliyev Center in Baku, Azerbaijan, completed in 2012.</li><li style='margin-bottom: 4px;'>The building features an undulating, continuous roofline with no sharp angles or visible columns.</li></ul>",
-              "prompt": "The student wants to highlight the unique architectural style of the Heydar Aliyev Center. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
+              "subdomain": "Transitions",
+              "difficulty": "Hard",
+              "stimulus": "Quantum entanglement allows pairs of particles to exhibit correlated physical states across arbitrary distances. _____, this phenomenon cannot be harnessed for faster-than-light telecommunication, because measuring one entangled particle produces inherently random outcomes that convey zero decodable information without a classical transmission channel.",
+              "prompt": "Which choice completes the text with the most logical transition?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "Designed by Zaha Hadid, the Heydar Aliyev Center exemplifies parametric architecture with an undulating, continuous roofline devoid of sharp angles or visible columns."
+                  "text": "Furthermore,"
                 },
                 {
                   "letter": "B",
-                  "text": "In 2004, Zaha Hadid became the first woman to win the Pritzker Architecture Prize for her algorithmic building designs."
+                  "text": "Nevertheless,"
                 },
                 {
                   "letter": "C",
-                  "text": "Completed in 2012 in Baku, Azerbaijan, the Heydar Aliyev Center is one of the most famous buildings designed by an Iraqi-British architect."
+                  "text": "Similarly,"
                 },
                 {
                   "letter": "D",
-                  "text": "Parametric design allows contemporary architects to use computational algorithms to construct fluid, curvilinear geometries."
+                  "text": "For instance,"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. It specifically highlights the unique architectural features of the Heydar Aliyev Center (undulating, continuous roofline with no sharp angles or columns)."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. The passage contrasts the extraordinary feature of instantaneous entanglement across distance with the limitation that it cannot transmit information faster than light, requiring 'Nevertheless'."
             },
             {
               "id": "t1-rw-m2-q26",
               "type": "mcq",
               "domain": "Expression of Ideas",
               "subdomain": "Rhetorical Synthesis",
-              "difficulty": "Medium",
-              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>Ancient Roman concrete (opus caementicium) has survived for millennia in marine environments.</li><li style='margin-bottom: 4px;'>Modern Portland concrete typically degrades within decades when exposed to seawater.</li><li style='margin-bottom: 4px;'>Roman concrete incorporated volcanic ash from the Pozzuoli region near Naples.</li><li style='margin-bottom: 4px;'>When exposed to seawater, minerals in the volcanic ash react with lime to form aluminous tobermorite crystals.</li><li style='margin-bottom: 4px;'>These interlocking tobermorite crystals reinforce microcracks, giving the concrete self-healing properties.</li></ul>",
-              "prompt": "The student wants to explain the chemical mechanism responsible for the longevity of Roman marine concrete. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
+              "difficulty": "Hard",
+              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>The Voyager 1 spacecraft was launched by NASA in September 1977.</li><li style='margin-bottom: 4px;'>In August 2012, it crossed the heliopause at a distance of 121 AU (18 billion km) from the Sun.</li><li style='margin-bottom: 4px;'>The heliopause is the boundary where the solar wind is arrested by interstellar gas.</li><li style='margin-bottom: 4px;'>Crossing the heliopause made Voyager 1 the first human-made object to enter interstellar space.</li><li style='margin-bottom: 4px;'>It carries a gold-plated audio-visual phonograph record containing sounds and images of Earth.</li></ul>",
+              "prompt": "The student wants to emphasize the historic milestone Voyager 1 achieved in 2012. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "When exposed to seawater, volcanic ash in Roman concrete reacts with lime to crystallize into aluminous tobermorite, interlocking crystals that actively self-heal structural microcracks."
+                  "text": "Launched in September 1977, the Voyager 1 space probe was equipped with a gold-plated record carrying sounds and images representing human civilization."
                 },
                 {
                   "letter": "B",
-                  "text": "Unlike modern Portland concrete, which deteriorates in decades, Roman concrete incorporated volcanic ash sourced near Naples."
+                  "text": "The heliopause, located roughly 18 billion kilometers from the Sun, is the boundary where solar wind meets the interstellar medium."
                 },
                 {
                   "letter": "C",
-                  "text": "Roman concrete, known as opus caementicium, has endured for millennia in marine environments across the Mediterranean."
+                  "text": "In August 2012, NASA's Voyager 1 achieved a historic milestone by crossing the heliopause 121 AU from the Sun, becoming the first human-made object to venture into interstellar space."
                 },
                 {
                   "letter": "D",
-                  "text": "Tobermorite crystals are minerals that form through chemical reactions between lime and volcanic materials."
+                  "text": "Voyager 1 traveled for thirty-five years through the solar system before reaching a distance of 121 AU from Earth."
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. It provides the specific chemical mechanism: seawater reacting with volcanic ash and lime to form tobermorite crystals that self-heal cracks."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The choice explicitly emphasizes the historic milestone achieved in 2012 (crossing the heliopause and becoming the first human-made object in interstellar space)."
             },
             {
               "id": "t1-rw-m2-q27",
               "type": "mcq",
-              "domain": "Expression of Ideas",
-              "subdomain": "Rhetorical Synthesis",
-              "difficulty": "Medium",
-              "stimulus": "While researching a topic, a student has taken the following notes:<br><ul style='margin: 8px 0; padding-left: 20px; list-style-type: disc;'><li style='margin-bottom: 4px;'>CRISPR-Cas9 gene editing traditionally creates double-stranded DNA breaks.</li><li style='margin-bottom: 4px;'>Double-stranded breaks can occasionally trigger unintended insertions or deletions (indels).</li><li style='margin-bottom: 4px;'>Base editing, developed by David Liu in 2016, uses a modified Cas9 nickase fused to a deaminase enzyme.</li><li style='margin-bottom: 4px;'>Base editors chemically convert single nucleotide bases (e.g., C to T, or A to G) without cutting both DNA strands.</li><li style='margin-bottom: 4px;'>This approach dramatically reduces indels while correcting point mutations associated with genetic diseases.</li></ul>",
-              "prompt": "The student wants to emphasize an advantage of base editing over traditional CRISPR-Cas9. Which choice most effectively uses the relevant information from the notes to accomplish this goal?",
+              "domain": "Craft and Structure",
+              "subdomain": "Words in Context",
+              "difficulty": "Hard",
+              "stimulus": "The economic historian noted that while standard market models assume economic agents possess perfect information and act with relentless rationality, actual financial market behavior is routinely distorted by _____ surges of collective panic and euphoria.",
+              "prompt": "Which choice completes the text with the most logical and precise word or phrase?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "By chemically converting single nucleotide bases without cutting both DNA strands, base editing minimizes unwanted indels compared to traditional CRISPR-Cas9."
+                  "text": "capricious"
                 },
                 {
                   "letter": "B",
-                  "text": "Developed in 2016 by David Liu, base editing relies on a Cas9 nickase fused to a deaminase enzyme."
+                  "text": "circumspect"
                 },
                 {
                   "letter": "C",
-                  "text": "Traditional CRISPR-Cas9 introduces double-stranded DNA breaks that can introduce point mutations into host genomes."
+                  "text": "pedantic"
                 },
                 {
                   "letter": "D",
-                  "text": "Both CRISPR-Cas9 and base editors are revolutionary biotechnology tools used to target genetic diseases."
+                  "text": "inviolable"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. It explicitly highlights the advantage: avoiding double-stranded cuts and reducing unwanted indels."
+              "explanation": "Choice A is correct. 'Capricious' means impulsive, erratic, or unpredictable. Surges of collective panic and euphoria are capricious distortions."
             }
           ]
         }
@@ -1610,564 +1610,13 @@ export const test1 = {
               "type": "mcq",
               "domain": "Algebra",
               "subdomain": "Linear Equations",
-              "difficulty": "Easy",
-              "stimulus": "If $4x + 12 = 36$, what is the value of $x + 3$?",
-              "prompt": "Which choice is the correct value?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "9"
-                },
-                {
-                  "letter": "B",
-                  "text": "6"
-                },
-                {
-                  "letter": "C",
-                  "text": "12"
-                },
-                {
-                  "letter": "D",
-                  "text": "3"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Divide both sides of $4x + 12 = 36$ by 4: $\\frac{4(x + 3)}{4} = \\frac{36}{4} \\implies x + 3 = 9$."
-            },
-            {
-              "id": "t1-math-m1-q2",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Linear Functions",
-              "difficulty": "Easy",
-              "stimulus": "A catering company charges a flat equipment rental fee of $150 plus $28 per guest. Which function $C(g)$ models the total cost, in dollars, for $g$ guests?",
-              "prompt": "Which choice is the correct model?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$C(g) = 28g + 150$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$C(g) = 150g + 28$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$C(g) = 178g$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$C(g) = 28(g + 150)$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The flat fee is the y-intercept (150) and the per-guest rate is the slope (28), yielding $C(g) = 28g + 150$."
-            },
-            {
-              "id": "t1-math-m1-q3",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Systems of Two Linear Equations",
               "difficulty": "Medium",
-              "stimulus": "Consider the system of equations:<br>$$2x + 3y = 19$$<br>$$x - y = 2$$",
-              "prompt": "What is the value of $x$?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "5"
-                },
-                {
-                  "letter": "B",
-                  "text": "3"
-                },
-                {
-                  "letter": "C",
-                  "text": "7"
-                },
-                {
-                  "letter": "D",
-                  "text": "4"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. From the second equation, $y = x - 2$. Substitute into the first: $2x + 3(x - 2) = 19 \\implies 2x + 3x - 6 = 19 \\implies 5x = 25 \\implies x = 5$."
-            },
-            {
-              "id": "t1-math-m1-q4",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Linear Graphs & Slopes",
-              "difficulty": "Medium",
-              "stimulus": "Line $k$ in the xy-plane passes through the points $(2, 7)$ and $(6, -1)$. Line $p$ is perpendicular to line $k$. What is the slope of line $p$?",
-              "prompt": "Which choice is the slope of line $p$?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$\\frac{1}{2}$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$-\\frac{1}{2}$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$-2$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$2$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The slope of line $k$ is $m_k = \\frac{-1 - 7}{6 - 2} = \\frac{-8}{4} = -2$. Perpendicular lines have negative reciprocal slopes, so $m_p = -\\frac{1}{-2} = \\frac{1}{2}$."
-            },
-            {
-              "id": "t1-math-m1-q5",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Linear Inequalities",
-              "difficulty": "Medium",
-              "stimulus": "A landscaper has a budget of at most $600 to purchase mulch and sod. Mulch costs $25 per cubic yard and sod costs $40 per roll. If the landscaper purchases 8 rolls of sod, what is the maximum number of cubic yards of mulch they can purchase?",
-              "prompt": "Which choice is the maximum number?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "11"
-                },
-                {
-                  "letter": "B",
-                  "text": "12"
-                },
-                {
-                  "letter": "C",
-                  "text": "14"
-                },
-                {
-                  "letter": "D",
-                  "text": "10"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Let $m$ be cubic yards of mulch. $25m + 40(8) \\le 600 \\implies 25m + 320 \\le 600 \\implies 25m \\le 280 \\implies m \\le 11.2$. Since mulch is purchased in whole cubic yards, the maximum is 11."
-            },
-            {
-              "id": "t1-math-m1-q6",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Linear Equations in One Variable",
-              "difficulty": "Medium",
-              "stimulus": "If $3(2x - 5) + 4 = 5(x - 1) + 7$, what is the value of $x$?",
-              "prompt": "Which choice is the value of $x$?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "13"
-                },
-                {
-                  "letter": "B",
-                  "text": "11"
-                },
-                {
-                  "letter": "C",
-                  "text": "15"
-                },
-                {
-                  "letter": "D",
-                  "text": "9"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Expanding both sides gives $6x - 15 + 4 = 5x - 5 + 7$, which simplifies to $6x - 11 = 5x + 2$. Subtracting $5x$ and adding 11 yields $x = 13$."
-            },
-            {
-              "id": "t1-math-m1-q7",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Linear Systems",
-              "difficulty": "Medium",
-              "stimulus": "In the system of equations below, $c$ is a constant:<br>$$3x - 6y = 12$$<br>$$x - 2y = c$$<br>If the system has infinitely many solutions, what is the value of $c$?",
-              "prompt": "Which choice is the value of $c$?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "4"
-                },
-                {
-                  "letter": "B",
-                  "text": "12"
-                },
-                {
-                  "letter": "C",
-                  "text": "2"
-                },
-                {
-                  "letter": "D",
-                  "text": "6"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Dividing the first equation $3x - 6y = 12$ by 3 gives $x - 2y = 4$. For the system to have infinitely many solutions, the two equations must be identical, so $c = 4$."
-            },
-            {
-              "id": "t1-math-m1-q8",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Interpreting Linear Models",
-              "difficulty": "Medium",
-              "stimulus": "The height $h(t)$, in feet, of a weather balloon $t$ minutes after release is given by $h(t) = 450 + 85t$. What does the number 85 represent in this context?",
-              "prompt": "Which choice is the best interpretation?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "The balloon rises at an average rate of 85 feet per minute."
-                },
-                {
-                  "letter": "B",
-                  "text": "The initial altitude of the balloon was 85 feet above sea level."
-                },
-                {
-                  "letter": "C",
-                  "text": "The balloon will reach maximum altitude in 85 minutes."
-                },
-                {
-                  "letter": "D",
-                  "text": "The total altitude gained by the balloon is 85 feet."
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The coefficient of $t$ (85) represents the rate of change of height per unit of time, which is 85 feet per minute."
-            },
-            {
-              "id": "t1-math-m1-q9",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Quadratic Equations",
-              "difficulty": "Easy",
-              "stimulus": "What are the solutions to the equation $x^2 - 9x + 20 = 0$?",
-              "prompt": "Which choice gives the solutions?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$x = 4$ and $x = 5$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$x = -4$ and $x = -5$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$x = 2$ and $x = 10$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$x = -2$ and $x = -10$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Factoring the quadratic yields $(x - 4)(x - 5) = 0$, so $x = 4$ or $x = 5$."
-            },
-            {
-              "id": "t1-math-m1-q10",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Parabolas & Vertex Form",
-              "difficulty": "Medium",
-              "stimulus": "The function $f(x) = -2(x - 3)^2 + 18$ models the trajectory of a projectile. What is the maximum value of $f(x)$?",
-              "prompt": "Which choice is the maximum value?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "18"
-                },
-                {
-                  "letter": "B",
-                  "text": "3"
-                },
-                {
-                  "letter": "C",
-                  "text": "-2"
-                },
-                {
-                  "letter": "D",
-                  "text": "36"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The quadratic function is in vertex form $f(x) = a(x - h)^2 + k$ with $a = -2 < 0$. The vertex is at $(3, 18)$, so the maximum value is 18."
-            },
-            {
-              "id": "t1-math-m1-q11",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Exponential Growth",
-              "difficulty": "Medium",
-              "stimulus": "An antique violin purchased in 2010 for $12,000 has increased in value by $6\\%$ each year. Which function $V(t)$ gives the value of the violin $t$ years after 2010?",
-              "prompt": "Which choice is the correct function?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$V(t) = 12,000(1.06)^t$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$V(t) = 12,000(0.94)^t$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$V(t) = 12,000 + 1.06t$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$V(t) = 12,000(1.6)^t$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The exponential growth model is $V(t) = P(1 + r)^t$. Here $P = 12,000$ and $r = 0.06$, giving $V(t) = 12,000(1.06)^t$."
-            },
-            {
-              "id": "t1-math-m1-q12",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Radicals & Fractional Exponents",
-              "difficulty": "Medium",
-              "stimulus": "Which expression is equivalent to $\\sqrt[3]{x^5}$ for all positive values of $x$?",
-              "prompt": "Which choice is equivalent?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$x^{5/3}$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$x^{3/5}$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$x^{15}$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$x^2$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. By the definition of rational exponents, $\\sqrt[n]{x^m} = x^{m/n}$. Thus $\\sqrt[3]{x^5} = x^{5/3}$."
-            },
-            {
-              "id": "t1-math-m1-q13",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Rational Expressions",
-              "difficulty": "Medium",
-              "stimulus": "Which of the following is equivalent to $\\frac{x^2 - 16}{x + 4}$ for all $x \\neq -4$?",
-              "prompt": "Which choice is equivalent?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$x - 4$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$x + 4$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$x - 16$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$-4$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Factoring the numerator as a difference of squares: $x^2 - 16 = (x - 4)(x + 4)$. Dividing by $(x + 4)$ gives $x - 4$."
-            },
-            {
-              "id": "t1-math-m1-q14",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Polynomial Factors & Zeros",
-              "difficulty": "Hard",
-              "stimulus": "If $p(x) = x^3 - 4x^2 + kx - 12$ and $x - 3$ is a factor of $p(x)$, what is the value of $k$?",
+              "stimulus": "If $\\frac{3}{4}(8x - 12) + 5 = 2(3x - 1) + k$ has infinitely many solutions, what is the value of $k$?",
               "prompt": "Which choice is the value of $k$?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "7"
-                },
-                {
-                  "letter": "B",
-                  "text": "-7"
-                },
-                {
-                  "letter": "C",
-                  "text": "3"
-                },
-                {
-                  "letter": "D",
-                  "text": "5"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. By the Factor Theorem, if $x - 3$ is a factor, then $p(3) = 0$. So $3^3 - 4(3^2) + k(3) - 12 = 0 \\implies 27 - 36 + 3k - 12 = 0 \\implies -21 + 3k = 0 \\implies 3k = 21 \\implies k = 7$."
-            },
-            {
-              "id": "t1-math-m1-q15",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Nonlinear Systems",
-              "difficulty": "Hard",
-              "stimulus": "What is the positive y-coordinate of the intersection point of the system:<br>$$y = x^2 - 5$$<br>$$y = 2x + 3$$",
-              "prompt": "Which choice is the positive y-coordinate?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "11"
-                },
-                {
-                  "letter": "B",
-                  "text": "4"
-                },
-                {
-                  "letter": "C",
-                  "text": "7"
-                },
-                {
-                  "letter": "D",
-                  "text": "9"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Equate the two expressions: $x^2 - 5 = 2x + 3 \\implies x^2 - 2x - 8 = 0 \\implies (x - 4)(x + 2) = 0$. For $x = 4$, $y = 2(4) + 3 = 11$. For $x = -2$, $y = 2(-2) + 3 = -1$. The positive y-coordinate is 11."
-            },
-            {
-              "id": "t1-math-m1-q16",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Radical Equations",
-              "difficulty": "Hard",
-              "stimulus": "What is the solution to $\\sqrt{2x + 15} = x$?",
-              "prompt": "Which choice is the valid solution?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "5"
-                },
-                {
-                  "letter": "B",
-                  "text": "-3"
-                },
-                {
-                  "letter": "C",
-                  "text": "5 and -3"
-                },
-                {
-                  "letter": "D",
-                  "text": "15"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Square both sides: $2x + 15 = x^2 \\implies x^2 - 2x - 15 = 0 \\implies (x - 5)(x + 3) = 0$. Since $\\sqrt{2x + 15}$ must be non-negative, $x = -3$ is extraneous ($\\sqrt{9} \\neq -3$). Thus $x = 5$ is the only valid solution."
-            },
-            {
-              "id": "t1-math-m1-q17",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Percentages",
-              "difficulty": "Easy",
-              "stimulus": "A tablet was originally priced at $400. During a holiday sale, its price was reduced by $20\\%$. An additional member coupon provided an extra $10\\%$ discount off the sale price. What was the final purchase price?",
-              "prompt": "Which choice is the final price?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$288"
-                },
-                {
-                  "letter": "B",
-                  "text": "$280"
-                },
-                {
-                  "letter": "C",
-                  "text": "$300"
-                },
-                {
-                  "letter": "D",
-                  "text": "$312"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. After the 20% discount, the price is $400 \\times 0.80 = $320. The additional 10% discount off $320 gives $320 \\times 0.90 = $288."
-            },
-            {
-              "id": "t1-math-m1-q18",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Ratios and Proportions",
-              "difficulty": "Easy",
-              "stimulus": "A blueprint uses a scale where 0.5 inches represents 12 feet. If a conference room measures 2.5 inches on the blueprint, what is the actual length of the room in feet?",
-              "prompt": "Which choice is the actual length?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "60 feet"
-                },
-                {
-                  "letter": "B",
-                  "text": "48 feet"
-                },
-                {
-                  "letter": "C",
-                  "text": "72 feet"
-                },
-                {
-                  "letter": "D",
-                  "text": "50 feet"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Setting up the proportion: $\\frac{0.5\\text{ in}}{12\\text{ ft}} = \\frac{2.5\\text{ in}}{x\\text{ ft}}$. Cross-multiplying: $0.5x = 2.5 \\times 12 = 30 \\implies x = 60$ feet."
-            },
-            {
-              "id": "t1-math-m1-q19",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Two-Way Tables & Probability",
-              "difficulty": "Medium",
-              "stimulus": "<table style='width: 80%; border-collapse: collapse; margin: 10px auto; font-size: 13px;'><thead><tr style='background: #f1f5f9;'><th style='padding: 6px; border: 1px solid #cbd5e1;'>Grade</th><th style='padding: 6px; border: 1px solid #cbd5e1;'>Plays Sport</th><th style='padding: 6px; border: 1px solid #cbd5e1;'>Does Not Play</th><th style='padding: 6px; border: 1px solid #cbd5e1;'>Total</th></tr></thead><tbody><tr><td style='padding: 6px; border: 1px solid #cbd5e1;'>10th</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>45</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>55</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>100</td></tr><tr><td style='padding: 6px; border: 1px solid #cbd5e1;'>11th</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>60</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>40</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>100</td></tr><tr><td style='padding: 6px; border: 1px solid #cbd5e1;'>Total</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>105</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>95</td><td style='padding: 6px; border: 1px solid #cbd5e1; text-align: center;'>200</td></tr></tbody></table><br>The table shows the distribution of sports participation among 200 high school students.",
-              "prompt": "If a student who plays a sport is selected at random, what is the probability that the student is in the 11th grade?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$\\frac{60}{105}$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$\\frac{60}{200}$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$\\frac{60}{100}$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$\\frac{45}{105}$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The condition restricts the sample space to students who play a sport (total = 105). Among those 105 students, 60 are in the 11th grade. Thus the probability is $\\frac{60}{105}$ (or $\\frac{4}{7}$)."
-            },
-            {
-              "id": "t1-math-m1-q20",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Scatterplots & Lines of Best Fit",
-              "difficulty": "Medium",
-              "stimulus": "A line of best fit for a dataset of study hours ($x$) and exam scores ($y$) is given by $\\hat{y} = 6.5x + 48$. For a student who studied for 6 hours, their actual exam score was 91. What is the residual for this student?",
-              "prompt": "Which choice is the residual?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "4"
+                  "text": "2"
                 },
                 {
                   "letter": "B",
@@ -2175,139 +1624,691 @@ export const test1 = {
                 },
                 {
                   "letter": "C",
-                  "text": "3"
+                  "text": "-2"
                 },
                 {
                   "letter": "D",
-                  "text": "-3"
+                  "text": "4"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Expand the left side: $\\frac{3}{4}(8x) - \\frac{3}{4}(12) + 5 = 6x - 9 + 5 = 6x - 4$. Expand the right side: $2(3x) - 2(1) + k = 6x - 2 + k$. For infinitely many solutions, the constant terms must be equal: $-4 = -2 + k \\implies k = -2$."
+            },
+            {
+              "id": "t1-math-m1-q2",
+              "type": "mcq",
+              "domain": "Algebra",
+              "subdomain": "Systems of Equations",
+              "difficulty": "Medium",
+              "stimulus": "In the system of equations below, $c$ is a constant:<br>$$3x - 5y = 14$$<br>$$kx - 15y = 42$$<br>If the system has infinitely many solutions, what is the value of $k$?",
+              "prompt": "Which choice is the value of $k$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "9"
+                },
+                {
+                  "letter": "B",
+                  "text": "3"
+                },
+                {
+                  "letter": "C",
+                  "text": "-9"
+                },
+                {
+                  "letter": "D",
+                  "text": "15"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. The predicted score is $\\hat{y} = 6.5(6) + 48 = 39 + 48 = 87$. The residual is $\\text{Actual} - \\text{Predicted} = 91 - 87 = 4$."
+              "explanation": "Choice A is correct. Notice that multiplying the first equation $3x - 5y = 14$ by 3 yields $3(3x) - 3(5y) = 3(14) \\implies 9x - 15y = 42$. For the two equations to be identical (infinitely many solutions), we must have $k = 9$."
+            },
+            {
+              "id": "t1-math-m1-q3",
+              "type": "mcq",
+              "domain": "Algebra",
+              "subdomain": "Linear Inequalities",
+              "difficulty": "Hard",
+              "stimulus": "A small business owner manufactures two artisanal desk models: Classic and Executive. The Classic model requires 4 hours of assembly and 2 hours of finishing, yielding a profit of $120. The Executive model requires 5 hours of assembly and 4 hours of finishing, yielding a profit of $180. The workshop has at most 160 assembly hours and at most 100 finishing hours available each month. If the owner manufactures $c$ Classic desks and $e$ Executive desks, which system of inequalities represents all valid production constraints?",
+              "prompt": "Which choice is the correct system of constraints?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$5c + 4e \\le 160$$<br>$$4c + 2e \\le 100$$<br>$$c \\ge 0, e \\ge 0$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$4c + 2e \\le 160$$<br>$$5c + 4e \\le 100$$<br>$$c \\ge 0, e \\ge 0$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$120c + 180e \\le 160$$<br>$$c + e \\le 100$$<br>$$c \\ge 0, e \\ge 0$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$4c + 5e \\le 160$$<br>$$2c + 4e \\le 100$$<br>$$c \\ge 0, e \\ge 0$$"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Assembly hours required: $4c + 5e \\le 160$. Finishing hours required: $2c + 4e \\le 100$. Also, non-negative quantities $c \\ge 0$ and $e \\ge 0$."
+            },
+            {
+              "id": "t1-math-m1-q4",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Quadratic Equations",
+              "difficulty": "Hard",
+              "stimulus": "For what positive value of $k$ does the quadratic equation $3x^2 - kx + 12 = 0$ have exactly one real solution?",
+              "prompt": "Which choice is the value of $k$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "6"
+                },
+                {
+                  "letter": "B",
+                  "text": "12"
+                },
+                {
+                  "letter": "C",
+                  "text": "18"
+                },
+                {
+                  "letter": "D",
+                  "text": "144"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. A quadratic equation $ax^2 + bx + c = 0$ has exactly one real solution when its discriminant $\\Delta = b^2 - 4ac = 0$. Here, $(-k)^2 - 4(3)(12) = 0 \\implies k^2 - 144 = 0 \\implies k^2 = 144$. Since $k > 0$, $k = 12$."
+            },
+            {
+              "id": "t1-math-m1-q5",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Nonlinear Functions",
+              "difficulty": "Hard",
+              "stimulus": "The parabola $y = -2x^2 + 12x - 13$ is rewritten in vertex form as $y = a(x - h)^2 + k$. What is the value of $a + h + k$?",
+              "prompt": "Which choice is the value?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "6"
+                },
+                {
+                  "letter": "B",
+                  "text": "8"
+                },
+                {
+                  "letter": "C",
+                  "text": "10"
+                },
+                {
+                  "letter": "D",
+                  "text": "4"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. Factor $-2$ from the $x$ terms: $y = -2(x^2 - 6x) - 13$. Complete the square inside: $(x - 3)^2 = x^2 - 6x + 9$. So $y = -2(x - 3)^2 + 2(9) - 13 = -2(x - 3)^2 + 18 - 13 = -2(x - 3)^2 + 5$. Thus, $a = -2$, $h = 3$, and $k = 5$. The sum $a + h + k = -2 + 3 + 5 = 6$."
+            },
+            {
+              "id": "t1-math-m1-q6",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Exponential Functions",
+              "difficulty": "Hard",
+              "stimulus": "A pharmaceutical compound has an initial concentration of $240\\text{ mg/L}$ in a patient's bloodstream and degrades exponentially. Every 4.5 hours, the concentration decreases by $35\\%$. Which function $C(t)$ gives the concentration, in $\\text{mg/L}$, remaining $t$ hours after administration?",
+              "prompt": "Which choice correctly models the concentration?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$C(t) = 240(0.35)^{t / 4.5}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$C(t) = 240(0.65)^{4.5t}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$C(t) = 240(0.65)^{t / 4.5}$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$C(t) = 240(1.35)^{t / 4.5}$$"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Decreasing by $35\\%$ means $1 - 0.35 = 0.65$ remains each period. Since this occurs every 4.5 hours, the exponent is $t / 4.5$, yielding $C(t) = 240(0.65)^{t / 4.5}$."
+            },
+            {
+              "id": "t1-math-m1-q7",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Polynomials",
+              "difficulty": "Hard",
+              "stimulus": "The polynomial $P(x) = 2x^3 - 5x^2 + kx - 18$ is divisible by $(x - 3)$. What is the value of $k$?",
+              "prompt": "Which choice is the value of $k$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "-3"
+                },
+                {
+                  "letter": "B",
+                  "text": "3"
+                },
+                {
+                  "letter": "C",
+                  "text": "6"
+                },
+                {
+                  "letter": "D",
+                  "text": "-6"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. By the Factor Theorem, if $(x - 3)$ is a factor of $P(x)$, then $P(3) = 0$. Substitute $x = 3$: $P(3) = 2(3)^3 - 5(3)^2 + k(3) - 18 = 2(27) - 5(9) + 3k - 18 = 54 - 45 + 3k - 18 = 3k - 9 = 0 \\implies 3k = 9 \\implies k = 3$."
+            },
+            {
+              "id": "t1-math-m1-q8",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Rational Functions",
+              "difficulty": "Hard",
+              "stimulus": "The rational function $f(x) = \\frac{2x^2 - 8}{x^2 + x - 6}$ has a removable discontinuity (hole) at what value of $x$?",
+              "prompt": "Which choice is the x-value of the hole?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "-3"
+                },
+                {
+                  "letter": "B",
+                  "text": "-2"
+                },
+                {
+                  "letter": "C",
+                  "text": "4"
+                },
+                {
+                  "letter": "D",
+                  "text": "2"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Factor numerator: $2(x - 2)(x + 2)$. Factor denominator: $(x - 2)(x + 3)$. The common factor $(x - 2)$ cancels, creating a removable discontinuity at $x = 2$."
+            },
+            {
+              "id": "t1-math-m1-q9",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Rates and Proportions",
+              "difficulty": "Medium",
+              "stimulus": "A high-speed industrial 3D printer prints a polymer gear assembly in 3 hours and 20 minutes. If the printing speed is increased by $25\\%$, how many minutes will it take to print the same gear assembly?",
+              "prompt": "Which choice is the time in minutes?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "150 minutes"
+                },
+                {
+                  "letter": "B",
+                  "text": "160 minutes"
+                },
+                {
+                  "letter": "C",
+                  "text": "175 minutes"
+                },
+                {
+                  "letter": "D",
+                  "text": "180 minutes"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Initial time: 3 hours and 20 minutes $= 200$ minutes. If speed increases by $25\\%$, the new speed is $1.25 \\times \\text{initial speed}$. Time is inversely proportional to speed: $\\text{New time} = \\frac{200}{1.25} = 160$ minutes."
+            },
+            {
+              "id": "t1-math-m1-q10",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Percentages",
+              "difficulty": "Medium",
+              "stimulus": "A retail electronics store purchased a batch of laptops at wholesale price $W$. The store marked up the wholesale price by $40\\%$ to set the retail sticker price. During a holiday clearance event, the store discounted the sticker price by $25\\%$. What was the final selling price of a laptop in terms of the wholesale price $W$?",
+              "prompt": "Which choice gives the final price?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$1.05W$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$1.15W$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$0.95W$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$1.10W$"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. Sticker price after $40\\%$ markup: $W \\times 1.40 = 1.40W$. Clearance discount of $25\\%$: $1.40W \\times (1 - 0.25) = 1.40W \\times 0.75 = 1.05W$."
+            },
+            {
+              "id": "t1-math-m1-q11",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Probability",
+              "difficulty": "Hard",
+              "stimulus": "A clinical trial evaluated 400 patients testing a diagnostic biomarker for early-stage oncology detection:<br><br><table style='width:100%; border-collapse: collapse; margin: 8px 0; font-size: 13px;'><tr style='background: #f1f5f9;'><th style='border: 1px solid #cbd5e1; padding: 6px;'>Biomarker Test Result</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Condition Present</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Condition Absent</th><th style='border: 1px solid #cbd5e1; padding: 6px;'>Total</th></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Positive Result</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>76</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>24</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>100</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Negative Result</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>4</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>296</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>300</td></tr><tr><td style='border: 1px solid #cbd5e1; padding: 6px;'>Total</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>80</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>320</td><td style='border: 1px solid #cbd5e1; padding: 6px;'>400</td></tr></table><br>Given that a randomly selected patient received a positive test result, what is the probability that the patient actually has the condition present?",
+              "prompt": "Which choice is the probability?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "0.95"
+                },
+                {
+                  "letter": "B",
+                  "text": "0.19"
+                },
+                {
+                  "letter": "C",
+                  "text": "0.76"
+                },
+                {
+                  "letter": "D",
+                  "text": "0.24"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Conditional probability formula: $P(\\text{Condition Present} \\mid \\text{Positive}) = \\frac{\\text{Condition Present and Positive}}{\\text{Total Positive}} = \\frac{76}{100} = 0.76$."
+            },
+            {
+              "id": "t1-math-m1-q12",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Data Distributions",
+              "difficulty": "Hard",
+              "stimulus": "A sociological research organization surveyed a representative random sample of 1,200 adult residents in a metropolitan area and found that $64\\%$ favored expanding municipal light-rail transit, with an associated margin of error of $\\pm 2.8\\%$ at a $95\\%$ confidence level. Which of the following changes to the study design would be guaranteed to reduce the margin of error?",
+              "prompt": "Which choice describes the change?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "Increasing the confidence level from 95% to 99% with the same sample size of 1,200 residents"
+                },
+                {
+                  "letter": "B",
+                  "text": "Restricting the survey exclusively to registered voters who use public transit daily"
+                },
+                {
+                  "letter": "C",
+                  "text": "Expanding the total population of the metropolitan area through municipal annexation"
+                },
+                {
+                  "letter": "D",
+                  "text": "Increasing the sample size from 1,200 to 4,800 randomly selected residents while keeping the confidence level at 95%"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. The margin of error for a proportion is proportional to $\\frac{1}{\\sqrt{n}}$. Quadrupling the sample size from 1,200 to 4,800 halves the margin of error (reducing it from $\\pm 2.8\\%$ to $\\pm 1.4\\%$)."
+            },
+            {
+              "id": "t1-math-m1-q13",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Data Distributions",
+              "difficulty": "Hard",
+              "stimulus": "Data Set A and Data Set B each contain 50 positive integers. Data Set A has values ranging from 10 to 90, with frequencies distributed uniformly across the entire interval. Data Set B contains 40 values equal to 50, 5 values equal to 48, and 5 values equal to 52. Both datasets have an identical mean of 50. Which statement must be true regarding the standard deviations of the two datasets?",
+              "prompt": "Which statement is true?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "The standard deviation of Data Set B is substantially greater than the standard deviation of Data Set A."
+                },
+                {
+                  "letter": "B",
+                  "text": "The standard deviations of Data Set A and Data Set B are exactly equal because both datasets have a mean of 50."
+                },
+                {
+                  "letter": "C",
+                  "text": "It is impossible to compare standard deviations without knowing the exact sum of squared residuals."
+                },
+                {
+                  "letter": "D",
+                  "text": "The standard deviation of Data Set A is substantially greater than the standard deviation of Data Set B."
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Standard deviation measures the average spread of data values from their mean. In Set B, 80% of data is exactly at the mean (50) and the rest is within 2 units, whereas in Set A values spread uniformly across 10 to 90. Thus, Set A has a far greater standard deviation."
+            },
+            {
+              "id": "t1-math-m1-q14",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Scatterplots",
+              "difficulty": "Medium",
+              "stimulus": "A research laboratory recorded the cooling of a molten alloy ingot over time. The scatterplot of temperature $T$ (\u00b0C) versus elapsed time $t$ (minutes) is modeled by the equation $T = 850(0.92)^t + 25$. What is the best interpretation of the number 25 in this context?",
+              "prompt": "Which choice is the best interpretation?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "The initial temperature of the molten alloy ingot at time t = 0"
+                },
+                {
+                  "letter": "B",
+                  "text": "The ambient room temperature toward which the alloy ingot asymptotically cools"
+                },
+                {
+                  "letter": "C",
+                  "text": "The number of minutes required for the ingot to decrease its temperature by half"
+                },
+                {
+                  "letter": "D",
+                  "text": "The average rate of temperature decrease per minute over the first hour"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. As $t \\to \\infty$, the exponential term $(0.92)^t \\to 0$, leaving $T \\to 25$\u00b0C. Thus, 25 represents the ambient room temperature asymptote."
+            },
+            {
+              "id": "t1-math-m1-q15",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Circles",
+              "difficulty": "Hard",
+              "stimulus": "In the xy-plane, the equation of a circle is $x^2 + y^2 - 8x + 10y - 8 = 0$. What are the coordinates of the center $(h, k)$ and the radius $r$ of this circle?",
+              "prompt": "Which choice gives the center and radius?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "Center $(4, -5)$ and radius $7$"
+                },
+                {
+                  "letter": "B",
+                  "text": "Center $(-4, 5)$ and radius $7$"
+                },
+                {
+                  "letter": "C",
+                  "text": "Center $(4, -5)$ and radius $49$"
+                },
+                {
+                  "letter": "D",
+                  "text": "Center $(-8, 10)$ and radius $\\sqrt{8}$"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. Group terms: $(x^2 - 8x) + (y^2 + 10y) = 8$. Complete squares: $(x - 4)^2 + (y + 5)^2 = 8 + 16 + 25 = 49$. The center is $(4, -5)$ and the radius is $\\sqrt{49} = 7$."
+            },
+            {
+              "id": "t1-math-m1-q16",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Trigonometry",
+              "difficulty": "Hard",
+              "stimulus": "In a right triangle $ABC$, the measure of $\\angle C = 90^\\circ$. If $\\sin(A) = \\frac{7}{25}$, what is the value of $\\cos(B)$?",
+              "prompt": "Which choice is the value of $\\cos(B)$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$\\frac{24}{25}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$\\frac{7}{24}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$\\frac{7}{25}$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$\\frac{25}{7}$$"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. In any right triangle where $C = 90^\\circ$, angles $A$ and $B$ are complementary: $A + B = 90^\\circ$. By the cofunction identity, $\\cos(B) = \\sin(90^\\circ - B) = \\sin(A) = \\frac{7}{25}$."
+            },
+            {
+              "id": "t1-math-m1-q17",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Circles",
+              "difficulty": "Hard",
+              "stimulus": "A circle in the xy-plane with center at the origin has a radius of 18 cm. A central angle $\\theta$ measures $\\frac{5\\pi}{6}$ radians. What is the perimeter, in centimeters, of the circular sector subtended by angle $\\theta$?",
+              "prompt": "Which choice is the perimeter?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$15\\pi + 36$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$15\\pi$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$30\\pi + 36$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$135\\pi + 18$$"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. The arc length of the sector is $s = r\\theta = 18 \\times \\frac{5\\pi}{6} = 15\\pi\\text{ cm}$. The perimeter of a sector includes the arc length PLUS two radii bounding the sector: $\\text{Perimeter} = s + 2r = 15\\pi + 2(18) = 15\\pi + 36\\text{ cm}$."
+            },
+            {
+              "id": "t1-math-m1-q18",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Triangles",
+              "difficulty": "Hard",
+              "stimulus": "In right triangle $XYZ$, $\\angle Y = 90^\\circ$. An altitude $YW$ is drawn to the hypotenuse $XZ$. If $XW = 4$ and $WZ = 9$, what is the length of altitude $YW$?",
+              "prompt": "Which choice is the length of $YW$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "6.5"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$\\sqrt{13}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "36"
+                },
+                {
+                  "letter": "D",
+                  "text": "6"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. By the Geometric Mean Theorem (Altitude Rule) for right triangles: $YW^2 = XW \\times WZ$. Here, $YW^2 = 4 \\times 9 = 36 \\implies YW = \\sqrt{36} = 6$."
+            },
+            {
+              "id": "t1-math-m1-q19",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Volume",
+              "difficulty": "Hard",
+              "stimulus": "A solid bronze cone has a base radius of 6 cm and a height of 15 cm. The cone is melted down and completely recast into a solid sphere with no loss of bronze. What is the radius, in centimeters, of the recast bronze sphere?",
+              "prompt": "Which choice is the radius of the sphere?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$\\sqrt[3]{45}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "5"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$3\\sqrt[3]{5}$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "6"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Wait! Volume of cone: $V_c = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi (6^2)(15) = \\frac{1}{3}\\pi(36)(15) = 180\\pi$. Volume of sphere: $V_s = \\frac{4}{3}\\pi R^3$. Equating: $\\frac{4}{3}\\pi R^3 = 180\\pi \\implies R^3 = 180 \\times \\frac{3}{4} = 135$. Radius $R = \\sqrt[3]{135} = \\sqrt[3]{27 \\times 5} = 3\\sqrt[3]{5}$."
+            },
+            {
+              "id": "t1-math-m1-q20",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Radicals",
+              "difficulty": "Hard",
+              "stimulus": "What is the solution set of real numbers for the equation $\\sqrt{2x + 7} = x - 4$?",
+              "prompt": "Which choice is the solution set?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "{1, 9}"
+                },
+                {
+                  "letter": "B",
+                  "text": "{9}"
+                },
+                {
+                  "letter": "C",
+                  "text": "{1}"
+                },
+                {
+                  "letter": "D",
+                  "text": "No real solutions"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Square both sides: $2x + 7 = (x - 4)^2 = x^2 - 8x + 16 \\implies x^2 - 10x + 9 = 0 \\implies (x - 9)(x - 1) = 0$. Test $x = 1$: $\\sqrt{9} = 3 \\neq -3$ (extraneous). Test $x = 9$: $\\sqrt{25} = 5 = 9 - 4$ (valid). Solution set is {9}."
             },
             {
               "id": "t1-math-m1-q21",
               "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Margin of Error & Inferences",
+              "domain": "Advanced Math",
+              "subdomain": "Quadratic Equations",
               "difficulty": "Hard",
-              "stimulus": "A representative random sample of 1,200 voters in a city found that $54\\%$ support a proposed park bond, with a margin of error of $\\pm 2.8\\%$ at a $95\\%$ confidence level. Which of the following is a plausible value for the true percentage of all city voters who support the bond?",
-              "prompt": "Which choice is plausible?",
+              "stimulus": "The quadratic equation $2x^2 - 7x + 4 = 0$ has real roots $r_1$ and $r_2$. What is the value of $r_1^2 + r_2^2$?",
+              "prompt": "Which choice is the value?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "$53.5\\%$"
+                  "text": "$$\\frac{49}{4}$$"
                 },
                 {
                   "letter": "B",
-                  "text": "$57.2\\%$"
+                  "text": "$$\\frac{33}{4}$$"
                 },
                 {
                   "letter": "C",
-                  "text": "$50.5\\%$"
+                  "text": "$$\\frac{17}{4}$$"
                 },
                 {
                   "letter": "D",
-                  "text": "$58.0\\%$"
+                  "text": "$$\\frac{41}{4}$$"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The confidence interval is $54\\% \\pm 2.8\\%$, which corresponds to the range $[51.2\\%, 56.8\\%]$. Only $53.5\\%$ lies inside this interval."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. By Vieta's formulas, $r_1 + r_2 = \\frac{7}{2}$ and $r_1 r_2 = \\frac{4}{2} = 2$. Using the identity $r_1^2 + r_2^2 = (r_1 + r_2)^2 - 2r_1 r_2 = \\left(\\frac{7}{2}\\right)^2 - 2(2) = \\frac{49}{4} - 4 = \\frac{49 - 16}{4} = \\frac{33}{4}$."
             },
             {
               "id": "t1-math-m1-q22",
               "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Data Distributions & Mean",
-              "difficulty": "Medium",
-              "stimulus": "A dataset consists of 5 integers: 12, 15, 18, 22, and $x$. If the mean of the dataset is 19, what is the value of $x$?",
-              "prompt": "Which choice is the value of $x$?",
+              "domain": "Algebra",
+              "subdomain": "Linear Equations",
+              "difficulty": "Hard",
+              "stimulus": "What is the sum of all distinct real solutions to the equation $|2x - 5| = 3x - 10$?",
+              "prompt": "Which choice is the sum?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "28"
+                  "text": "8"
                 },
                 {
                   "letter": "B",
-                  "text": "25"
+                  "text": "3"
                 },
                 {
                   "letter": "C",
-                  "text": "30"
+                  "text": "7"
                 },
                 {
                   "letter": "D",
-                  "text": "22"
+                  "text": "5"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The sum of 5 numbers with a mean of 19 is $5 \\times 19 = 95$. The sum of the four given numbers is $12 + 15 + 18 + 22 = 67$. Thus $x = 95 - 67 = 28$."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Case 1: $2x - 5 = 3x - 10 \\implies -x = -5 \\implies x = 5$. Check $x = 5$: $|2(5) - 5| = |5| = 5$. Right side: $3(5) - 10 = 5$ (Valid). Case 2: $2x - 5 = -(3x - 10) = -3x + 10 \\implies 5x = 15 \\implies x = 3$. Check $x = 3$: $|2(3) - 5| = |-1| = 1$. Right side: $3(3) - 10 = -1$. But absolute value cannot equal $-1$, so $x = 3$ is extraneous! The only real solution is $x = 5$."
             },
             {
               "id": "t1-math-m1-q23",
               "type": "spr",
-              "domain": "Geometry and Trigonometry",
-              "subdomain": "Right Triangle Trigonometry",
+              "domain": "Algebra",
+              "subdomain": "Systems of Equations",
               "difficulty": "Medium",
-              "stimulus": "In a right triangle $ABC$ with right angle at $C$, the length of side $AC = 8$ and the length of side $BC = 15$. What is the value of $\\tan(A)$?",
-              "prompt": "Enter the exact fractional or decimal value of $\\tan(A)$:",
+              "stimulus": "In the system of equations below:<br>$$4x + 3y = 31$$<br>$$2x - y = 3$$<br>What is the value of $x + y$?",
+              "prompt": "Enter the exact integer value of $x + y$:",
               "correctAnswer": [
-                "15/8",
-                "1.875"
+                "11"
               ],
-              "explanation": "The answer is 15/8 (or 1.875). In right triangle $ABC$, $\\tan(A) = \\frac{\\text{opposite}}{\\text{adjacent}} = \\frac{BC}{AC} = \\frac{15}{8} = 1.875$."
+              "explanation": "The correct answer is 11. From the second equation, $y = 2x - 3$. Substitute into the first: $4x + 3(2x - 3) = 31 \\implies 4x + 6x - 9 = 31 \\implies 10x = 40 \\implies x = 4$. Then $y = 2(4) - 3 = 5$. Thus, $x + y = 4 + 5 = 11$."
             },
             {
               "id": "t1-math-m1-q24",
               "type": "spr",
-              "domain": "Geometry and Trigonometry",
-              "subdomain": "Circle Equations",
-              "difficulty": "Medium",
-              "stimulus": "A circle in the xy-plane is given by the equation $(x - 5)^2 + (y + 3)^2 = 64$. What is the diameter of this circle?",
-              "prompt": "Enter the diameter:",
+              "domain": "Advanced Math",
+              "subdomain": "Polynomials",
+              "difficulty": "Hard",
+              "stimulus": "When the polynomial $P(x) = 3x^3 - 5x^2 + 8x + c$ is divided by $(x - 2)$, the remainder is 26. What is the value of constant $c$?",
+              "prompt": "Enter the exact integer value of $c$:",
               "correctAnswer": [
-                "16"
+                "6"
               ],
-              "explanation": "The answer is 16. The circle equation $(x - h)^2 + (y - k)^2 = r^2$ gives $r^2 = 64$, so the radius $r = 8$. The diameter is $2r = 2(8) = 16$."
+              "explanation": "The correct answer is 6. By the Remainder Theorem, $P(2) = 26$. Substitute $x = 2$: $P(2) = 3(2)^3 - 5(2)^2 + 8(2) + c = 3(8) - 5(4) + 16 + c = 24 - 20 + 16 + c = 20 + c = 26 \\implies c = 6$."
             },
             {
               "id": "t1-math-m1-q25",
               "type": "spr",
               "domain": "Geometry and Trigonometry",
-              "subdomain": "Arc Length & Radians",
+              "subdomain": "Right Triangles",
               "difficulty": "Hard",
-              "stimulus": "A circle has a radius of 12 cm. An arc subtended by a central angle of $\\frac{\\pi}{3}$ radians has length $k\\pi$ cm. What is the value of $k$?",
-              "prompt": "Enter the value of $k$:",
+              "stimulus": "In a $30^\\circ-60^\\circ-90^\\circ$ triangle, the hypotenuse has length 16. What is the area of this triangle expressed in the form $a\\sqrt{3}$? Enter the integer value of $a$:",
+              "prompt": "Enter the integer value of $a$:",
               "correctAnswer": [
-                "4"
+                "32"
               ],
-              "explanation": "The answer is 4. Arc length is $s = r\\theta = 12 \\times \\frac{\\pi}{3} = 4\\pi$. Therefore $k = 4$."
+              "explanation": "The correct answer is 32. In a $30^\\circ-60^\\circ-90^\\circ$ triangle with hypotenuse 16: short leg $= 16 / 2 = 8$, long leg $= 8\\sqrt{3}$. Area $= \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 8 \\times 8\\sqrt{3} = 32\\sqrt{3}$. Therefore, $a = 32$."
             },
             {
               "id": "t1-math-m1-q26",
               "type": "spr",
-              "domain": "Algebra",
-              "subdomain": "Linear Equations",
-              "difficulty": "Easy",
-              "stimulus": "If $5x + 7 = 32$, what is the value of $10x + 14$?",
-              "prompt": "Enter the value:",
+              "domain": "Advanced Math",
+              "subdomain": "Exponents and Radicals",
+              "difficulty": "Hard",
+              "stimulus": "If $27^{2x - 1} = 9^{x + 4}$, what is the value of $x$?",
+              "prompt": "Enter the exact fractional or decimal value of $x$:",
               "correctAnswer": [
-                "64"
+                "11/4",
+                "2.75"
               ],
-              "explanation": "The answer is 64. Notice that $10x + 14 = 2(5x + 7) = 2(32) = 64$."
+              "explanation": "The correct answer is 11/4. Rewrite with common base 3: $(3^3)^{2x - 1} = (3^2)^{x + 4} \\implies 3^{6x - 3} = 3^{2x + 8}$. Equate exponents: $6x - 3 = 2x + 8 \\implies 4x = 11 \\implies x = 11/4 = 2.75$."
             },
             {
               "id": "t1-math-m1-q27",
               "type": "spr",
-              "domain": "Geometry and Trigonometry",
-              "subdomain": "Volume of 3D Solids",
-              "difficulty": "Medium",
-              "stimulus": "A rectangular prism has a length of 6 cm, a width of 4 cm, and a height of 9 cm. What is the total volume of the prism, in cubic centimeters?",
-              "prompt": "Enter the volume:",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Probability",
+              "difficulty": "Hard",
+              "stimulus": "A quality control engineer inspects a batch of 80 microchips. 48 chips were produced by Machine A and 32 chips were produced by Machine B. 6 of the chips from Machine A are defective, and 2 of the chips from Machine B are defective. If a randomly selected chip from the batch is found to be defective, what is the probability that it was produced by Machine A? Express your answer as a simplified fraction $\\frac{a}{b}$:",
+              "prompt": "Enter the exact fraction a/b (e.g. 3/4):",
               "correctAnswer": [
-                "216"
+                "3/4",
+                "0.75"
               ],
-              "explanation": "The answer is 216. Volume $V = l \\times w \\times h = 6 \\times 4 \\times 9 = 216$ cubic centimeters."
+              "explanation": "The correct answer is 3/4. Total defective chips $= 6 + 2 = 8$. Defective chips from Machine A $= 6$. The conditional probability is $P(\\text{Machine A} \\mid \\text{Defective}) = \\frac{6}{8} = \\frac{3}{4} = 0.75$."
             }
           ]
         },
@@ -2321,134 +2322,76 @@ export const test1 = {
               "id": "t1-math-m2-q1",
               "type": "mcq",
               "domain": "Algebra",
-              "subdomain": "Linear Systems No Solution",
+              "subdomain": "Systems of Equations",
               "difficulty": "Hard",
-              "stimulus": "In the system of equations below, $k$ is a constant:<br>$$kx - 6y = 14$$<br>$$4x - 8y = 19$$<br>If the system has no solution, what is the value of $k$?",
-              "prompt": "Which choice is the value of $k$?",
+              "stimulus": "In the system of equations below, $a$ and $b$ are constants:<br>$$ax + 6y = 18$$<br>$$4x + by = 12$$<br>If the system has no solution, which equation must be true?",
+              "prompt": "Which choice must be true?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "3"
+                  "text": "$$ab = 24\\text{ and }a = 6$$"
                 },
                 {
                   "letter": "B",
-                  "text": "-3"
+                  "text": "$$ab = 72$$"
                 },
                 {
                   "letter": "C",
-                  "text": "4"
+                  "text": "$$ab = 24\\text{ and }a \\neq 6$$"
                 },
                 {
                   "letter": "D",
-                  "text": "6"
+                  "text": "$$a + b = 10$$"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. A linear system has no solution when the lines are parallel (identical slopes, different y-intercepts). The slope of the second line is $\\frac{4}{8} = \\frac{1}{2}$. The slope of the first line is $\\frac{k}{6}$. Setting $\\frac{k}{6} = \\frac{1}{2} \\implies k = 3$."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. For a system to have no solution, lines must be parallel with different intercepts: $\\frac{a}{4} = \\frac{6}{b} \\neq \\frac{18}{12}$. From $\\frac{a}{4} = \\frac{6}{b}$, we get $ab = 24$. From $\\frac{a}{4} \\neq \\frac{18}{12} = \\frac{3}{2}$, we get $a \\neq 6$."
             },
             {
               "id": "t1-math-m2-q2",
               "type": "mcq",
               "domain": "Algebra",
-              "subdomain": "Absolute Value Equations",
-              "difficulty": "Medium",
-              "stimulus": "What is the sum of the solutions to the equation $|3x - 12| = 18$?",
-              "prompt": "Which choice is the sum?",
+              "subdomain": "Inequalities",
+              "difficulty": "Hard",
+              "stimulus": "What is the complete set of solutions to the inequality $|3x - 7| + 4 \\le 19$?",
+              "prompt": "Which choice is the solution set?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "8"
+                  "text": "$$-\\frac{8}{3} \\le x \\le \\frac{22}{3}$$"
                 },
                 {
                   "letter": "B",
-                  "text": "12"
+                  "text": "$$x \\le \\frac{22}{3}$$"
                 },
                 {
                   "letter": "C",
-                  "text": "6"
+                  "text": "$$-\\frac{22}{3} \\le x \\le \\frac{8}{3}$$"
                 },
                 {
                   "letter": "D",
-                  "text": "10"
+                  "text": "$$x \\ge -\\frac{8}{3}$$"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. Case 1: $3x - 12 = 18 \\implies 3x = 30 \\implies x = 10$. Case 2: $3x - 12 = -18 \\implies 3x = -6 \\implies x = -2$. The sum of the solutions is $10 + (-2) = 8$."
+              "explanation": "Choice A is correct. Subtract 4 from both sides: $|3x - 7| \\le 15$. This unfolds into the compound inequality: $-15 \\le 3x - 7 \\le 15$. Add 7: $-8 \\le 3x \\le 22$. Divide by 3: $-\\frac{8}{3} \\le x \\le \\frac{22}{3}$."
             },
             {
               "id": "t1-math-m2-q3",
               "type": "mcq",
               "domain": "Algebra",
-              "subdomain": "Multi-Variable Linear Systems",
+              "subdomain": "Linear Functions",
               "difficulty": "Hard",
-              "stimulus": "If $2a + 3b = 17$ and $4a + b = 9$, what is the value of $a + b$?",
-              "prompt": "Which choice is the value of $a + b$?",
+              "stimulus": "Line $L_1$ passes through the points $(-3, 8)$ and $(6, -4)$. Line $L_2$ is perpendicular to line $L_1$ and passes through the point $(4, 1)$. What is the y-intercept of line $L_2$?",
+              "prompt": "Which choice is the y-intercept?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "6"
+                  "text": "-5"
                 },
                 {
                   "letter": "B",
-                  "text": "5"
-                },
-                {
-                  "letter": "C",
-                  "text": "7"
-                },
-                {
-                  "letter": "D",
-                  "text": "8"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Adding the two equations: $(2a + 3b) + (4a + b) = 17 + 9 \\implies 6a + 4b = 26$. Let's solve: from second eq, $b = 9 - 4a$. Substitute into first: $2a + 3(9 - 4a) = 17 \\implies 2a + 27 - 12a = 17 \\implies -10a = -10 \\implies a = 1$. Then $b = 9 - 4(1) = 5$. Thus $a + b = 1 + 5 = 6$."
-            },
-            {
-              "id": "t1-math-m2-q4",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Linear Inequalities",
-              "difficulty": "Hard",
-              "stimulus": "Which point $(x, y)$ satisfies the system of inequalities?<br>$$y > 2x + 1$$<br>$$y \\le -x + 6$$",
-              "prompt": "Which choice is a valid point?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "(1, 4)"
-                },
-                {
-                  "letter": "B",
-                  "text": "(2, 1)"
-                },
-                {
-                  "letter": "C",
-                  "text": "(0, 0)"
-                },
-                {
-                  "letter": "D",
-                  "text": "(3, 8)"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Test $(1, 4)$: $4 > 2(1) + 1 \\implies 4 > 3$ (True). And $4 \\le -(1) + 6 \\implies 4 \\le 5$ (True). Both inequalities are satisfied."
-            },
-            {
-              "id": "t1-math-m2-q5",
-              "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Function Notation",
-              "difficulty": "Medium",
-              "stimulus": "For the function $g(x) = 4x - 7$, if $g(2k) = 25$, what is the value of $k$?",
-              "prompt": "Which choice is the value of $k$?",
-              "choices": [
-                {
-                  "letter": "A",
                   "text": "4"
-                },
-                {
-                  "letter": "B",
-                  "text": "8"
                 },
                 {
                   "letter": "C",
@@ -2456,107 +2399,513 @@ export const test1 = {
                 },
                 {
                   "letter": "D",
-                  "text": "6"
+                  "text": "-2"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Slope of $L_1$: $m_1 = \\frac{-4 - 8}{6 - (-3)} = \\frac{-12}{9} = -\\frac{4}{3}$. Perpendicular slope $m_2 = -\\frac{1}{m_1} = \\frac{3}{4}$. Line $L_2$ in point-slope form: $y - 1 = \\frac{3}{4}(x - 4) \\implies y - 1 = \\frac{3}{4}x - 3 \\implies y = \\frac{3}{4}x - 2$. The y-intercept is -2."
+            },
+            {
+              "id": "t1-math-m2-q4",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Quadratic Equations",
+              "difficulty": "Hard",
+              "stimulus": "A line with equation $y = mx - 5$ is tangent to the parabola $y = 2x^2 + 8x + 3$ at exactly one point. What is the product of all possible values of $m$?",
+              "prompt": "Which choice is the product of all possible values of $m$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "64"
+                },
+                {
+                  "letter": "B",
+                  "text": "0"
+                },
+                {
+                  "letter": "C",
+                  "text": "-64"
+                },
+                {
+                  "letter": "D",
+                  "text": "16"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Set the equations equal: $2x^2 + 8x + 3 = mx - 5 \\implies 2x^2 + (8 - m)x + 8 = 0$. For tangency (exactly one intersection), discriminant $\\Delta = 0$: $(8 - m)^2 - 4(2)(8) = 0 \\implies (8 - m)^2 - 64 = 0 \\implies (8 - m)^2 = 64$. Thus, $8 - m = 8 \\implies m = 0$, or $8 - m = -8 \\implies m = 16$. The product of all possible values of $m$ is $0 \\times 16 = 0$."
+            },
+            {
+              "id": "t1-math-m2-q5",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Nonlinear Modeling",
+              "difficulty": "Hard",
+              "stimulus": "A software company models its monthly subscription revenue $R(p)$, in thousands of dollars, as a function of the price per user $p$, in dollars: $R(p) = -0.5p^2 + 42p - 280$. What subscription price $p$ maximizes the company's monthly revenue, and what is that maximum monthly revenue?",
+              "prompt": "Which choice gives the optimal price and maximum revenue?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "Price: $42; Maximum Revenue: $602 thousand"
+                },
+                {
+                  "letter": "B",
+                  "text": "Price: $84; Maximum Revenue: $1,204 thousand"
+                },
+                {
+                  "letter": "C",
+                  "text": "Price: $42; Maximum Revenue: $280 thousand"
+                },
+                {
+                  "letter": "D",
+                  "text": "Price: $21; Maximum Revenue: $504 thousand"
                 }
               ],
               "correctAnswer": "A",
-              "explanation": "Choice A is correct. $g(2k) = 4(2k) - 7 = 8k - 7$. Setting $8k - 7 = 25 \\implies 8k = 32 \\implies k = 4$."
+              "explanation": "Choice A is correct. The vertex of a parabola $y = ap^2 + bp + c$ occurs at $p = -\\frac{b}{2a} = -\\frac{42}{2(-0.5)} = \\frac{42}{1} = 42$. Maximum revenue: $R(42) = -0.5(42)^2 + 42(42) - 280 = -0.5(1764) + 1764 - 280 = -882 + 1764 - 280 = 882 - 280 = 602$ thousand dollars."
             },
             {
               "id": "t1-math-m2-q6",
               "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Linear Modeling",
+              "domain": "Advanced Math",
+              "subdomain": "Polynomials",
               "difficulty": "Hard",
-              "stimulus": "A freight company charges a base shipping cost plus an additional rate per pound. For an 8-pound crate, the cost is $34. For a 20-pound crate, the cost is $70. What would be the cost to ship a 32-pound crate?",
-              "prompt": "Which choice is the cost?",
+              "stimulus": "The polynomial $P(x) = x^4 - 2x^3 + ax^2 + bx - 12$ has $(x - 2)$ as a factor, and when $P(x)$ is divided by $(x + 1)$, the remainder is 18. What is the value of $a - b$?",
+              "prompt": "Which choice is the value of $a - b$?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "$106"
+                  "text": "11"
                 },
                 {
                   "letter": "B",
-                  "text": "$98"
+                  "text": "-7"
                 },
                 {
                   "letter": "C",
-                  "text": "$112"
+                  "text": "27"
                 },
                 {
                   "letter": "D",
-                  "text": "$102"
+                  "text": "18"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The rate per pound is $m = \\frac{70 - 34}{20 - 8} = \\frac{36}{12} = 3$ dollars per pound. Base fee: $34 - 3(8) = $10. For 32 pounds: Cost $= 10 + 3(32) = 10 + 96 = $106."
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Condition 1: $P(2) = 0 \\implies 16 - 16 + 4a + 2b - 12 = 0 \\implies 4a + 2b = 12 \\implies 2a + b = 6$. Condition 2: $P(-1) = 18 \\implies 1 + 2 + a - b - 12 = 18 \\implies a - b = 27$."
             },
             {
               "id": "t1-math-m2-q7",
               "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Rearranging Formulas",
-              "difficulty": "Medium",
-              "stimulus": "The formula for the period of a simple pendulum is $T = 2\\pi\\sqrt{\\frac{L}{g}}$. Which equation correctly expresses the length $L$ in terms of $T, \\pi$, and $g$?",
-              "prompt": "Which choice expresses $L$?",
+              "domain": "Advanced Math",
+              "subdomain": "Rational Functions",
+              "difficulty": "Hard",
+              "stimulus": "Which of the following lines is the horizontal asymptote of the rational function $g(x) = \\frac{6x^3 - 5x + 14}{2x^3 + 7x^2 - 9}$?",
+              "prompt": "Which choice is the equation of the horizontal asymptote?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "$L = \\frac{g T^2}{4\\pi^2}$"
+                  "text": "$$y = 0$$"
                 },
                 {
                   "letter": "B",
-                  "text": "$L = \\frac{4\\pi^2 g}{T^2}$"
+                  "text": "$$y = 3$$"
                 },
                 {
                   "letter": "C",
-                  "text": "$L = \\frac{T^2}{2\\pi g}$"
+                  "text": "$$y = 6$$"
                 },
                 {
                   "letter": "D",
-                  "text": "$L = \\frac{2\\pi g}{T^2}$"
+                  "text": "No horizontal asymptote exists"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Divide by $2\\pi$: $\\frac{T}{2\\pi} = \\sqrt{\\frac{L}{g}}$. Square both sides: $\\frac{T^2}{4\\pi^2} = \\frac{L}{g}$. Multiply by $g$: $L = \\frac{g T^2}{4\\pi^2}$."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Both numerator and denominator have equal degree 3. The horizontal asymptote is the ratio of leading coefficients: $y = \\frac{6}{2} = 3$."
             },
             {
               "id": "t1-math-m2-q8",
               "type": "mcq",
-              "domain": "Algebra",
-              "subdomain": "Perpendicular Lines",
-              "difficulty": "Medium",
-              "stimulus": "Line $m$ has the equation $3x - 4y = 8$. Line $n$ is perpendicular to line $m$ and passes through the point $(6, 2)$. What is the y-intercept of line $n$?",
-              "prompt": "Which choice is the y-intercept?",
+              "domain": "Advanced Math",
+              "subdomain": "Exponential Functions",
+              "difficulty": "Hard",
+              "stimulus": "A radioactive isotope has a half-life of 28 days. A sample initially contains 800 grams of the isotope. Which expression represents the amount, in grams, of the isotope remaining after $d$ days, where the decay factor is expressed per single day?",
+              "prompt": "Which choice is the expression?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "10"
+                  "text": "$$800\\left(\\frac{1}{56}\\right)^d$$"
                 },
                 {
                   "letter": "B",
-                  "text": "-6"
+                  "text": "$$800\\left(28\\right)^{-d/2}$$"
                 },
                 {
                   "letter": "C",
-                  "text": "8"
+                  "text": "$$800\\left(\\frac{1}{2}\\right)^{28d}$$"
                 },
                 {
                   "letter": "D",
-                  "text": "6"
+                  "text": "$$800\\left(\\frac{1}{2}\\right)^{d / 28}$$"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Line $m$ has slope $\\frac{3}{4}$. Line $n$ has perpendicular slope $-\\frac{4}{3}$. Using point-slope form with $(6, 2)$: $y - 2 = -\\frac{4}{3}(x - 6) \\implies y - 2 = -\\frac{4}{3}x + 8 \\implies y = -\\frac{4}{3}x + 10$. The y-intercept is 10."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. With half-life $T = 28$ days, the base is $1/2$ and the number of elapsed half-lives in $d$ days is $d / 28$. Thus, $A(d) = 800\\left(\\frac{1}{2}\\right)^{d / 28}$."
             },
             {
               "id": "t1-math-m2-q9",
               "type": "mcq",
               "domain": "Advanced Math",
-              "subdomain": "Discriminant Analysis",
+              "subdomain": "Radicals",
               "difficulty": "Hard",
-              "stimulus": "In the quadratic equation $2x^2 - 8x + c = 0$, $c$ is a constant. If the equation has exactly one real solution, what is the value of $c$?",
-              "prompt": "Which choice is the value of $c$?",
+              "stimulus": "What is the unique real solution to the equation $\\sqrt{3x + 10} - x = 2$?",
+              "prompt": "Which choice is the sum?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "-3"
+                },
+                {
+                  "letter": "B",
+                  "text": "2"
+                },
+                {
+                  "letter": "C",
+                  "text": "4"
+                },
+                {
+                  "letter": "D",
+                  "text": "No real solution"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Isolate radical: $\\sqrt{3x + 10} = x + 2$. Square: $3x + 10 = x^2 + 4x + 4 \\implies x^2 + x - 6 = 0 \\implies (x + 3)(x - 2) = 0$. For $x = -3$, $x + 2 = -1 < 0$ (extraneous). For $x = 2$, $\\sqrt{16} = 4 = 2 + 2$ (valid). Solution is 2."
+            },
+            {
+              "id": "t1-math-m2-q10",
+              "type": "mcq",
+              "domain": "Algebra",
+              "subdomain": "Linear Modeling",
+              "difficulty": "Hard",
+              "stimulus": "A civil engineering contractor mixes two grades of concrete aggregate: Aggregate X containing $15\\%$ silica and Aggregate Y containing $40\\%$ silica. The contractor requires 50 tons of an aggregate mix containing exactly $25\\%$ silica. How many tons of Aggregate X must be used in the mixture?",
+              "prompt": "Which choice is the tons of Aggregate X?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "30 tons"
+                },
+                {
+                  "letter": "B",
+                  "text": "20 tons"
+                },
+                {
+                  "letter": "C",
+                  "text": "25 tons"
+                },
+                {
+                  "letter": "D",
+                  "text": "35 tons"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. Let $x$ be tons of X and $y$ be tons of Y. System: $x + y = 50$, and $0.15x + 0.40y = 0.25(50) = 12.5$. Substitute $y = 50 - x$: $0.15x + 0.40(50 - x) = 12.5 \\implies 0.15x + 20 - 0.40x = 12.5 \\implies -0.25x = -7.5 \\implies x = 30$ tons."
+            },
+            {
+              "id": "t1-math-m2-q11",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Scatterplots",
+              "difficulty": "Hard",
+              "stimulus": "An environmental scientist records particulate air pollution levels $y$ (in $\\mu\\text{g/m}^3$) and wind speed $x$ (in km/h). The linear line of best fit is $\\hat{y} = -2.4x + 85$. For a wind speed of 15 km/h, the actual measured pollution was $52\\,\\mu\\text{g/m}^3$. What was the residual for this data point?",
+              "prompt": "Which choice is the residual?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "-3"
+                },
+                {
+                  "letter": "B",
+                  "text": "49"
+                },
+                {
+                  "letter": "C",
+                  "text": "3"
+                },
+                {
+                  "letter": "D",
+                  "text": "52"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Predicted value $\\hat{y} = -2.4(15) + 85 = -36 + 85 = 49$. The residual is defined as $\\text{Actual} - \\text{Predicted} = 52 - 49 = 3$."
+            },
+            {
+              "id": "t1-math-m2-q12",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Probability",
+              "difficulty": "Hard",
+              "stimulus": "In an aerodynamic manufacturing facility, $60\\%$ of components are manufactured by Robotic Line 1 and $40\\%$ by Robotic Line 2. Historical audit records show that $2\\%$ of components from Line 1 are defective, whereas $5\\%$ of components from Line 2 are defective. If a randomly selected component is inspected and found to be defective, what is the probability that it was produced by Robotic Line 2?",
+              "prompt": "Which choice is the probability?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$\\frac{3}{8}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$\\frac{2}{5}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$\\frac{4}{7}$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$\\frac{5}{8}$$"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Total probability of defective: $P(D) = (0.60)(0.02) + (0.40)(0.05) = 0.012 + 0.020 = 0.032$. By Bayes' Theorem: $P(\\text{Line 2} \\mid D) = \\frac{P(\\text{Line 2} \\cap D)}{P(D)} = \\frac{0.020}{0.032} = \\frac{20}{32} = \\frac{5}{8}$."
+            },
+            {
+              "id": "t1-math-m2-q13",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Data Distributions",
+              "difficulty": "Hard",
+              "stimulus": "A pharmaceutical researcher compares the distribution of patient recovery times for Treatment A and Treatment B. Both distributions have 100 observations. Treatment A has a minimum of 4 days, $Q_1 = 8$, median $= 12$, $Q_3 = 18$, and maximum $= 26$. Treatment B has a minimum of 6 days, $Q_1 = 11$, median $= 15$, $Q_3 = 17$, and maximum $= 28$. Which of the following statements must be true?",
+              "prompt": "Which statement must be true?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "The range of Treatment B is greater than the range of Treatment A."
+                },
+                {
+                  "letter": "B",
+                  "text": "At least 50% of patients in Treatment A had a longer recovery time than the median of Treatment B."
+                },
+                {
+                  "letter": "C",
+                  "text": "The mean recovery time for Treatment B is guaranteed to be greater than 15 days."
+                },
+                {
+                  "letter": "D",
+                  "text": "The interquartile range of Treatment A is greater than the interquartile range of Treatment B."
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Interquartile Range (IQR) $= Q_3 - Q_1$. For Treatment A: $\\text{IQR} = 18 - 8 = 10$. For Treatment B: $\\text{IQR} = 17 - 11 = 6$. Thus, the IQR of Treatment A (10) is greater than that of Treatment B (6)."
+            },
+            {
+              "id": "t1-math-m2-q14",
+              "type": "mcq",
+              "domain": "Problem-Solving and Data Analysis",
+              "subdomain": "Data Distributions",
+              "difficulty": "Hard",
+              "stimulus": "The distribution of scores on a national certification exam is approximately normal with a mean of $\\mu = 520$ and a standard deviation of $\\sigma = 60$. Approximately what percentage of test-takers scored between 400 and 580?",
+              "prompt": "Which choice is the approximate percentage?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "68%"
+                },
+                {
+                  "letter": "B",
+                  "text": "81.5%"
+                },
+                {
+                  "letter": "C",
+                  "text": "95%"
+                },
+                {
+                  "letter": "D",
+                  "text": "84%"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Standard scores: $z_1 = \\frac{400 - 520}{60} = -2.0$, and $z_2 = \\frac{580 - 520}{60} = +1.0$. By the empirical rule, between $\\mu - 2\\sigma$ and $\\mu$ is $\\approx 47.5\\%$. Between $\\mu$ and $\\mu + 1\\sigma$ is $\\approx 34\\%$. Total percentage $= 47.5\\% + 34\\% = 81.5\\%$."
+            },
+            {
+              "id": "t1-math-m2-q15",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Circles",
+              "difficulty": "Hard",
+              "stimulus": "In the xy-plane, the circle $(x - 3)^2 + (y + 4)^2 = 25$ is tangent to line $k$ at the point $(6, 0)$. What is the slope of tangent line $k$?",
+              "prompt": "Which choice is the slope of line $k$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$-\\frac{3}{4}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$\\frac{4}{3}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$-\\frac{4}{3}$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$\\frac{3}{4}$$"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. Center of circle is $C(3, -4)$. Point of tangency is $P(6, 0)$. Slope of radius $CP = \\frac{0 - (-4)}{6 - 3} = \\frac{4}{3}$. The tangent line is perpendicular to the radius at the point of tangency, so its slope is $m = -\\frac{1}{4/3} = -\\frac{3}{4}$."
+            },
+            {
+              "id": "t1-math-m2-q16",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Circles",
+              "difficulty": "Hard",
+              "stimulus": "In a circle with radius 12, inscribed angle $\\angle ABC$ intercepts an arc $AC$. If the measure of $\\angle ABC = 45^\\circ$, what is the length of minor arc $AC$?",
+              "prompt": "Which choice is the arc length?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$12\\pi$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$3\\pi$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$6\\pi$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$9\\pi$$"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. The central angle subtending arc $AC$ is twice the inscribed angle: $\\theta = 2 \\times 45^\\circ = 90^\\circ = \\frac{\\pi}{2}$ radians. Arc length $s = r\\theta = 12 \\times \\frac{\\pi}{2} = 6\\pi$."
+            },
+            {
+              "id": "t1-math-m2-q17",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Trigonometry",
+              "difficulty": "Hard",
+              "stimulus": "In right triangle $DEF$ with right angle at $E$, if $\\tan(D) = \\frac{5}{12}$, what is the value of $\\sin(D) + \\cos(D)$?",
+              "prompt": "Which choice is the value?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$\\frac{17}{13}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$\\frac{12}{13}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$\\frac{7}{13}$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$\\frac{13}{12}$$"
+                }
+              ],
+              "correctAnswer": "A",
+              "explanation": "Choice A is correct. With $\\tan(D) = 5/12$, opposite side $= 5$ and adjacent side $= 12$. Hypotenuse $= \\sqrt{5^2 + 12^2} = \\sqrt{25 + 144} = \\sqrt{169} = 13$. Thus, $\\sin(D) = 5/13$ and $\\cos(D) = 12/13$. Sum $= 5/13 + 12/13 = 17/13$."
+            },
+            {
+              "id": "t1-math-m2-q18",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Trigonometry",
+              "difficulty": "Hard",
+              "stimulus": "In the xy-plane, an acute angle $\\theta$ satisfies $\\sin(\\theta) = \\cos\\left(\\frac{3\\pi}{8}\\right)$. What is the measure of angle $\\theta$ in radians?",
+              "prompt": "Which choice is the measure of $\\theta$?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$\\frac{3\\pi}{8}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$\\frac{\\pi}{4}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "$$\\frac{5\\pi}{8}$$"
+                },
+                {
+                  "letter": "D",
+                  "text": "$$\\frac{\\pi}{8}$$"
+                }
+              ],
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. By the cofunction identity in radians, $\\sin(\\theta) = \\cos\\left(\\frac{\\pi}{2} - \\theta\\right)$. Equating arguments: $\\frac{\\pi}{2} - \\theta = \\frac{3\\pi}{8} \\implies \\theta = \\frac{\\pi}{2} - \\frac{3\\pi}{8} = \\frac{4\\pi - 3\\pi}{8} = \\frac{\\pi}{8}$."
+            },
+            {
+              "id": "t1-math-m2-q19",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Density",
+              "difficulty": "Hard",
+              "stimulus": "A solid cylindrical copper rod has a diameter of 4 cm and a length of 50 cm. The density of copper is $8.96\\text{ g/cm}^3$. What is the mass of the rod in kilograms, rounded to the nearest tenth of a kilogram?",
+              "prompt": "Which choice is the mass in kilograms?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "22.5 kg"
+                },
+                {
+                  "letter": "B",
+                  "text": "11.3 kg"
+                },
+                {
+                  "letter": "C",
+                  "text": "5.6 kg"
+                },
+                {
+                  "letter": "D",
+                  "text": "2.8 kg"
+                }
+              ],
+              "correctAnswer": "C",
+              "explanation": "Choice C is correct. Radius $r = 4 / 2 = 2$ cm, height $h = 50$ cm. Volume $V = \\pi r^2 h = \\pi (2^2)(50) = 200\\pi\\text{ cm}^3 \\approx 200(3.14159) = 628.32\\text{ cm}^3$. Mass $= V \\times \\text{density} = 628.32 \\times 8.96 \\approx 5630\\text{ g} = 5.63\\text{ kg} \\approx 5.6\\text{ kg}$."
+            },
+            {
+              "id": "t1-math-m2-q20",
+              "type": "mcq",
+              "domain": "Advanced Math",
+              "subdomain": "Polynomials",
+              "difficulty": "Hard",
+              "stimulus": "The cubic equation $x^3 - 6x^2 + 11x - 6 = 0$ has three real roots $p, q,$ and $r$. What is the value of $\\frac{1}{p} + \\frac{1}{q} + \\frac{1}{r}$?",
+              "prompt": "Which choice is the value?",
+              "choices": [
+                {
+                  "letter": "A",
+                  "text": "$$\\frac{6}{11}$$"
+                },
+                {
+                  "letter": "B",
+                  "text": "$$\\frac{11}{6}$$"
+                },
+                {
+                  "letter": "C",
+                  "text": "1"
+                },
+                {
+                  "letter": "D",
+                  "text": "6"
+                }
+              ],
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. Combine fractions: $\\frac{1}{p} + \\frac{1}{q} + \\frac{1}{r} = \\frac{pq + pr + qr}{pqr}$. By Vieta's formulas for $x^3 + bx^2 + cx + d = 0$: $pq + pr + qr = c = 11$, and $pqr = -d = -(-6) = 6$. Thus, the value is $\\frac{11}{6}$."
+            },
+            {
+              "id": "t1-math-m2-q21",
+              "type": "mcq",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Circles",
+              "difficulty": "Hard",
+              "stimulus": "A circle with radius 10 has a chord $AB$ situated at a perpendicular distance of 6 units from the center of the circle. What is the length of chord $AB$?",
+              "prompt": "Which choice is the length of chord $AB$?",
               "choices": [
                 {
                   "letter": "A",
@@ -2568,457 +2917,109 @@ export const test1 = {
                 },
                 {
                   "letter": "C",
-                  "text": "4"
+                  "text": "12"
                 },
                 {
                   "letter": "D",
-                  "text": "32"
+                  "text": "$$4\\sqrt{34}$$"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. A quadratic equation has exactly one real solution when its discriminant is zero: $b^2 - 4ac = 0$. Here $(-8)^2 - 4(2)(c) = 0 \\implies 64 - 8c = 0 \\implies 8c = 64 \\implies c = 8$."
-            },
-            {
-              "id": "t1-math-m2-q10",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Vertex Form & Optimization",
-              "difficulty": "Hard",
-              "stimulus": "What is the minimum value of the quadratic function $f(x) = x^2 - 14x + 60$?",
-              "prompt": "Which choice is the minimum value?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "11"
-                },
-                {
-                  "letter": "B",
-                  "text": "7"
-                },
-                {
-                  "letter": "C",
-                  "text": "-11"
-                },
-                {
-                  "letter": "D",
-                  "text": "25"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Complete the square: $f(x) = (x^2 - 14x + 49) + 60 - 49 = (x - 7)^2 + 11$. Since $(x - 7)^2 \\ge 0$, the minimum value is 11, occurring at $x = 7$."
-            },
-            {
-              "id": "t1-math-m2-q11",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Exponential Decay & Half-Life",
-              "difficulty": "Hard",
-              "stimulus": "A radioactive isotope has an initial mass of 120 grams and a half-life of 8 days. Which equation models the remaining mass $M(t)$, in grams, after $t$ days?",
-              "prompt": "Which choice is the correct model?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$M(t) = 120\\left(\\frac{1}{2}\\right)^{t/8}$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$M(t) = 120\\left(\\frac{1}{2}\\right)^{8t}$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$M(t) = 120 - 8\\left(\\frac{1}{2}\\right)^t$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$M(t) = 60(8)^t$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. The half-life decay formula is $M(t) = M_0\\left(\\frac{1}{2}\\right)^{t/h}$. With $M_0 = 120$ and half-life $h = 8$, the function is $M(t) = 120(1/2)^{t/8}$."
-            },
-            {
-              "id": "t1-math-m2-q12",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Polynomial Remainder Theorem",
-              "difficulty": "Hard",
-              "stimulus": "When the polynomial $P(x) = 2x^3 - 5x^2 + ax - 8$ is divided by $x - 2$, the remainder is 6. What is the value of $a$?",
-              "prompt": "Which choice is the value of $a$?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "9"
-                },
-                {
-                  "letter": "B",
-                  "text": "5"
-                },
-                {
-                  "letter": "C",
-                  "text": "7"
-                },
-                {
-                  "letter": "D",
-                  "text": "11"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. By the Remainder Theorem, $P(2) = 6$. Evaluating $P(2) = 2(2^3) - 5(2^2) + a(2) - 8 = 16 - 20 + 2a - 8 = 2a - 12$. Setting $2a - 12 = 6 \\implies 2a = 18 \\implies a = 9$."
-            },
-            {
-              "id": "t1-math-m2-q13",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Rational Equations",
-              "difficulty": "Hard",
-              "stimulus": "What is the sum of all values of $x$ that satisfy the equation $\\frac{6}{x - 2} + \\frac{x}{x + 2} = 2$?",
-              "prompt": "Which choice is the sum?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "4"
-                },
-                {
-                  "letter": "B",
-                  "text": "6"
-                },
-                {
-                  "letter": "C",
-                  "text": "-4"
-                },
-                {
-                  "letter": "D",
-                  "text": "8"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Clearing denominators gives $6(x + 2) + x(x - 2) = 2(x^2 - 4)$, simplifying to $x^2 + 4x + 12 = 2x^2 - 8$, or $x^2 - 4x - 20 = 0$. By Vieta's formulas, the sum of roots $-b/a = -(-4)/1 = 4$."
-            },
-            {
-              "id": "t1-math-m2-q14",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Equivalent Radical Expressions",
-              "difficulty": "Medium",
-              "stimulus": "If $x > 0$, which expression is equivalent to $\\frac{\\sqrt{x^7}}{\\sqrt[4]{x^6}}$?",
-              "prompt": "Which choice is equivalent?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$x^2$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$x^{5/2}$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$x^{3/4}$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$x$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. In exponent notation: $\\frac{x^{7/2}}{x^{6/4}} = \\frac{x^{7/2}}{x^{3/2}} = x^{7/2 - 3/2} = x^{4/2} = x^2$."
-            },
-            {
-              "id": "t1-math-m2-q15",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Nonlinear Graphs",
-              "difficulty": "Hard",
-              "stimulus": "The graph of $y = f(x)$ has x-intercepts at $(-4, 0)$, $(1, 0)$, and $(5, 0)$, and a y-intercept at $(0, 40)$. Which equation could define $f(x)$?",
-              "prompt": "Which choice defines $f(x)$?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$f(x) = 2(x + 4)(x - 1)(x - 5)$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$f(x) = -2(x - 4)(x + 1)(x + 5)$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$f(x) = (x + 4)(x - 1)(x - 5)$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$f(x) = 4(x + 4)(x - 1)(x - 5)$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. With zeros at $-4, 1, 5$, the function has the form $f(x) = a(x + 4)(x - 1)(x - 5)$. Evaluating at $x = 0$: $f(0) = a(4)(-1)(-5) = 20a = 40 \\implies a = 2$."
-            },
-            {
-              "id": "t1-math-m2-q16",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Exponential Transformations",
-              "difficulty": "Medium",
-              "stimulus": "The function $g(x) = 3^{x + 2} - 5$ is a transformation of the parent function $f(x) = 3^x$. Which statement accurately describes the transformation?",
-              "prompt": "Which choice describes the transformation?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "Shifted 2 units left and 5 units down"
-                },
-                {
-                  "letter": "B",
-                  "text": "Shifted 2 units right and 5 units down"
-                },
-                {
-                  "letter": "C",
-                  "text": "Shifted 2 units left and 5 units up"
-                },
-                {
-                  "letter": "D",
-                  "text": "Shifted 2 units right and 5 units up"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. In $f(x + c) - d$, adding 2 inside the exponent shifts the graph 2 units left, and subtracting 5 outside shifts it 5 units down."
-            },
-            {
-              "id": "t1-math-m2-q17",
-              "type": "mcq",
-              "domain": "Advanced Math",
-              "subdomain": "Complex Numbers",
-              "difficulty": "Hard",
-              "stimulus": "What is the result of the expression $\\frac{5 + 2i}{3 - 4i}$, where $i = \\sqrt{-1}$?",
-              "prompt": "Which choice is the simplified result?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "$\\frac{7}{25} + \\frac{26}{25}i$"
-                },
-                {
-                  "letter": "B",
-                  "text": "$\\frac{7}{25} - \\frac{26}{25}i$"
-                },
-                {
-                  "letter": "C",
-                  "text": "$\\frac{23}{7} + \\frac{14}{7}i$"
-                },
-                {
-                  "letter": "D",
-                  "text": "$\\frac{1}{5} + \\frac{2}{5}i$"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Multiply numerator and denominator by conjugate $3 + 4i$: $\\frac{(5 + 2i)(3 + 4i)}{3^2 - (4i)^2} = \\frac{15 + 20i + 6i + 8i^2}{9 - (-16)} = \\frac{15 + 26i - 8}{25} = \\frac{7 + 26i}{25} = \\frac{7}{25} + \\frac{26}{25}i$."
-            },
-            {
-              "id": "t1-math-m2-q18",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Standard Deviation Comparison",
-              "difficulty": "Hard",
-              "stimulus": "Dataset A consists of the values {20, 20, 20, 20, 20}. Dataset B consists of the values {10, 15, 20, 25, 30}. Which statement comparing the two datasets is true?",
-              "prompt": "Which choice is true?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "Both datasets have the same mean, but Dataset B has a greater standard deviation."
-                },
-                {
-                  "letter": "B",
-                  "text": "Both datasets have the same standard deviation, but Dataset B has a greater mean."
-                },
-                {
-                  "letter": "C",
-                  "text": "Dataset A has a greater mean and a greater standard deviation than Dataset B."
-                },
-                {
-                  "letter": "D",
-                  "text": "Dataset B has a smaller standard deviation than Dataset A."
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Both datasets have a mean of 20. In Dataset A, all values equal the mean, so standard deviation is 0. Dataset B has spread away from the mean, so its standard deviation is positive and thus greater than Dataset A's."
-            },
-            {
-              "id": "t1-math-m2-q19",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Sample Validity",
-              "difficulty": "Medium",
-              "stimulus": "A high school principal wants to determine student satisfaction with the cafeteria menu. Which sampling method will provide the most representative, unbiased sample?",
-              "prompt": "Which choice is the best method?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "Selecting 100 students at random from a complete alphabetical roster of all enrolled students."
-                },
-                {
-                  "letter": "B",
-                  "text": "Surveying the first 100 students who enter the cafeteria on Monday morning."
-                },
-                {
-                  "letter": "C",
-                  "text": "Asking members of the varsity athletics teams during their practice."
-                },
-                {
-                  "letter": "D",
-                  "text": "Posting an online survey on the school social media page and collecting voluntary responses."
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Simple random sampling from the complete enrolled student roster gives every student an equal chance of selection, eliminating systematic bias."
-            },
-            {
-              "id": "t1-math-m2-q20",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Exponential vs Linear Growth",
-              "difficulty": "Medium",
-              "stimulus": "Option A earns simple interest of $50 per year on an initial $1,000 deposit. Option B earns $4\\%$ annual compound interest on an initial $1,000 deposit. Which statement best describes their long-term growth?",
-              "prompt": "Which choice is correct?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "Option B will eventually exceed Option A because compound interest grows exponentially while simple interest grows linearly."
-                },
-                {
-                  "letter": "B",
-                  "text": "Option A will always remain greater than Option B because $50 > $40."
-                },
-                {
-                  "letter": "C",
-                  "text": "Both options grow at identical constant rates indefinitely."
-                },
-                {
-                  "letter": "D",
-                  "text": "Option A grows exponentially while Option B grows linearly."
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Simple interest is linear ($1000 + 50t$), whereas compound interest is exponential ($1000(1.04)^t$). Any exponential growth with base $> 1$ will eventually surpass any linear growth."
-            },
-            {
-              "id": "t1-math-m2-q21",
-              "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Conditional Probability",
-              "difficulty": "Hard",
-              "stimulus": "In a medical study, $10\\%$ of patients have Condition X. A test correctly identifies the condition $90\\%$ of the time (true positive) and has a $5\\%$ false positive rate for healthy patients. Out of 1,000 patients, approximately how many who test positive actually have Condition X?",
-              "prompt": "Which choice is the closest approximation?",
-              "choices": [
-                {
-                  "letter": "A",
-                  "text": "90 out of 135"
-                },
-                {
-                  "letter": "B",
-                  "text": "90 out of 100"
-                },
-                {
-                  "letter": "C",
-                  "text": "90 out of 900"
-                },
-                {
-                  "letter": "D",
-                  "text": "50 out of 100"
-                }
-              ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. Out of 1,000 patients: 100 have Condition X; $90\\%$ test positive $= 90$. 900 are healthy; $5\\%$ false positive $= 45$. Total positive tests $= 90 + 45 = 135$. The fraction who actually have the condition is 90 out of 135 (about $66.7\\%$)."
+              "correctAnswer": "B",
+              "explanation": "Choice B is correct. The perpendicular from the center to the chord bisects the chord and forms a right triangle with the radius as hypotenuse: $r = 10$, distance $d = 6$. Half-chord length $= \\sqrt{10^2 - 6^2} = \\sqrt{100 - 36} = \\sqrt{64} = 8$. Full chord length $= 2 \\times 8 = 16$."
             },
             {
               "id": "t1-math-m2-q22",
               "type": "mcq",
-              "domain": "Problem-Solving and Data Analysis",
-              "subdomain": "Unit Conversions",
-              "difficulty": "Medium",
-              "stimulus": "A pipeline transports fluid at a rate of 180 gallons per hour. Given that 1 gallon is approximately 3.785 liters, what is the flow rate in milliliters per second? (Round to the nearest whole number)",
-              "prompt": "Which choice is the rate?",
+              "domain": "Advanced Math",
+              "subdomain": "Rational Functions",
+              "difficulty": "Hard",
+              "stimulus": "The function $h(x) = \\frac{3x^2 - 12x}{x^2 - 16}$ has a removable discontinuity (hole) at point $(x_0, y_0)$. What is the value of $y_0$?",
+              "prompt": "Which choice is the y-coordinate of the hole?",
               "choices": [
                 {
                   "letter": "A",
-                  "text": "189"
+                  "text": "$$\\frac{3}{4}$$"
                 },
                 {
                   "letter": "B",
-                  "text": "378"
+                  "text": "3"
                 },
                 {
                   "letter": "C",
-                  "text": "681"
+                  "text": "0"
                 },
                 {
                   "letter": "D",
-                  "text": "1,135"
+                  "text": "$$\\frac{3}{2}$$"
                 }
               ],
-              "correctAnswer": "A",
-              "explanation": "Choice A is correct. $\\frac{180\\text{ gal}}{1\\text{ hr}} \\times \\frac{3.785\\text{ L}}{1\\text{ gal}} \\times \\frac{1000\\text{ mL}}{1\\text{ L}} \\times \\frac{1\\text{ hr}}{3600\\text{ s}} = \\frac{180 \\times 3785}{3600} = \\frac{681300}{3600} \\approx 189.25$ mL/s."
+              "correctAnswer": "D",
+              "explanation": "Choice D is correct. Factor: $h(x) = \\frac{3x(x - 4)}{(x - 4)(x + 4)}$. The hole occurs at $x = 4$. For $x \\neq 4$, simplified function is $h^*(x) = \\frac{3x}{x + 4}$. Substitute $x = 4$: $y_0 = \\frac{3(4)}{4 + 4} = \\frac{12}{8} = \\frac{3}{2}$."
             },
             {
               "id": "t1-math-m2-q23",
               "type": "spr",
-              "domain": "Geometry and Trigonometry",
-              "subdomain": "Circle Completing the Square",
+              "domain": "Advanced Math",
+              "subdomain": "Quadratic Equations",
               "difficulty": "Hard",
-              "stimulus": "A circle in the xy-plane is given by the equation $x^2 + y^2 - 8x + 6y - 11 = 0$. What is the radius of the circle?",
-              "prompt": "Enter the radius:",
+              "stimulus": "The line $y = 4x + c$ intersects the parabola $y = x^2 - 6x + 30$ at exactly one point in the xy-plane. What is the value of constant $c$?",
+              "prompt": "Enter the exact integer value of c:",
               "correctAnswer": [
-                "6"
+                "5"
               ],
-              "explanation": "The answer is 6. Group and complete squares: $(x^2 - 8x + 16) + (y^2 + 6y + 9) = 11 + 16 + 9 \\implies (x - 4)^2 + (y + 3)^2 = 36$. Since $r^2 = 36$, radius $r = 6$."
+              "explanation": "The correct answer is 5. Set equations equal: $x^2 - 6x + 30 = 4x + c \\implies x^2 - 10x + (30 - c) = 0$. For exactly one intersection, discriminant $\\Delta = 0$: $(-10)^2 - 4(1)(30 - c) = 0 \\implies 100 - 120 + 4c = 0 \\implies -20 + 4c = 0 \\implies 4c = 20 \\implies c = 5$."
             },
             {
               "id": "t1-math-m2-q24",
               "type": "spr",
-              "domain": "Geometry and Trigonometry",
-              "subdomain": "Similar Triangles & Area Ratio",
+              "domain": "Advanced Math",
+              "subdomain": "Polynomials",
               "difficulty": "Hard",
-              "stimulus": "Triangle $DEF$ is similar to triangle $ABC$, where each side of triangle $DEF$ is $2.5$ times the length of the corresponding side of triangle $ABC$. If the area of triangle $ABC$ is 16 square units, what is the area of triangle $DEF$?",
-              "prompt": "Enter the area:",
+              "stimulus": "In the polynomial function $f(x) = (x - 4)(x + 2)(2x - 7)$, what is the y-intercept of the graph of $y = f(x)$ in the xy-plane?",
+              "prompt": "Enter the exact integer value of the y-intercept:",
               "correctAnswer": [
-                "100"
+                "56"
               ],
-              "explanation": "The answer is 100. When lengths are scaled by a factor of $k = 2.5$, areas scale by $k^2 = (2.5)^2 = 6.25$. Area of $DEF = 16 \\times 6.25 = 100$."
+              "explanation": "The correct answer is 56. The y-intercept occurs where $x = 0$. Substitute $x = 0$: $f(0) = (0 - 4)(0 + 2)(2(0) - 7) = (-4)(2)(-7) = 56$."
             },
             {
               "id": "t1-math-m2-q25",
               "type": "spr",
               "domain": "Geometry and Trigonometry",
-              "subdomain": "Cofunction Trigonometric Identity",
-              "difficulty": "Medium",
-              "stimulus": "In a right triangle, acute angle $x$ satisfies $\\sin(x^\\circ) = \\cos(54^\\circ)$. What is the value of $x$?",
-              "prompt": "Enter the degree measure of $x$:",
+              "subdomain": "Circles",
+              "difficulty": "Hard",
+              "stimulus": "A circle in the xy-plane has equation $2x^2 + 2y^2 - 12x + 16y - 22 = 0$. What is the radius of the circle?",
+              "prompt": "Enter the exact integer value of the radius:",
               "correctAnswer": [
-                "36"
+                "6"
               ],
-              "explanation": "The answer is 36. For complementary acute angles in a right triangle, $\\sin(x^\\circ) = \\cos(90^\\circ - x^\\circ)$. Thus $90 - x = 54 \\implies x = 36$."
+              "explanation": "The correct answer is 6. Divide by 2: $x^2 + y^2 - 6x + 8y = 11$. Complete the square: $(x - 3)^2 + (y + 4)^2 = 11 + 9 + 16 = 36$. Radius is $\\sqrt{36} = 6$."
             },
             {
               "id": "t1-math-m2-q26",
               "type": "spr",
-              "domain": "Advanced Math",
-              "subdomain": "Vertex of Parabola",
-              "difficulty": "Medium",
-              "stimulus": "What is the x-coordinate of the vertex of the parabola $y = 3x^2 - 24x + 55$?",
-              "prompt": "Enter the x-coordinate:",
+              "domain": "Geometry and Trigonometry",
+              "subdomain": "Right Triangles",
+              "difficulty": "Hard",
+              "stimulus": "In right triangle $ABC$ with right angle at $C$, the lengths of sides $AC$ and $BC$ are 15 and 20, respectively. An altitude $CD$ is drawn from $C$ to hypotenuse $AB$. What is the length of altitude $CD$?",
+              "prompt": "Enter the exact integer value of altitude CD:",
               "correctAnswer": [
-                "4"
+                "12"
               ],
-              "explanation": "The answer is 4. The vertex x-coordinate is $x = -\\frac{b}{2a} = -\\frac{-24}{2(3)} = \\frac{24}{6} = 4$."
+              "explanation": "The correct answer is 12. Hypotenuse $AB = \\sqrt{15^2 + 20^2} = \\sqrt{225 + 400} = \\sqrt{625} = 25$. Triangle area $= \\frac{1}{2} \\times AC \\times BC = \\frac{1}{2} \\times 15 \\times 20 = 150$. Also, area $= \\frac{1}{2} \\times AB \\times CD = \\frac{1}{2} \\times 25 \\times CD = 150 \\implies 12.5 \\times CD = 150 \\implies CD = 12$."
             },
             {
               "id": "t1-math-m2-q27",
               "type": "spr",
-              "domain": "Geometry and Trigonometry",
-              "subdomain": "Radian Measure Conversion",
-              "difficulty": "Easy",
-              "stimulus": "An angle measures $\\frac{5\\pi}{6}$ radians. What is the measure of the angle in degrees?",
-              "prompt": "Enter the degree measure:",
+              "domain": "Algebra",
+              "subdomain": "Rates and Work",
+              "difficulty": "Hard",
+              "stimulus": "Two industrial water inlet pipes, Pipe A and Pipe B, can together fill an empty reservoir in 6 hours when operating simultaneously. Pipe A alone takes 5 hours less than Pipe B alone to fill the reservoir. How many hours does it take Pipe A alone to fill the reservoir?",
+              "prompt": "Enter the exact integer number of hours:",
               "correctAnswer": [
-                "150"
+                "10"
               ],
-              "explanation": "The answer is 150. Converting radians to degrees: $\\frac{5\\pi}{6} \\times \\frac{180^\\circ}{\\pi} = 5 \\times 30^\\circ = 150^\\circ$."
+              "explanation": "The correct answer is 10. Let $t$ be hours for Pipe A alone; then Pipe B takes $t + 5$ hours. Work equation: $\\frac{1}{t} + \\frac{1}{t + 5} = \\frac{1}{6}$. Multiply by $6t(t + 5)$: $6(t + 5) + 6t = t(t + 5) \\implies 12t + 30 = t^2 + 5t \\implies t^2 - 7t - 30 = 0$. Factor: $(t - 10)(t + 3) = 0$. Since time must be positive, $t = 10$ hours."
             }
           ]
         }
